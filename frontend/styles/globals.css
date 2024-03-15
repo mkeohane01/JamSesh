@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.message-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  overflow-y: auto;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.message-list li {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  word-break: break-word;
+}
+
+.user-message {
+  background-color: #007bff;
+  color: white;
+  text-align: right;
+}
+
+.response-message {
+  background-color: #f8f9fa;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.abcjs-highlight {
+  fill: #0a9ecc; /* Highlight color for current note */
+}
+.abcjs-cursor {
+  stroke: red; /* Cursor color */
+}
