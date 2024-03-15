@@ -29,12 +29,14 @@ const HomePage = () => {
 
   return (
     <div>
-      <h1>JamSesh.ai</h1>
-      {/* Uncomment the following line if you wish to display messages */}
+      <header>
+        <h1>JamSesh.ai</h1>
+      </header>
+    
       {/* <MessageList messages={messages} /> */}
       <ChatInput onSendMessage={handleSendMessage} />
 
-      <h1>Example Sheet Music</h1>
+      <h2>Example Sheet Music</h2>
       <ABCMusic notation={exampleAbcNotation} />
 
     </div>

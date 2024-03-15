@@ -14,14 +14,15 @@ const ChatInput = ({ onSendMessage }: ChatInputProps) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="chat-input-container">
       <input
         type="text"
         value={message}
+        className ="chat-input"
         onChange={(e) => setMessage(e.target.value)}
         placeholder="Type your message..."
       />
-      <button type="submit">Send</button>
+      <button className="send-button" type="submit">Send</button>
     </form>
   );
 };

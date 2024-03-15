@@ -50,8 +50,8 @@ const ABCMusic: React.FC<ABCMusicProps> = ({ notation }) => {
   }, [notation]);
 
   return (
-    <div>
-      <div ref={paperRef} />
+    <div className="sheet-music-container">
+      <div ref={paperRef} className="sheet-music"/>
       <div ref={audioRef} />
     </div>
   );
