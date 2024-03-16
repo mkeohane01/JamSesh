@@ -1,30 +1,51 @@
 import { useState } from 'react';
 import ChatInput from './components/ChatInput'; // Adjust the import path as needed
-import MessageList from './components/ResponsesDisplay'; // Adjust the import path as needed
-import ABCMusic from './components/ABCMusic'
+import ABCMusic from './components/ABCMusic';
+import RegenerateButton from './components/RegenerateButton';
 
 const HomePage = () => {
   const [messages, setMessages] = useState([]);
+  const [musicDetails, setMusicDetails] = useState({
+    chords: 'A7 | D7 | E7',
+    scales: 'A Major Pentatonic (A B C# E F#)',
+    title: '12-Bar Blues Jam Session ',
+    style: 'Add a blues swing and rythmic liberty.',
+    example: ` 
+    M:4/4 
+    L:1/8 K:A
+    % Harmony - Classic 12-Bar Blues in A
+    V:1
+    |: "A7"A4 e4 | "D7"d4 f4 | "A7"A4 c4 | "A7"A4 e4 |
+    "D7"D4 f4 | "D7"D4 f4 | "A7"A4 c4 | "A7"A4 e4 |
+    "E7"E4 g4 | "D7"d4 f4 | "A7"A4 c4 | "E7"E4 g4 :|
+  
+    % Melody using A Major Pentatonic (A B C# E F#)
+    V:2
+    |: "A7"A2 B2 C2 E2 | "D7"F2 d2 F2 A2 | "A7"A2 c2 E2 A2 | "A7"A4 B2 c2 |
+    "D7"D2 F2 A2 d2 | "D7"D2 F2 A2 d2 | "A7"A2 E2 c2 A2 | "A7"A4 B2 c2 |
+    "E7"e2 G2 B2 e2 | "D7"F2 A2 d2 F2 | "A7"A2 B2 c2 A2 | "E7"E4 G2 B2 :|
+  `,
+  });
 
-  // Example ABC notation for demonstration
-  const exampleAbcNotation = `
-    X:1
-    M:4/4
-    K:Cmaj
-    V:T1           clef=treble
-    % Improvised melody with swing feel
-    V:T1
-    |: "Cmaj7"E4 D2 E2 | "Amin7"C2 D2 E2 G2 | "Dmin7"F2 E2 D2 C2 | "G7"B,4 A2 G2 |
-      "Cmaj7"E4 ^F2 G2 | "Amin7"A2 G2 F2 E2 | "Dmin7"D2 C2 B,2 A,2 | "G7"G4 F2 E2 :|
-      "Fmaj7"F2 A2 c4 | "Fm7"e2 d2 c2 A2 | "Bb7"B2 D2 F2 A2 | "Ebmaj7"G2 ^F2 E2 D2 |
-      "Amin7"c2 E2 A2 c2 | "D7"d2 F2 A2 d2 | "Gmin7"g2 f2 e2 d2 | "C7"c4 B2 A2 |
-    |: "Cmaj7"G2 A2 B2 c2 | "Amin7"a2 g2 f2 e2 | "Dmin7"d2 c2 B2 A2 | "G7"G4 F2 E2 :|
-  `;
-
-  // Function to send message and get response
   const handleSendMessage = async (message: string) => {
-    // Here you'd handle sending the message and updating the state
-    // This is simplified for demonstration
+    const response = await fetch('http://127.0.0.1:8080/generatejam', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ input: message }),
+    });
+
+    if (!response.ok) {
+      console.error('Error fetching music details');
+      return;
+    }
+
+    const result = await response.json();
+    setMusicDetails(result); // Update the state with the new music details
+    console.log(musicDetails)
+  };
+
+  const handleNewMusic = (newExample: string) => {
+    setMusicDetails(prevDetails => ({ ...prevDetails, example: newExample }));
   };
 
   return (
@@ -33,11 +54,23 @@ const HomePage = () => {
         <h1>JamSesh.ai</h1>
       </header>
     
-      {/* <MessageList messages={messages} /> */}
       <ChatInput onSendMessage={handleSendMessage} />
-
-      <h2>Example Sheet Music</h2>
-      <ABCMusic notation={exampleAbcNotation} />
+      <div>
+      {musicDetails.chords && (
+        <div className='music-details'>
+          <h2>{musicDetails.title}</h2>
+          <p><strong>Style:</strong> {musicDetails.style}</p>
+          <p><strong>Chords:</strong> {musicDetails.chords}</p>
+          <p><strong>Scales:</strong> {musicDetails.scales}</p>
+        </div>
+      )}
+      {musicDetails.example && (
+        <div>
+          <ABCMusic notation={musicDetails.example} />
+          <RegenerateButton musicDetails={musicDetails} onNewMusic={handleNewMusic} />
+        </div>
+      )}
+      </div>
 
     </div>
   );
