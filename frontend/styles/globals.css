@@ -99,6 +99,25 @@ h2 {
   font-weight: bold;
 }
 
+.lottie-container {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; /* Center in the container */
+}
+
+.lottie-overlay {
+  position: fixed; /* Position the animation fixed within the viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+  z-index: 1000; /* Make sure it's above all other content */
+}
+
 .regenerate-button:hover {
   background-color: #eac54f; /* Slightly lighter gold on hover */
 }

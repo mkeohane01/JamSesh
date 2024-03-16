@@ -12,6 +12,7 @@
     "@slnsw/react-sheet-music": "^0.0.6",
     "abcjs": "^6.3.0",
     "axios": "^1.6.2",
+    "lottie-web": "^5.12.2",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"

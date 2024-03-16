@@ -2,9 +2,12 @@ import { useState } from 'react';
 import ChatInput from './components/ChatInput'; // Adjust the import path as needed
 import ABCMusic from './components/ABCMusic';
 import RegenerateButton from './components/RegenerateButton';
+import LottieAnimation from './components/LottieMusicAnimation';
+import animationData from '../public/lottiemusicanimation.json';
 
 const HomePage = () => {
   const [messages, setMessages] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
   const [musicDetails, setMusicDetails] = useState({
     chords: 'A7 | D7 | E7',
     scales: 'A Major Pentatonic (A B C# E F#)',
@@ -28,6 +31,7 @@ const HomePage = () => {
   });
 
   const handleSendMessage = async (message: string) => {
+    setIsLoading(true);
     const response = await fetch('http://127.0.0.1:8080/generatejam', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -40,11 +44,12 @@ const HomePage = () => {
     }
 
     const result = await response.json();
+    setIsLoading(false);
     setMusicDetails(result); // Update the state with the new music details
     console.log(musicDetails)
   };
 
-  const handleNewMusic = (newExample: string) => {
+  const handleNewSheetMusic = (newExample: string) => {
     setMusicDetails(prevDetails => ({ ...prevDetails, example: newExample }));
   };
 
@@ -55,6 +60,11 @@ const HomePage = () => {
       </header>
     
       <ChatInput onSendMessage={handleSendMessage} />
+      {isLoading && (
+        <div className="lottie-overlay">
+          <LottieAnimation animationData={animationData} />
+        </div>
+      )}
       <div>
       {musicDetails.chords && (
         <div className='music-details'>
@@ -67,7 +77,7 @@ const HomePage = () => {
       {musicDetails.example && (
         <div>
           <ABCMusic notation={musicDetails.example} />
-          <RegenerateButton musicDetails={musicDetails} onNewMusic={handleNewMusic} />
+          <RegenerateButton musicDetails={musicDetails} onNewMusic={handleNewSheetMusic} setLoading={setIsLoading} />
         </div>
       )}
       </div>
