@@ -1,1 +1,3 @@
-abjad
+openai
+python-dotenv
+flask
