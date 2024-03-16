@@ -1,0 +1,1 @@
+{"input": "Reggae groove in B minor", "output": {"chords": "Bm | G | D | A", "scales": "B Natural Minor (B C# D E F# G A)", "title": "Island Skank Groove", "style": "Relaxed tempo with accentuated upbeats and a steady offbeat rhythm for a chill, beachside vibe.", "example": "M:4/4\nL:1/8\nK:Bm\n|: \"Bm\"B4 F4 | \"G\"G4 D4 | \"D\"D4 A2 F2 | \"A\"A6 z2 :|"}}

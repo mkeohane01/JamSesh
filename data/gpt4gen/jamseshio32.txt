@@ -1,0 +1,1 @@
+{"input": "Smooth Bossa Nova groove", "output": {"chords": "Dmaj7 | G6 | Em7 | A7 | Dmaj7 | G6 | Em7 | A7", "scales": "D Ionian (D E F# G A B C#)", "title": "Serenade in Ipanema", "style": "Play with a light, syncopated rhythm, emulating waves lapping the shore. Allow the melody to flow smoothly over the rhythm like a gentle breeze.", "example": "M:4/4\n"}}

@@ -1,0 +1,1 @@
+{"input": "Psychedelic rock groove", "output": {"chords": "Dm7 | G13 | Cmaj7 | F#m7b5", "scales": "D Dorian (D E F G A B C)", "title": "Mindbender Groove", "style": "Use pedal effects like reverb and delay for an expansive sound. Play with a fluid, driving rhythm.", "example": "\n"}}

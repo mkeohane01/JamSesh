@@ -1,0 +1,1 @@
+{"input": "Generate a Rock Jam in the style of the 70s", "output": {"chords": "D5 | G5 | A5 | A5 | D5 | G5 | D5 | A5", "scales": "D Minor Pentatonic (D F G A C)", "title": "Retro Rock Riff", "style": "Play with driving rhythms, palm-muted power chords and open a space for soaring lead guitar solos.", "example": "M:4/4\n"}}

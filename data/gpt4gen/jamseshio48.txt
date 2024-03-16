@@ -1,0 +1,1 @@
+{"input": "Smooth Bossa Nova groove", "output": {"chords": "Dm9 | G13 | Cmaj7 | F#m7b5 B7b9 | Em7 | A7 | Dm9 | G13 Cmaj7 A7", "scales": "C Major (C D E F G A B)", "title": "Bossa Breeze in C", "style": "Keep the rhythm light and breezy, with subtle syncopation. Use nylon-string guitar for authentic bossa nova sound.", "example": "M:4/4\n"}}

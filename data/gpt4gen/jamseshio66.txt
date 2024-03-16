@@ -1,0 +1,1 @@
+{"input": "Reggae vibe with a touch of jazz", "output": {"chords": "Cmaj7 | Gm7 | Fmaj7 | Gm7", "scales": "C Major (C D E F G A B)", "title": "Jazz on the Beach", "style": "Embrace a relaxed reggae rhythm with the backbeat emphasized. Add jazzy inflections during solos to spice things up.", "example": "M:4/4\n"}}

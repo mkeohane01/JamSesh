@@ -1,0 +1,1 @@
+{"input": "Generate a Latin jazz inspired jam", "output": {"chords": "Dm9 | G13 | Cmaj7 | F#7b9 | Bm7 | E7#9 | Amaj7 | A7alt", "scales": "D Dorian (D E F G A B C)", "title": "Caliente Night Groove", "style": "Embrace the intricate rhythms and percussive playing of Latin Jazz. Be experimental with syncopation and include Afro-Cuban influences.", "example": "M:4/4\n"}}

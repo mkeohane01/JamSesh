@@ -1,0 +1,40 @@
+{
+        "input": "Latin Jazz with an upbeat tempo",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | Cmaj7 | Am7 | D7 | Gm9 | A7b13",
+            "scales": "C Major (C D E F G A B) / G Mixolydian (G A B C D E F)",
+            "title": "Caliente Nights",
+            "style": "Keep the rhythm energetic and vibrant, accentuating syncopation and complex rhythms typical of Latin Jazz.",
+            "example": 
+                "M:4/4\n"
+                															               																					                                                                      
+               																					                                                                                                
+               																					                                                                      
+               																					                                                                      
+               																					                                                                       
+               																					                                                                      
+               																					                                                                      
+               																					                                                                      
+               																					                                                                       
+               																					                                                                      
+               																					                                                                       
+               																					                                                                       
+               																					                                                                       
+               																					                                                                      
+               																					                                                                      
+               																					                                                                       
+               																					                                                                      
+               																					                                                                       
+               																					                                                                       
+               																					                                                                       
+      
+               																					                                                                  																					                                                                       
+               																					                                                                      
+               																					                                                                       
+               																					                                                                       
+               																					                                                                       
+               																					                                                                       
+               																					                                                                      
+               																					                                                                       
+               																					                                                                       
+				,

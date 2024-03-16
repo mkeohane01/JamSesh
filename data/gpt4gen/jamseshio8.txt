@@ -1,0 +1,76 @@
+{
+        "input": "Create a smooth bossa nova jam session",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Em7 | A7 | Dmaj7 Gmaj7 | Em7 A7 | Dmaj7 | Em7 A7",
+            "scales": "D Ionian (D E F# G A B C#)",
+            "title": "Bossa Breeze in D",
+            "style": "Keep the rhythm light and syncopated with emphasis on the offbeat. Utilize nylon-string guitar for authentic bossa nova texture.",
+            "example":  {
+                "M:4/4\n"
+               		:"L:1/8\n"
+               		,"K:D\n"
+               		:"|: \"Dmaj7\"D4 F#2 A2 | \"Gmaj7\"G4 B2 D2 | \"Em7\"E4 G2 B2 | \"A7\"A,4 E2 G2 |\n"
+               		,"\"Dmaj7\"D4 \"Gmaj7\"G2 B2 | \"Em7\"E4 G2 \"A7\"A2 | \"Dmaj7\"D6 F#2 | \"Em7\"E4 G2 \"A7\"A4 :|\n"
+           			: 	"}"
+        }
+    },
+    "input": "Let's go for a hard-hitting Rock jam",
+    "output": {
+        "chords": "A5 | D5 | A5 | E5 | A5 | D5 | A5 | E5",
+        "scales": "A Minor Pentatonic (A C D E G)",
+        "title": "Rock Rampage in A",
+        "style": "Hard-driving rhythms and power chords. Aggressive strumming and overdriven guitar tones are the keys here.",
+        "example": {
+            "M:4/4\n"
+            		:"L:1/8\n"
+            		,"K:Amin\n"
+            		:"|: \"A5\"A4 A2 z2 | \"D5\"D4 D2 z2 | \"A5\"A4 A2 z2 | \"E5\"E4 E2 z2 |\n"
+            		,"\"A5\"A4 A2 z2 | \"D5\"D4 D2 z2 | \"A5\"A4 A2 z2 | \"E5\"E6 z2 :|\n"
+        		:			"}"
+    }
+},
+    "input": "Funky groove with a slap bass",
+    "output": {
+        "chords": "Em9 | A13 | D9 | G13 | C9 | F13 | Bm7 | E7#9",
+        "scales": "E Dorian (E F# G A B C# D)",
+        "title": "Slap Funk Odyssey",
+        "style": "Emphasize the groove with tight slap bass lines and staccato guitar hits. Funky drum patterns to keep the beat locked in.",
+        "example": {
+            "M:4/4\n"
+            		:"L:1/8\n"
+            		,"K:Emin\n"
+            		:"|: \"Em9\"E4 G2 B2 | \"A13\"A,4 C^E A2 | \"D9\"D4 F2 A2 | \"G13\"G,4 B D2 |\n"
+            		,"\"C9\"C4 E2 G2 | \"F13\"F,4 A C2 | \"Bm7\"B4 D2 F2 | \"E7#9\"E4 G2 B2 :|\n"
+        		:			"}"
+    }
+},
+    "input": "Soulful R&B groove",
+    "output": {
+        "chords": "Fmaj7 | Bbmaj7 | Gm7 | C9 | Fmaj7 | Bbmaj7 | Gm7 | C9",
+        "scales": "F major (F G A Bb C D E)",
+        "title": "Soulful Strut in F",
+        "style": "Laid-back beats with expressive, emotive chord voicings. Smooth vocal melismas and a steady rhythmic pulse.",
+        "example": {
+            "M:4/4\n"
+            		:"L:1/8\n"
+            		,"K:F\n"
+            		:"|: \"Fmaj7\"F4 A2 c2 | \"Bbmaj7\"B,4 D2 F2 | \"Gm7\"G4 B2 d2 | \"C9\"C4 E2 G2 |\n"
+            		,"\"Fmaj7\"F4 A2 c2 | \"Bbmaj7\"B,4 D2 F2 | \"Gm7\"G4 B2 d2 | \"C9\"C4 E2 G2 :|\n"
+        		:			"}"
+    }
+},
+    "input": "Modal jam over a jazz-fusion backdrop",
+    "output": {
+        "chords": "Dm7 | G7 | CMaj7#11 | FMaj7 | Bm7b5 | E7alt | Am7 | D7#9",
+        "scales": "D Dorian, G Mixolydian, C Lydian #11, F Ionian, B Locrian, E Altered, A Aeolian, D Phrygian Dominant",
+        "title": "Fusion Fantasia",
+        "style": "Complex rhythms and harmonies interweave. Instrumental dexterity and innovation are spotlighted, with an emphasis on tension and release.",
+        "example": {
+            "M:4/4\n"
+:	"    L:1/8\n"
+        	,"K:Dmin\n"
+        	:"|: \"Dm7\"D4 F2 A2 | \"G7\"G4 B2 d2 | \"CMaj7#11\"C4 E2 G2 ^F2 | \"FMaj7\"F4 A2 c2 |\n"
+        	,"\"Bm7b5\"B4 D2 F2 | \"E7alt\"E4 G#2 B#2 | \"Am7\"A4 C2 E2 | \"D7#9\"D4 F#2 A2 :|\n"
+    		:	"}"
+        }
+    }

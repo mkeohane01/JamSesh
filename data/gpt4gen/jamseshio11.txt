@@ -1,0 +1,1 @@
+{"input": "Slow Rock Ballad", "output": {"chords": "Cmaj7 | Am7 | Dm7 | G | Em | F | C | G", "scales": "C Ionian (C D E F G A B)", "title": "Twilight Drift", "style": "Play with a smooth, emotive touch, allowing the melody to breathe over the slow, steady rhythm. Let sustain carry weight in your chords.", "example": "M:4/4\n"}}

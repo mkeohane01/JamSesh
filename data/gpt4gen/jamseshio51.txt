@@ -1,0 +1,1 @@
+{"input": "Laid-back surf rock vibe", "output": {"chords": "Dmaj7 | Gmaj7 | Dmaj7 | Gmaj7 | Em7 | A7 | Em7 | A7", "scales": "D Ionian (D E F# G A B C#)", "title": "Chill Waves", "style": "Relaxed strumming with a clean guitar tone, reverb, and touches of whammy bar for a classic surf sound.", "example": "M:4/4\n"}}

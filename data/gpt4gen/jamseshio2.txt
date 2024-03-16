@@ -1,0 +1,1 @@
+{"input": "Latin Jazz groove", "output": {"chords": "Dm9 | G13 | Cmaj9 | F#7#5#9 | Bm7 | E7#9 | Am7 | D7#9 G7#5#9 | Cmaj9 | A7#5#9", "scales": "C Major (C D E F G A B)", "title": "Cubano Bop", "style": "Incorporate Afro-Cuban rhythms with heavy emphasis on the off-beats to create a vibrant, danceable groove. Use percussion liberally.", "example": "M:4/4\n"}}

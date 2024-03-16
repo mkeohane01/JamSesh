@@ -1,0 +1,1 @@
+{"input": "Reggae feel in a minor key", "output": {"chords": "Am | G | F | G", "scales": "A Natural Minor (A B C D E F G)", "title": "Island Breeze in Am", "style": "Focus on the offbeat for the chord stabs, creating a laid-back, chill vibe typical of reggae music.", "example": "M:4/4\n"}}

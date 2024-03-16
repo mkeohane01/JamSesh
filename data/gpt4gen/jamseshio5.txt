@@ -1,0 +1,1 @@
+{"input": "Funky groove in the key of Bb", "output": {"chords": "Bb9 | Eb9 | Bb9 | Bb9 | Eb9 | Eb9 | Bb9 | Bb9 | Gm7 | Cm7 F7 | Bb9 Gm7 | Cm7 F7", "scales": "Bb Mixolydian (Bb C D Eb F G Ab)", "title": "Bb Funk Jam", "style": "Keep the bass lines tight and crisp, and emphasize off-beat syncopation. Utilize staccato articulation and build dynamics.", "example": "M:4/4\n"}}

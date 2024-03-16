@@ -1,0 +1,1 @@
+{"input": "Laid-back soul groove", "output": {"chords": "Dmaj7 | Gmaj7 | Dmaj7 | Gmaj7 | Em7 | A7 | Em7 | A7", "scales": "D Major Scale (D E F# G A B C#)", "title": "Soulful Serenade in D", "style": "Relaxed tempo with focus on the backbeat, allowing for melodic and soulful interpretations.", "example": "M:4/4\n"}}

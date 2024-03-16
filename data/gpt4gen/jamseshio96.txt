@@ -1,0 +1,1 @@
+{"input": "Hard rock jam in E", "output": {"chords": "E5 | G5 | A5 | E5 | E5 | G5 | A5 | B5", "scales": "E Minor Pentatonic (E G A B D)", "title": "Electric Surge in E", "style": "Start with powerful guitar riffs, high energy and straight-ahead rock rhythm.", "example": "M:4/4\n"}}

@@ -1,0 +1,1 @@
+{"input": "Energetic electro pop banger", "output": {"chords": "Am | F | C | G | Am | F | C | G", "scales": "A Minor (A B C D E F G)", "title": "Electro-Pop Energy in Am", "style": "Craft a driving beat with heavy electronic synths. Focus on catchy hooks and drops that encourage high-energy dancing.", "example": "M:4/4\n"}}

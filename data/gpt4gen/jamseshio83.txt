@@ -1,0 +1,9 @@
+{
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Em7 | A7 | Dmaj7 | Gmaj7 | Em7 | A7",
+            "scales": "D Major (D E F# G A B C#)",
+            "title": "Bossa Breeze in D",
+            "style": "Classic Bossa Nova rhythm with gentle syncopation. Stick to a relaxed tempo allowing for lyrical soloing.",
+            "example": 
+            "M:4/4\n"

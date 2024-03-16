@@ -1,0 +1,1 @@
+{"input": "Generate a Latin Jazz groove", "output": {"chords": "Dm7 | G7 | Em7 | A7 | Dm7 | Dm7 | G7 | G7", "scales": "D Dorian (D E F G A B C)", "title": "Sunny Clave Lounge", "style": "Focus on complex, syncopated Latin rhythms with a strong emphasis on the clave. Maintain a danceable groove and use the Dorian mode for a jazzy solo.", "example": "M:4/4\n"}}

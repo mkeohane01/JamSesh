@@ -1,0 +1,1 @@
+{"input": "Rock jam with a driving groove", "output": {"chords": "D5 | G5 | A5 | D5", "scales": "D minor pentatonic (D F G A C)", "title": "Power Drive in D", "style": "Strong downbeat with distorted guitar riffs. Keep the rhythm tight and energetic.", "example": "\nM:4/4\nL:1/8\nK:Dmin\n|: \"D5\"D4 D4 | \"G5\"G4 G4 | \"A5\"A4 A4 | \"D5\"D4 D4 :|\n"}}

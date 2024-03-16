@@ -1,0 +1,1 @@
+{"input": "Soulful R&B groove", "output": {"chords": "Cmaj7 | Em7 | Am7 | Dm7 G7 | Cmaj7 | Em7 | Fmaj7 | G7", "scales": "C Major (C D E F G A B)", "title": "Soulful Heartbeat in C", "style": "Keep the groove smooth and steady with a laid-back feel. Use subtle rhythmic syncopation and expressive melodic fills.", "example": "M:4/4\n"}}

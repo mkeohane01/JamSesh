@@ -1,0 +1,1 @@
+{"input": "Rock groove with a punchy rhythm", "output": {"chords": "A5 | D5 | A5 | E5 | A5 | D5 | A5 | E5", "scales": "A Minor Pentatonic (A C D E G)", "title": "Punchy Rock Groove in A", "style": "Aggressive strumming with overdriven guitar tones. Look to build energy and release tension across the progression.", "example": "M:4/4\n"}}

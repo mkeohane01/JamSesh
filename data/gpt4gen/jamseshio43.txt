@@ -1,0 +1,1 @@
+{"input": "Smooth Bossa Nova groove", "output": {"chords": "Dm9 | G13 | Dm9 | G13 | Em7 | A7 | Dm9 | Dm9 G13", "scales": "D Dorian (D E F G A B C)", "title": "Bossa Breeze in D", "style": "Maintain a relaxed, flowing groove. Use nylon-string guitar for rhythm and explore lyrical, melodic improvisations", "example": {"header": {"M: 4/4": "L: 1/16"}}}}

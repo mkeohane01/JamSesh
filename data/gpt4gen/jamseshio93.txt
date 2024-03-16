@@ -1,0 +1,1 @@
+{"input": "Upbeat country rock jam", "output": {"chords": "D | G | D | A7 | D | G | D A7 | D", "scales": "D Major (D E F# G A B C#)", "title": "Country Rockin' Road", "style": "Play with an upbeat, driving rhythm, featuring twangy guitars and dynamic, playful energy.", "example": "M:4/4\n"}}

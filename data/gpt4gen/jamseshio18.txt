@@ -1,0 +1,1 @@
+{"input": "Reggae groove", "output": {"chords": "Dm | Gm | Dm | A7 | Dm | Gm | Dm | A7", "scales": "D Natural Minor (D E F G A B\u266d C)", "title": "Island Skank Reggae", "style": "Maintain a relaxed tempo with emphasis on the offbeat for that signature reggae feel", "example": "M:4/4\n"}}

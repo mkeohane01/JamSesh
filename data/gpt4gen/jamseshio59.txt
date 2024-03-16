@@ -1,0 +1,1 @@
+{"input": "Smooth Soul groove", "output": {"chords": "Cmaj7 | Fmaj7 | Cmaj7 | Em7 A7 | Dm7 | G7 | Fmaj7 G7 | Cmaj7", "scales": "C Major (C D E F G A B)", "title": "Soulful Heartbeat", "style": "Sustain a smooth and relaxed feel with a touch of warmth, and make sure the groove sits right in the pocket.", "example": "M:4/4\n"}}

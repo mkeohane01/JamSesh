@@ -1,0 +1,1 @@
+{"input": "Reggae inspired jam session", "output": {"chords": "Gm | Cm | Dm | Gm", "scales": "G Dorian (G A Bb C D E F)", "title": "Island Breeze in G minor", "style": "Focus on the off-beat for your chords while maintaining a relaxed, swaying rhythm. Basslines should be melodic and groove-heavy.", "example": "M:4/4\n"}}
