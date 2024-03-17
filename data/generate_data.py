@@ -5,7 +5,7 @@ import json
 import os
 import argparse
 
-def generate_jam_sesh_recommendation(prompt, model="gpt-3.5-turbo", max_tokens=3500, temperature=1, top_p=1, frequency_penalty=0, presence_penalty=0):
+def generate_jam_sesh_recommendation(prompt, model="gpt-4-1106-preview", max_tokens=3500, temperature=1, top_p=1, frequency_penalty=0, presence_penalty=0):
     """
     Generate Various Chord Progressions, Improvisation Scales, and example using in ABC notation
     using the OpenAI API.
