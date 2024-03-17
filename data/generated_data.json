@@ -1,0 +1,929 @@
+[
+    {
+        "input": "Psychedelic Rock in A Dorian",
+        "output": {
+            "chords": "Am7 | G | D | Am7 | C | G | D | Am7",
+            "scales": "A Dorian (A B C D E F# G)",
+            "title": "Mystic Voyage",
+            "style": "Fuse rock with experimental effects and driving rhythms, creating an otherworldly atmosphere.",
+            "example": "\n"
+        }
+    },
+    {
+        "input": "Soulful Rock jam in the style of the late 60s",
+        "output": {
+            "chords": "D | G | D | D | G | G | D | D | A | G | D | A",
+            "scales": "D Major (D E F# G A B C#)",
+            "title": "Vintage Soul Rock in D",
+            "style": "Think of an emotional yet uplifting rhythm, with a blend of rock's raw power and soul's depth, similar to the music of the late 60s.",
+            "example": "M:4/4\n L:1/8\n K:D\n |: \"D\"D4 F2 A2 | \"G\"G4 B2 d2 | \"D\"D4 F2 A2 | \"D\"D4 z4 | \"G\"G4 B2 d2 | \"G\"G4 B2 d2 | \"D\"D4 F2 A2 | \"D\"D4 z4 |\n \"A\"A4 c2 e2 | \"G\"G4 B2 d2 | \"D\"D4 F2 A2 | \"A\"A4 z4 :|\n "
+            
+        }
+    },
+    {
+        "input": "A soothing Bossa Nova groove",
+        "output": {
+            "chords": "Dmaj7 | G7 | Dmaj7 | G7 | Em7 | A7 | Em7 | A7 | Dmaj7 | Dmaj7/C# | Bm7 | E7 | Am7 | D7 | Gmaj7 | Gmaj7",
+            "scales": "D Major (D E F# G A B C#)",
+            "title": "Bossa Breeze in D",
+            "style": "Gentle rhythms with emphasis on the offbeat. Play with light dynamics and a relaxed, fluid approach.",
+            "example": "M:4/4\nL:1/8\nK:D\nV:1\n|: \"Dmaj7\"d3 f a2 f2 | \"G7\"g4 b2 d2 | \"Dmaj7\"f2 d2 a2 f2 | \"G7\"g4 f4 |\n\"Em7\"e4 g2 b2 | \"A7\"a2 e2 c2 e2 | \"Em7\"e4 g2 b2 | \"A7\"a2 e2 c2 E2 |\n\"Dmaj7\"d3 f a2 f2 | \"Dmaj7/C#\"c3 e a2 e2 | \"Bm7\"b2 d2 g2 f2 | \"E7\"e2 f2 g2 a2 |\n\"Am7\"a2 c2 e2 g2 | \"D7\"d2 f2 a2 d'2 | \"Gmaj7\"g2 B2 d2 g2 | \"Gmaj7\"g4 a4 :|\nV:2\n|: \"Dmaj7\"F2 D2 B,2 D2 | \"G7\"B,3 D G2 B2 | \"Dmaj7\"F2 D2 B,2 D2 | \"G7\"B,2 A2 G2 F2 |\n\"Em7\"E2 G2 B2 e2 | \"A7\"A,2 E2 C2 E2 | \"Em7\"E2 G2 B2 e2 | \"A7\" A,2 E2 C2 E2 |\n\"Dmaj7\"F2 D2 B,2 D2 | \"Dmaj7/C#\"C2 E2 A,2 C2 | \"Bm7\"B,2 D2 G2 F2 | \"E7\"E2 ^G2 A2 B2 |\n\"Am7\"A,2 C2 E2 G2 | \"D7\"D2 F2 A2 d2 | \"Gmaj7\"G2 B2 D2 G2 |\n"
+        }
+    },
+    {
+        "input": "Slow Rock Ballad",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G | Em | F | C | G",
+            "scales": "C Ionian (C D E F G A B)",
+            "title": "Twilight Drift",
+            "style": "Play with a smooth, emotive touch, allowing the melody to breathe over the slow, steady rhythm. Let sustain carry weight in your chords.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Rock groove with a punchy rhythm",
+        "output": {
+            "chords": "A5 | D5 | A5 | E5 | A5 | D5 | A5 | E5",
+            "scales": "A Minor Pentatonic (A C D E G)",
+            "title": "Punchy Rock Groove in A",
+            "style": "Aggressive strumming with overdriven guitar tones. Look to build energy and release tension across the progression.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Reggae groove in the key of A minor",
+        "output": {
+            "chords": "Am | Am | Dm | Dm | G | G | Am | Am",
+            "scales": "A Natural Minor (A B C D E F G)",
+            "title": "Irie Skankin'",
+            "style": "Relax into a laid-back, offbeat reggae rhythm. Let the bass move fluidly beneath the choppy chords.",
+            "example": "\n                M:4/4\n                L:1/8\n                K:Am\n                |: \"Am\"A4 z2 A2 | \"Am\"A4 z2 A2 | \"Dm\"d4 z2 d2 | \"Dm\"d4 z2 d2 |\n                \"G\"G4 z2 G2 | \"G\"G4 z2 G2 | \"Am\"A4 z2 A2 | \"Am\"A4 z2 A2 :|\n                "
+        }
+    },
+    {
+        "input": "Reggae inspired jam session",
+        "output": {
+            "chords": "Dm | Gm | Dm | Dm | Gm | Gm | Dm | Dm | Am | Gm | Dm | Am",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Mellow Skank in D minor",
+            "style": "Relax with a steady offbeat rhythm, characteristic of reggae. Use the dorian mode to add a slightly jazzy touch to your melodies.",
+            "example": 
+                "\nM:4/4\nL:1/8\nK:Dm\n|: \"Dm\"D4 F4 | \"Gm\"G4 B4 | \"Dm\"D4 A3A | \"Dm\"D6 z2 |\n\"Gm\"G4 B4 | \"Gm\"G4 d3d | \"Dm\"D4 F4 | \"Dm\"D6 z2 |\n\"Am\"A4 c4 | \"Gm\"G4 B4 | \"Dm\"D4 A3A | \"Am\"A6 z2 :|\n"
+        }
+    },
+    {
+        "input": "Melodic rock jam",
+        "output": {
+            "chords": "D | A | Bm | G | D | A | G | A",
+            "scales": "D Major (D E F# G A B C#)",
+            "title": "Mountain Echoes",
+            "style": "Play with soaring melodies and dynamic shifts. Let your solos climb and dive to emulate the peaks and valleys of a mountain range.",
+            "example": "M:4/4\nL:1/8\nK:D\n \"D\" D4 F2 A2 | \"A\" A4 e2 c2 | \"Bm\" B4 d2 F2 | \"G\" G4 B2 d2 | \"D\" G4 B2 d2 | \"A\" A4 A4 z4  |"
+        }
+    },
+    {
+        "input": "Reggae groove",
+        "output": {
+            "chords": "Dm | Gm | Dm | A7 | Dm | Gm | Dm | A7",
+            "scales": "D Natural Minor (D E F G A B\u266d C)",
+            "title": "Island Skank Reggae",
+            "style": "Maintain a relaxed tempo with emphasis on the offbeat for that signature reggae feel",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Laid-back soul groove",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Dmaj7 | Gmaj7 | Em7 | A7 | Em7 | A7",
+            "scales": "D Major Scale (D E F# G A B C#)",
+            "title": "Soulful Serenade in D",
+            "style": "Relaxed tempo with focus on the backbeat, allowing for melodic and soulful interpretations.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Latin Jazz groove",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj9 | F#7#5#9 | Bm7 | E7#9 | Am7 | D7#9 G7#5#9 | Cmaj9 | A7#5#9",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Cubano Bop",
+            "style": "Incorporate Afro-Cuban rhythms with heavy emphasis on the off-beats to create a vibrant, danceable groove. Use percussion liberally.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Reggae groove with a relaxed vibe",
+        "output": {
+            "chords": "Gmaj7 | Cmaj7 | Gmaj7 | Dmaj7",
+            "scales": "G Major (G A B C D E F#)",
+            "title": "Irie Jammin' in G",
+            "style": "Play with a laid-back, offbeat rhythm and let the chords resonate for a warm, island sound.",
+            "example": "M:4/4\nL:1/8\nK:G\n|: \"Gmaj7\"[G2B2] [A2^F2] [G2B2] z2 | \"Cmaj7\"[C2E2] [G2E2] [C2E2] z2 | \"Gmaj7\"[G2B2] [A2F2] [G2B2] z2 | \"Dmaj7\"[D2^F2] [A2F2] [D2A2] z2 :|"
+        }
+    },
+    {
+        "input": "Smooth Jazz with a soulful touch",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Em7 | A7 | Dmaj7 | Gmaj7 | C#m7 | F#7",
+            "scales": "B Minor Scale (B C# D E F# G A)",
+            "title": "Soulful Dusk",
+            "style": "Play with a gentle touch allowing notes to breathe. Incorporate lush, extended chords for a rich harmonic texture.",
+            "example": "M:4/4\nL:1/8\nK:Bmin\n|: \"Dmaj7\"D4 F#2 A2 | \"Gmaj7\"G4 B2 D2 | \"Em7\"E4 G2 B2 | \"A7\"A,4 C2 E2 |\n\"Dmaj7\"D4 F#2 A2 | \"Gmaj7\"G4 B2 D2 | \"C#m7\"C#4 E4 | \"F#7\"F#4 A2 C#2 :|"
+        }
+    },
+    {
+        "input": "Upbeat Latin Salsa",
+            "output": {
+                "chords": "Am7 | D7 | Gmaj7 | Cmaj7 | F#m7b5 | B7b9 | Em7 | E7b9",
+                "scales": "A Natural Minor (A B C D E F G)",
+                "title": "Salsa Fiesta in A Minor",
+                "style": "Embrace the energetic, syncopated salsa rhythm with a focus on the montuno pattern. Percussive playing and quick transitions between chords are key.",
+                "example": "M:4/4\nL:1/8\nK:Am\n|: \"Am7\"A4 ^G2 E2 | \"D7\"D4 ^F2 A2 | \"Gmaj7\"G4 B4 | \"Cmaj7\"C4 E2 G2 |\n\"F#m7b5\"F4 A2 c2 | \"B7b9\"B,4 D2 F2 | \"Em7\"E4 ^G2 B2 | \"E7b9\"E4 G2 B2 :|"
+        }
+    },
+    {
+        "input": "Classic hard rock drive",
+        "output": {
+            "chords": "E5 | G5 | A5 | E5 | C5 | D5 | B5 | E5",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Rock Power in E",
+            "style": "Crank up the distortion for a high-energy riff-based progression. Keep the rhythm tight and aggressive with powerful palm-muted power chords.",
+            "example": "M:4/4\nL:1/8\nK:E\n|: \"E5\"E4 E4 | \"G5\"G4 G4 | \"A5\"A4 A4 | \"E5\"E4 E4 |\n\"C5\"C4 C4 | \"D5\"D4 D4 | \"B5\"B4 B4 | \"E5\"E4 E4 :|"
+        }
+    },
+    {
+        "input": "Acoustic campfire strumming",
+        "output": {
+            "chords": "G | Cadd9 | Em7 | D | G | Cadd9 | Em7 | D/C",
+            "scales": "G Major (G A B C D E F#)",
+            "title": "Campfire Serenity in G",
+            "style": "Stick to basic open chords and strum with a steady, reassuring rhythm. Great for sing-alongs and harmonizing with friends.",
+            "example": "M:4/4\nL:1/8\nK:G\n|: \"G\"G4 G4 | \"Cadd9\"C4 E4 | \"Em7\"E4 G4 | \"D\"D4 F4 |\n\"G\"G4 G4 | \"Cadd9\"C4 E4 | \"Em7\"E4 G4 | \"D/C\"C4 F4 :|"
+        }
+    },
+    {
+        "input": "Southern rock twang",
+        "output": {
+            "chords": "D | G | D | A | D | G | D | A",
+            "scales": "D Major Pentatonic (D E F# A B)",
+            "title": "Southern Riff in D",
+            "style": "Use slide guitar and plenty of bends for a gritty country rock sound with a biting twang and a driving bassline.",
+            "example": "M:4/4\nL:1/8\nK:D\n|: \"D\"D4 F#4 | \"G\"G4 B4 | \"D\"D4 F#4 | \"A\"A4 e4 |\n\"D\"D4 F#4 | \"G\"G4 B4 | \"D\"D4 F#4 | \"A\"A4 e4 :|"
+        }
+    },
+    {
+        "input": "Afrobeat fusion",
+        "output": {
+            "chords": "F7 | Gm7 | F7 | Gm7 | C7 | C7 | F7 | D7",
+            "scales": "F Mixolydian (F G A Bb C D Eb)",
+            "title": "Afro Fusion in F",
+            "style": "Integrate complex polyrhythms and Afrobeat grooves with a strong horn section. Keep energy levels high with interlocking melodic lines and a driving bass.",
+            "example": "M:4/4\nL:1/8\nK:F\n|: \"F7\"F4 A2 c2 | \"Gm7\"G4 Bb4 | \"F7\"F4 A2 c2 | \"Gm7\"G4 Bb4 |\n\"C7\"C4 E4 | \"C7\"C4 E4 | \"F7\"F4 A2 c2 | \"D7\"D4 F2 A2 :|"
+        }
+    },
+    {
+        "input": "Laid-back reggae feel",
+        "output": {
+            "chords": "Gm | Cm | Gm | Gm | Cm | Cm | Gm | Gm | Dm | Cm | Gm | Dm",
+            "scales": "G Minor Pentatonic (G Bb C D F)",
+            "title": "Reggae Groove in Gm",
+            "style": "Keep the rhythm light and on the offbeat for that classic reggae groove. Syncopation and space are key elements.",
+            "example": "\nM:4/4\nL:1/8\nK:Gm\n|: \"Gm\"D4 D2 B2 | \"Cm\"G,4 G,2 E2 | \"Gm\"D4 D2 G2 | \"Gm\"D6 z2 |\n\"Cm\"G,4 C4 | \"Cm\"G,4 G,2 E2 | \"Gm\"D4 D2 B2 | \"Gm\"D6 z2 |\n\"Dm\"A,4 A,2 F2 | \"Cm\"G,4 G,2 E2 | \"Gm\"D4 D2 G2 | \"Dm\"A,6 :|\n"
+        }
+    },
+    {
+        "input": "Rock groove with a hint of blues",
+        "output": {
+            "chords": "A5 | D5 | A5 | E5 | D5 | A5 | E5 | A5",
+            "scales": "A Minor Pentatonic (A C D E G)",
+            "title": "Rockin' Blues Groove in A",
+            "style": "Go for a gritty, driving groove with a strong backbeat. Use power chords to emphasize the rock vibe while incorporating bluesy licks in your solos.",
+            "example": "\nM:4/4\nL:1/8\nK:A\n|: \"A5\"A4 A4 | \"D5\"D4 D4 | \"A5\"A4 A4 | \"E5\"E4 E4 |\n\"D5\"D4 D4 | \"A5\"A4 A4 | \"E5\"E4 E4 | \"A5\"A4 A4 :|\n"
+        }
+    },
+    {
+        "input": "Upbeat Rock in the style of the 70s",
+        "output": {
+            "chords": "A5 | D5 | A5 | E5 | D5 | A5 | D5 | E5",
+            "scales": "A Minor Pentatonic (A C D E G)",
+            "title": "Retro Rock Riff",
+            "style": "Play with an energetic and driving rhythm, utilizing power chords for a punchy sound typical of 70's rock.",
+            "example": "M:4/4\n L:1/8 \nK:A \n |: \"A5\"A4 c4 | \"D5\"d4 f4 | \"A5\"A4 c4 | \"E5\"e4 g4 | \"D5\"d4 f4 | \"A5\"A4 c4 | \"D5\"d4 f4 | \"E5\"e4 g4 :|"
+        }
+    },
+    {
+        "input": "Latino groove with a salsa twist",
+        "output": {
+            "chords": "Cmaj7 | Dm7 G7 | Em7 | Fmaj7 G7 | Em7 Am7 | Dm7 G7 | Cmaj7 | G7",
+            "scales": "C Major Scale (C D E F G A B)",
+            "title": "Salsa Groove in C Major",
+            "style": "A dynamic Latino groove with percussive piano patterns. Incorporate fast runs and rhythmical breaks to emphasize the salsa feel.",
+            "example": "M:4/4\nL:1/8\nK:C\n|: \"Cmaj7\"C4 E2 G2 | \"Dm7\"D4 \"G7\"G4 | \"Em7\"E4 G2 B2 | \"Fmaj7\"F4 \"G7\"G4 |\n| \"Em7\"E4 \"Am7\"A2 c2 | \"Dm7\"D2 F2 \"G7\"G4 | \"Cmaj7\"C4 E2 G2 | \"G7\"D4 G4 :|"
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Em7 | A7 | Dmaj7 | Gmaj7 | Em7 | A7",
+            "scales": "D Ionian (D E F# G A B C#)",
+            "title": "Bossa Breeze in D",
+            "style": "Keep the rhythm light and syncopated with a focus on nylon-string guitar or piano for melody.",
+            "example": "M:4/4\nL:1/8\nK:D\n|: \"Dmaj7\"D4 F2 A2 | \"Gmaj7\"G4 B2 d2 | \"Em7\"E4 G2 B2 | \"A7\"A,4 C2 E2 |\n \"Dmaj7\"D4 F2 A2 | \"Gmaj7\"G4 B2 d2 | \"Em7\"E4 G2 B2 | \"A7\"A,4 C2 E2 :|\n"
+        }
+    },
+    {
+        "input": "Blues Rock groove in the style of Stevie Ray Vaughan",
+        "output": {
+            "chords": "E7 | A7 | E7 | E7 | A7 | A7 | E7 | E7 | B7 | A7 | E7 | B7",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Texas Flood of Blues",
+            "style": "Play with aggressive, raw energy and use plenty of string bending and hammer-ons/pull-offs for a visceral feel.",
+            "example": "M:4/4\nL:1/8\nK:E\n"
+        }
+    },
+    {
+        "input": "Upbeat Rock in the style of the 80s",
+        "output": {
+            "chords": "D | G | Bm | A | D | G | A | D",
+            "scales": "D Major (D E F# G A B C#)",
+            "title": "Bright Lights, Big City Riff",
+            "style": "Energetic and anthemic with powerful strumming and dynamic lead guitar work. Think big hair and guitar solos.",
+            "example": 
+                "M:4/4 \nL:1/8 \nK:D \n|: \"D\"D2 F2 A2 d2 | \"G\"G2 B2 d2 g2 | \"Bm\"B2 d2 f2 B2 | \"A\"A2 c2 e2 a2 | \"D\"d4 D2 F2 | \"G\"G2 B2 d2 G2 | \"A\"A2 e2 a4 | \"D\"d6 z2 :|"
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dmaj7 | G6 | Em7 | A7 | Dmaj7 | G6 | Em7 | A7",
+            "scales": "D Ionian (D E F# G A B C#)",
+            "title": "Serenade in Ipanema",
+            "style": "Play with a light, syncopated rhythm, emulating waves lapping the shore. Allow the melody to flow smoothly over the rhythm like a gentle breeze.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Rock groove in the style of the 70s",
+        "output": {
+            "chords": "A5 | D/A | A5 | E/A | A5 | D/A | A5 | E/A",
+            "scales": "A Minor Pentatonic (A C D E G)",
+            "title": "70s Rock Groove in A",
+            "style": "Channel the spirit of classic 70s rock with driven and punchy rhythms. Think stadium anthems and power chords.",
+            "example": "M:4/4 \nL:1/8 \nK:A\n |: \"A5\" A,4 E4 | \"D/A\" D4 F4 | \"A5\" A,4 E4 | \"E/A\" E4 G4 | \"A5\" A,4 E4 | \"D/A\" D4 F4 | \"A5\" A,4 E4 | \"E/A\" E4 G4 :|"
+        }
+    },
+    {
+        "input": "A mellow bossa nova jam session",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Dmaj7 | G7 | Em7 | A7 | Dmaj7 | Bb7#5 | Em7 | A7 | Dmaj7 | A7#5",
+            "scales": "D Ionian (D E F# G A B C#)",
+            "title": "Bossa Breeze in D",
+            "style": "Relax into a gentle, lilting bossa nova groove, with a focus on smooth, flowing melodies over complex harmony.",
+            "example": "M:4/4\nL:1/8\nK:D\n\"Dmaj7\"D4 F#2 A2 | \"Gmaj7\"G4 B2 D2 | \"Dmaj7\"D4 F#2 A2 | \"G7\"G4 F2 E2 |\n\"Em7\"E4 G2 B2 | \"A7\"A,4 C#2 E2 | \"Dmaj7\"D4 F#2 A2 | \"Bb7#5\"B,4 D2 F2 |\n\"Em7\"E4 G2 B2 | \"A7\"A,4 C#2 E2 | \"Dmaj7\"D4 F#2 A2 | \"A7#5\"A,4 C2 E2 :|"
+        }
+    },
+    {
+        "input": "Energetic electro pop banger",
+        "output": {
+            "chords": "Am | F | C | G | Am | F | C | G",
+            "scales": "A Minor (A B C D E F G)",
+            "title": "Electro-Pop Energy in Am",
+            "style": "Craft a driving beat with heavy electronic synths. Focus on catchy hooks and drops that encourage high-energy dancing.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Reggae inspired jam session",
+        "output": {
+            "chords": "Cmaj7 | Gm7 | Fmaj7 | Em7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Island Breeze Reggae",
+            "style": "Steady offbeat rhythm with a relaxed tempo. Focus on the backbeat and let the chord changes guide the improvisation.",
+            "example": "M:4/4\nL:1/8\nK:C\n|: \"Cmaj7\"C2E2 G2c2 | \"Gm7\"G2B2 d2g2 | \"Fmaj7\"F2A2 c2e2 | \"Em7\"E2G2 B2e2 :|"
+        }
+    },
+    {
+        "input": "Soulful Rock jam in D major",
+        "output": {
+            "chords": "D | Bm | G | A | D | Bm | G | A",
+            "scales": "D Major (D E F# G A B C#)",
+            "title": "Soul Rock Groove in D",
+            "style": "A smooth, expressive groove with emphasis on melodic phrasing and occasional power chords for strong accents.",
+            "example": "\n                M:4/4\n                L:1/8\n                K:D\n                |: \"D\"D4 F2 A2 | \"Bm\"B4 d2 f2 | \"G\"G4 B2 d2 | \"A\"A4 c2 e2 |\n                \"D\"D4 F2 A2 | \"Bm\"B4 d2 f2 | \"G\"G4 B2 d2 | \"A\"A6 z2 :|\n                "
+        }
+    },
+    {
+        "input": "Slow Melancholic Rock Ballad",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Em7 | Am7 | Fmaj7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Melancholic Twilight",
+            "style": "Play slowly with heavy emphasis on melody and emotive phrasing. Let the guitar solos sing with sustain and vibrato.",
+            "example": "\nM:4/4\nL:1/4\nK:Cmaj\n|: \"Cmaj7\"C2 E2 | \"Am7\"A2 c2 | \"Dm7\"D2 F2 | \"G7\"G2 B2 |\n\"Em7\"E2 G2 | \"Am7\"A2 c2 | \"Fmaj7\"F2 A2 | \"G7\"G2 B2 :|\n"
+        }
+    },
+    {
+        "input": "Smooth Latin Jazz Groove",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | F#m7b5 B7 | Em7 | A7 | Dm9 | G13 Cmaj7 A7",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Siesta in D Minor",
+            "style": "Keep the rhythm light and the melody flowing with a laid-back Afro-Cuban beat. Nylon strings or a brushed snare drum complement the groove well.",
+            "example": "M:4/4\n L:1/8\n K:Dmin\n"
+        }
+    },
+    {
+        "input": "Latin Jazz groove",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj9 | F#7#9 | Bm7 | E9 | Amaj7 | A#dim7",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Sabor Latino",
+            "style": "Incorporate afro-cuban rhythms with a syncopated clave pattern for an energetic Latin Jazz vibe.",
+            "example": "M:4/4\nL:1/8\nK:Dmin\n|: \"Dm9\"D4 F2 A2 | \"G13\"G4 B2 d2 | \"Cmaj9\"C4 E2 G2 | \"F#7#9\"F4 A2 C2 |\n| \"Bm7\"B4 D2 F2 | \"E9\"E4 G2 B2 | \"Amaj7\"A6 c2 | \"A#dim7\"A4 _B2 D2 :|"
+        }
+    },
+    {
+        "input": "Reggae feel in a minor key",
+        "output": {
+            "chords": "Am | G | F | G",
+            "scales": "A Natural Minor (A B C D E F G)",
+            "title": "Island Breeze in Am",
+            "style": "Focus on the offbeat for the chord stabs, creating a laid-back, chill vibe typical of reggae music.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Psychedelic rock groove",
+        "output": {
+            "chords": "Dm7 | G13 | Cmaj7 | F#m7b5",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Mindbender Groove",
+            "style": "Use pedal effects like reverb and delay for an expansive sound. Play with a fluid, driving rhythm.",
+            "example": "\n"
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dm9 | G13 | Dm9 | G13 | Em7 | A7 | Dm9 | Dm9 G13",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Bossa Breeze in D",
+            "style": "Maintain a relaxed, flowing groove. Use nylon-string guitar for rhythm and explore lyrical, melodic improvisations",
+            "example": "M: 4/4 L: 1/16"
+        }
+    },
+    {
+        "input": "Laid-back reggae groove",
+        "output": {
+            "chords": "C | G | Am | F | C | G | Am | F",
+            "scales": "C Ionian (C D E F G A B)",
+            "title": "Island Breeze in C",
+            "style": "Maintain a relaxed tempo with offbeat chords and a smooth bass line that follows the chord roots. Think of a beach vibe with gentle melodic improvisation.",
+            "example":"M:4/4\nL:1/8\nK:C\n|: \"C\"C4 \"G\"G4 | \"Am\"A4 \"F\"F4 | \"C\"C4 \"G\"G4 | \"Am\"A4 \"F\"F4 :|\n"
+        }
+    },
+    {
+        "input": "Soulful R&B groove",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | F7#9 | Bm7b5 | E7#9 | Am7 | D7sus4 G7#5",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Heartfelt Groove",
+            "style": "Smooth and soulful with a laid-back pace and emotionally expressive phrasing.",
+            "example": "M:4/4\nL:1/8\nK:C\n|: \"Dm9\"D4 F2 A2 | \"G13\"G4 B2 e2 | \"Cmaj7\"c4 E2 G2 | \"F7#9\"F4 A2 c2 |\n\"Bm7b5\"B4 d2 f2 | \"E7#9\"E4 G2 B2 | \"Am7\"A4 c2 e2 | \"D7sus4\"D4 \"G7#5\"G4 :|\n"
+        }
+    },
+    {
+        "input": "Slow blues in the key of B",
+        "output": {
+            "chords": "B7 | E7 | B7 | B7 | E7 | E7 | B7 | B7 | F#7 | E7 | B7 F#7 | B7 E7",
+            "scales": "B Minor Pentatonic (B D E F# A)",
+            "title": "Midnight Blues in B",
+            "style": "Deliver each note with emotion, letting them breathe for a deep bluesy atmosphere.",
+            "example": "\n                M:4/4\n                L:1/8\n                K:B\n                |: \"B7\"B4 F#4 | \"E7\"E4 G4 | \"B7\"B4 F#4 | \"B7\"B4 z4 |\n                \"E7\"E4 G4 | \"E7\"E4 G4 | \"B7\"B4 F#4 | \"B7\"B6 z2 |\n                \"F#7\"F#4 A4 | \"E7\"E4 G4 | \"B7\"B4 F#2 \"F#7\"F#2 | \"B7\"B2 \"E7\"E2 \"B7\"B4 :|\n                "
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | F#m7b5 B7b9 | Em7 | A7 | Dm9 | G13 Cmaj7 A7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Bossa Breeze in C",
+            "style": "Keep the rhythm light and breezy, with subtle syncopation. Use nylon-string guitar for authentic bossa nova sound.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Soulful R&B groove",
+        "output": {
+            "chords": "Cmaj7 | Em7 | Am7 | Dm7 G7 | Cmaj7 | Em7 | Fmaj7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Soulful Heartbeat in C",
+            "style": "Keep the groove smooth and steady with a laid-back feel. Use subtle rhythmic syncopation and expressive melodic fills.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Funky groove in the key of Bb",
+        "output": {
+            "chords": "Bb9 | Eb9 | Bb9 | Bb9 | Eb9 | Eb9 | Bb9 | Bb9 | Gm7 | Cm7 F7 | Bb9 Gm7 | Cm7 F7",
+            "scales": "Bb Mixolydian (Bb C D Eb F G Ab)",
+            "title": "Bb Funk Jam",
+            "style": "Keep the bass lines tight and crisp, and emphasize off-beat syncopation. Utilize staccato articulation and build dynamics.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Generate a laid-back reggae groove",
+        "output": {
+            "chords": "G | Em | C | D",
+            "scales": "G Major (G A B C D E F#)",
+            "title": "Island Breeze Reggae",
+            "style": "Emphasize the offbeat chords and maintain a relaxed tempo, letting the syncopated rhythm drive the groove.",
+            "example": "M:4/4\nL:1/8\nK:G\n |: \"G\"B4 B2 A2 | \"Em\"E4 F2 G2 | \"C\"c4 B2 A2 | \"D\"d4 F2 G2 :|"
+        }
+    },
+    {
+        "input": "Laid-back surf rock vibe",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Dmaj7 | Gmaj7 | Em7 | A7 | Em7 | A7",
+            "scales": "D Ionian (D E F# G A B C#)",
+            "title": "Chill Waves",
+            "style": "Relaxed strumming with a clean guitar tone, reverb, and touches of whammy bar for a classic surf sound.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Let's get groovy with a Funk jam",
+        "output": {
+            "chords": "D9 | G9 | D9 | D9 | G9 | G9 | D9 | D9 | A9 | G9 | D9 | A9",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Groove Town Funk",
+            "style": "Keep the rhythm guitar tight and funky with short, percussive licks and staccato chords. Bass should lay down a smooth, grooving foundation with plenty of slaps and pops.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Latin-infused Jazz",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | Em7 A7 | Dm9 | G13 | Cmaj7 E7#9 | A7#5",
+            "scales": "C Major Scale (C D E F G A B)",
+            "title": "Havana Nights Jam",
+            "style": "Incorporate Afro-Cuban rhythms with a smooth jazz blend. Syncopation and montunos for pianists can provide a spicy backdrop.",
+            "example":
+                "M: 4/4 \n L: 1/8 \n K: Cmaj | \"Dm9\" d4 A2 F2 | \"G13\" G4 B2 e2 | \"Cmaj7\" c4 E2 G2 | \"Em7\" e4 A7c4 B2 | \"Dm9\" d4 F2 A2 | \"G13\" G4 d2 f2 | \"Cmaj7\"c2 g2 f2 | \"A7\"a4 e4 z2 :|"
+        }
+    },
+    {
+        "input": "Generate a Latin jazz inspired jam",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | F#7b9 | Bm7 | E7#9 | Amaj7 | A7alt",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Caliente Night Groove",
+            "style": "Embrace the intricate rhythms and percussive playing of Latin Jazz. Be experimental with syncopation and include Afro-Cuban influences.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Laid-back acoustic pop in the key of G major",
+        "output": {
+            "chords": "G | Em | C | D",
+            "scales": "G Major (G A B C D E F#)",
+            "title": "Acoustic Serenity in G",
+            "style": "Maintain a relaxed strumming pattern with occasional plucks for melody.",
+            "example": "M:4/4\nL:1/8\nK:G\n|: \"G\"G4 B2 d2 | \"Em\"E4 G2 B2 | \"C\"C4 E2 G2 | \"D\"D4 F2 A2 :|"
+        }
+    },
+    {
+        "input": "Soulful Rock jam in the style of the late 60s",
+        "output": {
+            "chords": "D | G | D | D | G | G | D | D | A7 | G | D | A7",
+            "scales": "D Pentatonic Minor (D F G A C)",
+            "title": "Vintage Soul Rock Groove",
+            "style": "Use warm overdriven tones with a slight crunch, blending emotive bends and soulful vibrato. Keep a steady rock groove.",
+            "example": "\nM:4/4\nL:1/8\nK:D\n|: \"D\"D4 F2 A2 | \"G\"G4 B2 d2 | \"D\"D4 F2 A2 | \"D\"D4 z4 |\n\"G\"G4 B2 d2 | \"G\"G4 B2 d2 | \"D\"D4 F2 A2 | \"D\"D6 z2 |\n\"A7\"A4 c2 e2 | \"G\"G4 B2 d2 | \"D\"D4 F2 A2 | \"A7\"A4 z4 :|\n"
+        }
+    },
+    {
+        "input": "Reggae-inspired groove with a touch of Blues",
+        "output": {
+            "chords": "Dm7 | G7 | Dm7 | Dm7 | G7 | Em7 | Am7 | Fmaj7 | Dm7 | G7 | Dm7 | A7",
+            "scales": "D Natural Minor (D E F G A Bb C)",
+            "title": "Reggae Blues in Dm",
+            "style": "Play with a chilled, laid-back rhythm with offbeat chords and a relaxed groove.",
+            "example": "M:4/4\n L:1/8\n K:Dm\n |: \"Dm7\" D4 F2 A2 | \"G7\" G4 B2 d2 | \"Em7\" E4 G2 B2 | \"Am7\" A4 C2 E2 | \"Fmaj7\" F4 A2 c2 | \"A7\" A4 E2 A2 :|\n"
+        }
+    },
+    {
+        "input": "Laid-back Rock groove in A Major",
+        "output": {
+            "chords": "A | C#m | D | E | A | C#m | D E | A",
+            "scales": "A Major (A B C# D E F# G#)",
+            "title": "Chill Rock Riff in A",
+            "style": "Create a relaxed, backbeat driven groove. Think about smooth transitions and steady rhythms that allow for melodic soloing.",
+            "example": "M:4/4\nL:1/8\nK:A\n|: \"A\"A4 F4 | \"C#m\"E4 C4 | \"D\"D4 F4 | \"E\"G4 E4 |\n\"A\"A4 F4 | \"C#m\"E4 C4 | \"D\"D4 F4 | \"E\"G4 E4 \"A\"A4 :|"
+        }
+    },
+    {
+        "input": "Smooth Soul groove",
+        "output": {
+            "chords": "Cmaj7 | Fmaj7 | Cmaj7 | Em7 A7 | Dm7 | G7 | Fmaj7 G7 | Cmaj7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Soulful Heartbeat",
+            "style": "Sustain a smooth and relaxed feel with a touch of warmth, and make sure the groove sits right in the pocket.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Soulful R&B groove",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G13 | Cmaj7 | Am7 | Dm7 | G13",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Soulful Heartbeat in C",
+            "style": "Smooth and mellow with a slow to medium tempo, emphasizing the backbeat",
+            "example": "M: 4/4\n L: 1/8\n K: C |: \"Cmaj7\"C4 E2 G2 | \"Am7\"A4 C2 E2 | \"Dm7\"D4 F2 A2 | \"G13\"G4 B2 D2 |\n \"Cmaj7\"C4 E2 G2 | \"Am7\"A4 C2 E2 | \"Dm7\"D4 F2 A2 | \"G13\"G4 B2 D2 :|"
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | Fmaj7 | Bm7b5 | E7 | Am7 | A7",
+            "scales": "C Major (C D E F G A B) / A Natural Minor (A B C D E F G)",
+            "title": "Bossa Breeze in C",
+            "style": "Keep the rhythm light and breezy with a consistent, gentle Bossa Nova beat and smooth, flowing melodic lines.",
+            "example": "M:4/4 L:1/8 K:C |: \"Dm9\"d4 f2 a2 | \"G13\"g4 b2 d'2 | \"Cmaj7\"c'4 e2 g2 | \"Fmaj7\"f4 a2 c'2 | \"Bm7b5\"b4 d2 f2 | \"E7\"e3^d e2 | \"Am7\"a4 e2 a2 | \"A7\"a4 ^g2 a2 :|"
+        }
+    },
+    {
+        "input": "70s Disco inferno in F# minor",
+        "output": {
+            "chords": "F#m7 | Bm7 | F#m7 | C#m7 | F#m7 | Bm7 | E9 | F#m7",
+            "scales": "F# Dorian (F# G# A B C# D# E)",
+            "title": "Disco Dancer's Delight",
+            "style": "Groove with four-on-the-floor beats and syncopated basslines, adding bright staccato string sections.",
+            "example": "M:4/4\nL:1/8\nK:F#m\nV:1\n|:\"F#m7\"F#4 A4 | \"Bm7\"B4 d4 | \"F#m7\"F#4 A4 | \"C#m7\"C#4 E4 |\n\"F#m7\"F#4 A4 | \"Bm7\"B2 d4 e2 | \"E9\"E4 G#4 | \"F#m7\"F#4 A4 |"
+        }
+    },
+    {
+        "input": "Classic Funk Breakdown",
+        "output": {
+            "chords": "Eb7 | Ab7 | Eb7 | Eb7 | Bb7 | Ab7 | Eb7 | Bb7",
+            "scales": "Eb Mixolydian (Eb F G Ab Bb C Db)",
+            "title": "Groovetown Funk in Eb",
+            "style": "Incorporate punchy horns, syncopated bass lines, and crisp, funky guitar rhythms. Plenty of attitude and groove.",
+            "example": "M:4/4\nL:1/8\nK:Eb\n|: \"Eb7\"Eb4 G2 Bb2 | \"Ab7\"Ab4 C2 Eb2 | \"Eb7\"Eb4 G2 Bb2 | \"Eb7\"Eb6 z2 |\n\"Bb7\"Bb4 D2 F2 | \"Ab7\"Ab4 C2 Eb2 | \"Eb7\"Eb4 G2 Bb2 | \"Bb7\"Bb4 D4 :|"
+        }
+    },
+    {
+        "input": "Funky rhythm with a hint of Latin jazz",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | Cmaj7/B | Am7 | Am7/D | Gm7 | Gm7/C | Fmaj7 | E7#9 | A7sus4 | D7#9",
+            "scales": "C Major Scale (C D E F G A B)",
+            "title": "Latin Funk Fiesta",
+            "style": "Blend traditional funk rhythms with Latin percussion elements. Aim for a warm, groovy feel with syncopated rhythms highlighting the off-beats.",
+            "example": "M:4/4\nL:1/8\nK:Dm\n|: \"Dm9\"D4 F2 A2 | \"G13\"G4 B2 d2 | \"Cmaj7\"c4 E2 G2 | \"Cmaj7/B\"B4 E2 G2 |\n| \"Am7\"A4 C2 E2 | \"Am7/D\"D4 C2 E2 | \"Gm7\"G4 Bb2 d2 | \"Gm7/C\"C4 Bb2 d2 |\n| \"Fmaj7\"F4 A2 c2 | \"E7#9\"E4 G#2 B2 | \"A7sus4\"A4 c2 e2 | \"D7#9\"D4 F#2 A2 :|\n"
+        }
+    },
+    {
+        "input": "Reggae groove in B minor",
+        "output": {
+            "chords": "Bm | G | D | A",
+            "scales": "B Natural Minor (B C# D E F# G A)",
+            "title": "Island Skank Groove",
+            "style": "Relaxed tempo with accentuated upbeats and a steady offbeat rhythm for a chill, beachside vibe.",
+            "example": "M:4/4\nL:1/8\nK:Bm\n|: \"Bm\"B4 F4 | \"G\"G4 D4 | \"D\"D4 A2 F2 | \"A\"A6 z2 :|"
+        }
+    },
+    {
+        "input": "Reggae vibe with a touch of jazz",
+        "output": {
+            "chords": "Cmaj7 | Gm7 | Fmaj7 | Gm7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Jazz on the Beach",
+            "style": "Embrace a relaxed reggae rhythm with the backbeat emphasized. Add jazzy inflections during solos to spice things up.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Reggae feel with a blues twist",
+        "output": {
+            "chords": "Gm | Cm | Gm | Gm | Cm | Cm | Gm | Gm | D7 | Cm | Gm | D7",
+            "scales": "G Minor Pentatonic (G Bb C D F)",
+            "title": "Rasta Blues Dream",
+            "style": "Emphasize the backbeat with offbeat strumming on the guitar. Mix minor pentatonic licks with the laid-back groove of reggae.",
+            "example": "M:4/4 \nL:1/8 \n K:Gmin |: \"Gm\"G4 Bb2 D2 | \"Cm\"C4 Eb2 G2 | \"Gm\"G4 Bb2 D2 | \"Gm\"G4 z4 | \"Cm\"C4 Eb2 G2 | \"Cm\"C4 Eb2 G2 | \"Gm\"G4 Bb2 D2 | \"Gm\"G4 z4 | \"D7\"D4 F#2 A2 | \"Cm\"C4 Eb2 G2| \"Gm\"G4 Bb2 D2 | \"D7\"D4 F#2 A2 :|"
+        }
+    },
+    {
+        "input": "Smooth jazz and R&B groove",
+        "output": {
+            "chords": "Cmaj7 | Fmaj7 | Em7 | A7 | Dm7 | G7 | Cmaj7 | E7#9",
+            "scales": "C Ionian (C D E F G A B)",
+            "title": "Velvet Evening",
+            "style": "Play with a silky smooth approach, utilizing a light touch and allowing the chords to breathe.",
+            "example": "\nM:4/4\nL:1/8\nK:C\n |: \"Cmaj7\"C4 E2 G2 | \"Fmaj7\"F4 A2 c2 | \"Em7\"E4 G2 B2 | \"A7\"A4 ^c2 e2 |\n \"Dm7\"D4 F2 A2 | \"G7\"G4 B2 d2 | \"Cmaj7\"C4 E2 G2 | \"E7#9\"E4 ^G2 A2 :|\n"
+        }
+    },
+    {
+        "input": "Laid-back Reggae groove",
+        "output": {
+            "chords": "Cmaj7 | Gmaj7 | Am7 | Fmaj7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Island Breeze in C",
+            "style": "Strum on the offbeat for that classic Reggae vibe. Keep it mellow and let the rhythm flow.",
+            "example": "M:4/4\n                L:1/8\n                K:C\n                |: \"Cmaj7\"C2 E2 G2 B2 | \"Gmaj7\"G2 B2 D2 F2 | \"Am7\"A2 C2 E2 G2 | \"Fmaj7\"F2 A2 C2 E2 :|\n"
+        }
+    },
+    {
+        "input": "Melodic Minor harmonization and improvisation",
+        "output": {
+            "chords": "AmM7 | D7 | Gmaj7 | Cmaj9 | F#m7b5 | B7b9 | Em9 | E7#9",
+            "scales": "A Melodic Minor (A B C D E F# G#)",
+            "title": "Elevated Melodic Minor Progression",
+            "style": "Navigate the harmonic minor sound with the raised 6th and 7th, adding tension through altered dominant chords.",
+            "example": "\n                M:4/4\n                L:1/8\n                K:Am\n                |: \"AmM7\"A4 C2 E2 | \"D7\"D4 F#2 A2 | \"Gmaj7\"G4 B2 D2 | \"Cmaj9\"C4 E2 G2 |\n                \"F#m7b5\"F4 A2 C2 | \"B7b9\"B,4 D2 F2 | \"Em9\"E4 G2 B2 | \"E7#9\"E4 ^G2 A2 :|\n                "
+        }
+    },
+    {
+        "input": "Reggae inspired jam session",
+        "output": {
+            "chords": "Gm | Cm | Dm | Gm",
+            "scales": "G Dorian (G A Bb C D E F)",
+            "title": "Island Breeze in G minor",
+            "style": "Focus on the off-beat for your chords while maintaining a relaxed, swaying rhythm. Basslines should be melodic and groove-heavy.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Reggae style jam in the key of A major",
+        "output": {
+            "chords": "A | D | A | E | A | D | A | E",
+            "scales": "A Major (A B C# D E F# G#)",
+            "title": "Island Stride in A",
+            "style": "Keep the rhythm relaxed and syncopated. Emphasize the offbeat chords, and let the bass line drive the groove.",
+            "example": "M:4/4\n L:1/8\n K:A\n |: \"A\"A4 A,2 z2 | \"D\"d4 f2 z2 | \"A\"A4 c2 z2 | \"E\"e4 ^G2 B2 |\n \"A\"A4 A,2 z2 | \"D\"d4 f2 z2 | \"A\"A4 E2 A2 | \"E\"e4 ^G2 B2 :|\n"
+        }
+    },
+    {
+        "input": "Reggae Jam in the key of A major",
+        "output": {
+            "chords": "A | D | A | E | A | D | A | E",
+            "scales": "A Major (A B C# D E F# G#)",
+            "title": "Sunny Skank in A Major",
+            "style": "Play with a relaxed, offbeat rhythm accentuating the 2nd and 4th beats to capture the reggae vibe.",
+            "example": "\nM:4/4\nL:1/8\nK:A\n|: \"A\"A4 z2 A2 | \"D\"D4 z2 D2 | \"A\"A4 z2 A2 | \"E\"E4 z2 E2 |\n\"A\"A4 z2 A2 | \"D\"D4 z2 D2 | \"A\"A4 z2 A2 | \"E\"E4 z4 :|\n"
+        }
+    },
+    {
+        "input": "Laid-back beach reggae vibe",
+        "output": {
+            "chords": "Cmaj7 | Gmaj7 | Am7 | Em7 | Fmaj7 | Cmaj7 Gmaj7 | Am7 | Em7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Sunny Reggae Groove",
+            "style": "Play with a relaxed, steady offbeat rhythm characteristic of reggae. Utilize muted guitar strums and a smooth bass line.",
+            "example": "M:4/4\nL:1/8\nK:C\n|: \"Cmaj7\"C4 E2 G2 | \"Gmaj7\"G4 B2 D2 | \"Am7\"A3 G E2 A2 | \"Em7\"E4 G2 B2 |\n| \"Fmaj7\"F4 A2 C2 | \"Cmaj7\"C3 E \"Gmaj7\"G2 B2 | \"Am7\"A3 G E2 A2 | \"Em7\"E4 G2 B2 :|"
+        }
+    },
+    {
+        "input": "Rock jam with a driving groove",
+        "output": {
+            "chords": "D5 | G5 | A5 | D5",
+            "scales": "D minor pentatonic (D F G A C)",
+            "title": "Power Drive in D",
+            "style": "Strong downbeat with distorted guitar riffs. Keep the rhythm tight and energetic.",
+            "example": "\nM:4/4\nL:1/8\nK:Dmin\n|: \"D5\"D4 D4 | \"G5\"G4 G4 | \"A5\"A4 A4 | \"D5\"D4 D4 :|\n"
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Em7 | A7 | Dmaj7 | Gmaj7 | C#m7 | F#7",
+            "scales": "D Major/Ionian (D E F# G A B C#)",
+            "title": "Bossa Breeze in D",
+            "style": "Play with a light touch and syncopation characteristic of Bossa Nova. Use nylon-string guitar for authentic tone.",
+            "example": "\nM:4/4\nL:1/8\nK:D\n\"Dmaj7\"D4 F2 A2 | \"Gmaj7\"G4 B2 d2 | \"Em7\"E4 G2 B2 | \"A7\"A4 c2 e2 |\n\"Dmaj7\"D4 F2 A2 | \"Gmaj7\"G4 B2 d2 | \"C#m7\"C4 E2 G2 | \"F#7\"F4 A2 c2 :|\n"
+        }
+    },
+    {
+        "input": "Latin Jazz groove",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | F#7b9 | Bm7 | E7#9 | Am7 | A7alt",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Hot Havana Nights",
+            "style": "Syncopated rhythms with a strong emphasis on the 2 and 4 beats. Utilize Latin percussion and montuno piano patterns.",
+            "example": "\n                M:4/4\n                L:1/8\n                K:Dmin\n                |: \"Dm9\"D4 F2 A2 | \"G13\"G4 B2 e2 | \"Cmaj7\"C4 E2 G2 | \"F#7b9\"F4 A2 c2 |\n                \"Bm7\"B4 d2 f2 | \"E7#9\"E4 G2 B2 | \"Am7\"A4 c2 e2 | \"A7alt\"A4 c2 e2 :|\n                "
+        }
+    },
+    {
+        "input": "Upbeat Reggae vibe",
+        "output": {
+            "chords": "C | G | Am | F | C | G | Am | F",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Island Reggae Groove",
+            "style": "Use a relaxed, off-beat strumming pattern and let the rhythm 'bounce' attached to a strong bass line.",
+            "example": "\nM:4/4\nL:1/8\nK:C\n|: \"C\"C4 z4 | \"G\"G4 z4 | \"Am\"A4 z4 | \"F\"F4 z4 |\n \"C\"C4 z4 | \"G\"G4 z4 | \"Am\"A4 z4 | \"F\"F4 z4 :|\n"
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Em7 | A7 | Dmaj7 | Gmaj7 | C#m7 | F#7",
+            "scales": "D Ionian (D E F# G A B C#)",
+            "title": "Breezy Bossa Dream",
+            "style": "A relaxed, laid-back groove with a light, syncopated rhythm typical of Bossa Nova. Melody can be lyrical and expressive.",
+            "example": {
+                "abc": "M:4/4\nL:1/8\nK:Dmaj7\nV:1\n|: \"Dmaj7\"d4 F2 A2 | \"Gmaj7\"g4 B2 d2 | \"Em7\"e4 G2 B2 | \"A7\"a4 c2 e2 |\n\"Dmaj7\"d4 F2 A2 | \"Gmaj7\"g4 B2 d2 | \"C#m7\"c4 e2 g2 | \"F#7\"f4 a2 c'2 :|\n",
+                "notation": "Dmaj7\n"
+            }
+        }
+    },
+    {
+        "input": "Generate a Latin Jazz groove",
+        "output": {
+            "chords": "Dm7 | G7 | Em7 | A7 | Dm7 | Dm7 | G7 | G7",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Sunny Clave Lounge",
+            "style": "Focus on complex, syncopated Latin rhythms with a strong emphasis on the clave. Maintain a danceable groove and use the Dorian mode for a jazzy solo.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "A Soulful R&B groove",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Cmaj7 | Am7 | Dm7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "R&B Serenade in C",
+            "style": "Lay back and let the rhythm section set a smooth, relaxed tone. Think emotive melodies and a gentle touch.",
+            "example": "M:4/4\nL:1/8\nK:C\n|: \"Cmaj7\"C4 E2 G2 | \"Am7\"A4 c2 e2 | \"Dm7\"d4 f2 a2 | \"G7\"g4 b2 d2 |\n \"Cmaj7\"C4 E2 G2 | \"Am7\"A4 c2 e2 | \"Dm7\"d4 f2 a2 | \"G7\"g4 b2 d2 :|"
+        }
+    },
+    {
+        "input": "Latin Jazz Fusion jam",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | F#7b9 | Bm7 | E7#9 | Am7 | D7b13",
+            "scales": "D Dorian (D E F G A B C) and C major (C D E F G A B)",
+            "title": "Cubano Bop Fiesta",
+            "style": "Combine Afro-Cuban rhythms with jazz harmonies. Use syncopated patterns and lots of percussion.",
+            "example": "M:4/4\nL:1/8\nK:Dm\n|: \"Dm9\"D4 F2 A2 | \"G13\"G4 B2 d2 | \"Cmaj7\"C4 E2 G2 | \"F#7b9\"F4 A2 c2 |\n\"Bm7\"B4 d2 f2 | \"E7#9\"E4 G2 B2 | \"Am7\"A4 c2 e2 | \"D7b13\"D4 F2 A2 :|\n"
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova groove",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | F#m7b5 B7 | Em9 | A13 | Dm9 | G13 | Cmaj7 | F#m7b5 B7 | E7#9 | A7#5",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Bossa Breeze in C",
+            "style": "Keep the rhythm light and syncopated, with emphasis on the nylon-string guitar for that iconic Bossa Nova sound.",
+            "example": "M:4/4\nL:1/8\nK:C\n"
+        }
+    },
+    {
+        "input": "Reggae groove with a touch of blues",
+        "output": {
+            "chords": "Cm9 | Fm9 | Cm9 | G7 | Cm9 | Fm9 | Cm9 | G7",
+            "scales": "C Dorian (C D Eb F G A Bb)",
+            "title": "Island Blues Bounce",
+            "style": "Maintain a relaxed, off-beat strumming pattern characteristic of reggae with a bluesy undertone for solo sections.",
+            "example": "M:4/4\nL:1/8\nK:Cdor\n|: \"Cm9\"C4 ^F2 A2 | \"Fm9\"F4 A2 c2 | \"Cm9\"C4 G2 B2 | \"G7\"G4 B2 d2 |\n\"Cm9\"C4 ^F2 A2 | \"Fm9\"F4 A2 c2 | \"Cm9\"C4 G2 B2 | \"G7\"G4 B2 d2 :|"
+        }
+    },
+    {
+        "input": "Funky groove with a bit of a Latin twist",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | Am7 | Dm9 | G13 | Cmaj7 | E7#9",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Latin Funk Fusion",
+            "style": "Combine tight funky rhythm guitar with Latin percussion accents. The E7#9 at the end of the progression adds a spicy resolution.",
+            "example": "M:4/4\nL:1/8\nK:Dmin\n\"Dm9\"D4 F2 A2 | \"G13\"G4 B2 D2 | \"Cmaj7\"C4 E2 G2 | \"Am7\"A4 c2 e2 |\n\"Dm9\"D4 F2 A2 | \"G13\"G4 B2 D2 | \"Cmaj7\"C4 E2 G2 | \"E7#9\"E4 ^G2 A2"
+        }
+    },
+    {
+        "input": "Country rock infused with a blues edge",
+        "output": {
+            "chords": "A | A | E7 | E7 | D | D | A | A | E7 | E7 | A D | A E7",
+            "scales": "A Major Pentatonic (A B C# E F#)",
+            "title": "Bluesy Country Road",
+            "style": "Steady rhythm with twangy guitars. Blend rock drive with the storytelling tradition of country.",
+            "example": "M:4/4 \nL:1/8 \nK:A || \"A\"A4 c2 e2 | \"A\"a4 A2 c2 | \"E7\"E4 ^G2 B,2 | \"E7\"e4 E2 G2 | \"D\"D4 F2 A2 | \"D\"d3 c d2 F2 | \"A\"A4 c2 e2 | \"A\"a4 A2 c2 | \"E7\"E4 ^G2 B,2 | \"E7\"e4 E2 G2 | \"A\"A3 B \"D\"d2 F2 | \"A\"a2 \"E7\"e2 \"A\"A4 ||"
+        }
+    },
+    {
+        "input": "Rock groove with a gritty edge",
+        "output": {
+            "chords": "A5 | C5 | D5 | A5 | A5 | C5 | D5 | A5 | E5 | G5 | A5 | E5",
+            "scales": "A Minor Pentatonic (A C D E G)",
+            "title": "Gritty Rock Groove in A",
+            "style": "Drive the rhythm with a heavy, aggressive guitar tone and punchy drums. Great for powerful riffs and high-energy solos.",
+            "example": "\nM:4/4\nL:1/8\nK:A\n|: \"A5\"A4 z2 A2 | \"C5\"C4 z2 E2 | \"D5\"D4 z2 F2 | \"A5\"A4 z4 |\n\"A5\"A4 z2 A2 | \"C5\"C4 z2 E2 | \"D5\"D4 z2 F2 | \"A5\"A4 z4 |\n\"E5\"E4 G4 | \"G5\"G4 z4 | \"A5\"A4 z2 A2 | \"E5\"E4 z4 :|\n"
+        }
+    },
+    {
+        "input": "Laidback Acoustic Folk",
+        "output": {
+            "chords": "C | G/B | Am | F | C | G | Am G | F G",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Sunset Serenade",
+            "style": "Emphasize a relaxed strumming pattern and occasional fingerpicking for an authentic acoustic sound.",
+            "example": "M:3/4\nL:1/8\nK:C\n|: \"C\"C2 E2 G2 | \"G/B\"B2 d2 G2 | \"Am\"A2 c2 e2 | \"F\"F2 A2 c2 | \n \"C\"C2 E2 G2 | \"G\"G2 B2 d2 | \"Am\"A2 \"G\"G2 F2 E2 | \"F\"F2 \"G\"G4 :|"
+        }
+    },
+    {
+        "input": "Generate a Rock Jam in the style of the 70s",
+        "output": {
+            "chords": "D5 | G5 | A5 | A5 | D5 | G5 | D5 | A5",
+            "scales": "D Minor Pentatonic (D F G A C)",
+            "title": "Retro Rock Riff",
+            "style": "Play with driving rhythms, palm-muted power chords and open a space for soaring lead guitar solos.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Mellow Rock vibe with a touch of psychedelic",
+        "output": {
+            "chords": "D | G | D | A | G | D | A | C G | D",
+            "scales": "D Major (D E F# G A B C#)",
+            "title": "Psychedelic Daze",
+            "style": "Focus on legato melodies and a relaxed tempo with smooth transitions between chords. Add in some modulation effects like phaser or chorus for that psychedelic atmosphere.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Smooth Latin Jazz Groove",
+        "output": {
+            "chords": "Dm9 | Gm9 | A7b13 | Dm9 | Gm9 | A7b13 | Dm9 | Dm9/B | Gm9 | A7b13 | Dm9/B | Gm9 A7b13 | Dm9",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Breeze on the Sea",
+            "style": "Blend Afro-Cuban rhythms with smooth Latin jazz harmonies for a relaxed, beachy vibe. Focus on syncopation and intricate percussive elements.",
+            "example": "M:4/4\nL:1/8\nK:Dm\n|: \"Dm9\"D4 F4 | \"Gm9\"G4 A2 d2 | \"A7b13\"A4 c4 | \"Dm9\"d6 z2 | \"Gm9\"g4 B2 d2 | \"A7b13\"a6 z2 | \"Dm9\"D4 F4 | \"Dm9/B\"B4 d4 | \"Gm9\"G6 A2 | \"A7b13\"c6 A2 | \"Dm9/B\"B4 d4 | \"Gm9\"g6 \"A7b13\"e4 | \"Dm9\"d8 :|"
+        }
+    },
+    {
+        "input": "Upbeat country rock jam",
+        "output": {
+            "chords": "D | G | D | A7 | D | G | D A7 | D",
+            "scales": "D Major (D E F# G A B C#)",
+            "title": "Country Rockin' Road",
+            "style": "Play with an upbeat, driving rhythm, featuring twangy guitars and dynamic, playful energy.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Laid-back reggae groove",
+        "output": {
+            "chords": "Dm7 | G7 | Dm7 | G7 | Em7 | A7 | Em7 | A7",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Chill Vibes in Dm",
+            "style": "Maintain a relaxed, off-beat rhythm with mellow, drawn-out chords for a smooth reggae sound.",
+            "example": "\n            M:4/4\n            L:1/8\n            K:Dm\n            |: \"Dm7\"D4 A2 d2 | \"G7\"G4 B2 d2 | \"Dm7\"D4 A2 d2 | \"G7\"G4 B2 d2 |\n            \"Em7\"E4 B2 e2 | \"A7\"A,4 C2 E2 | \"Em7\"E4 B2 e2 | \"A7\"A,4 C2 E2 :|\n            "
+        }
+    },
+    {
+        "input": "A relaxed, smooth Bossa Nova",
+        "output": {
+            "chords": "Dmaj7 | Gmaj7 | Em7 | A7 | Dmaj7 | Gmaj7 | Em7 | A7",
+            "scales": "D Ionian (D E F# G A B C#)",
+            "title": "Bossa Breeze in D",
+            "style": "Gentle, flowing rhythms with a focus on melody and harmonic complexity. Keep the feel light and breezy.",
+            "example": "M:4/4 \nL: 1/8 \nK: D\n |D2 F#2 A2 D2 | G2 B2 D2 G2 | E2 G2 B2 E2 | A2 C#2 E2 A2 | D2 F#2 A2 D2 | G2 B2 D2 G2 | E2 G2 B2 E2 | A2 C#2 E2 A2|"
+        }
+    },
+    {
+        "input": "Hard rock jam in E",
+        "output": {
+            "chords": "E5 | G5 | A5 | E5 | E5 | G5 | A5 | B5",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Electric Surge in E",
+            "style": "Start with powerful guitar riffs, high energy and straight-ahead rock rhythm.",
+            "example": "M:4/4\n"
+        }
+    },
+    {
+        "input": "Bluesy Rock feel",
+        "output": {
+            "chords": "A5 | D5 | A5 | A5 | D5 | D5 | A5 | A5 | E5 | D5 | A5 | E5",
+            "scales": "A Minor Pentatonic (A C D E G)",
+            "title": "Rockin' Blues shuffle in A",
+            "style": "Combine the drive of rock with a bluesy shuffle rhythm. Use power chords and pentatonic riffs.",
+            "example": "\n                M:4/4\n                L:1/8\n                K:A\n                |: \"A5\"A2 A2 A2 z2 | \"D5\"D2 D2 D2 z2 | \"A5\"A2 A2 A2 z2 | \"A5\"A2 A2 A2 z2 |\n                \"D5\"D2 D2 D2 z2 | \"D5\"D2 D2 D2 z2 | \"A5\"A2 A2 A2 z2 | \"A5\"A2 A2 A2 z2 |\n                \"E5\"E2 E2 E2 z2 | \"D5\"D2 D2 D2 z2 | \"A5\"A2 A2 A2 z2 | \"E5\"E2 E2 E2 z2 :|\n                "
+        }
+    },
+    {
+        "input": "Latin Jazz jam session",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | Cmaj7 | Dm9 | G13 | Cmaj7 | A7#5 | Dm9 | G13 | Cmaj7 | E7#9",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Hot Havana Nights",
+            "style": "Combine Afro-Cuban rhythms with jazz harmonies, opting for a light, syncopated feel.",
+            "example": "M:4/4 \n L:1/8 \n K:Cmaj |\"Dm9\" d4 F2 A2 |\"G13\" g4 B2 e2 | \"Cmaj7\" c4 E2 G2 | \"A7#5\" a4 ^c2 e2 |\"E7#9\" e4 g4 ^d2|"
+        }
+    },
+    {
+        "input": "Smooth Bossa Nova",
+        "output": {
+            "chords": "Cmaj7 | Dm7 G7 | Em7 | A7 | Dm7 | G7 | Cmaj7 | E7#5 | Am7 | D7#9 | Dm7 | G7#5",
+            "scales": "C Ionian (C D E F G A B)",
+            "title": "Breezy Bossa",
+            "style": "Play with a gentle, lilting rhythm, keeping the feel light and breezy. Let the percussion maintain a soft bossa nova groove.",
+            "example": "M:4/4\nL:1/8\nK:C\n|: \"Cmaj7\"C4 E2 G2 | \"Dm7\"D4 \"G7\"F2 E2 | \"Em7\"E4 G2 B2 | \"A7\"A4 c2 e2 |\n\"Dm7\"D4 \"G7\"F2 E2 | \"Cmaj7\"C4 E2 G2 | \"E7#5\"E4 ^G2 B2 | \"Am7\"A4 c2 e2 |\n\"D7#9\"d4 f2 a2 | \"Dm7\"d4 \"G7#5\"g2 f2 | \"Cmaj7\"C4 E2 G2 |1 \"G7#5\"B2 A2 G4 :|2 \"G7#5\"B2 A2 G2 z2 |\n"
+        }
+    }
+]
