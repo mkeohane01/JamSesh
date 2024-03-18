@@ -18,11 +18,11 @@ def generate_gpt():
     try:
         jam = json.loads(response)
         print(jam['output'])
-        return jam['output']
+        return jsonify(jam['output']), 200
     except Exception as e:
         print(f"Failed to load json from response\n {e}")
         print(response)
-        return jsonify({"error": e})
+        return jsonify({"error": e}), 500
     
 @app.route('/regeneratemusic', methods=['POST'])
 def regenerate_music():
@@ -33,11 +33,11 @@ def regenerate_music():
     response = regenerate_sheetmusic(data['chords'], data['scales'], data['title'], data['style'], data['example'])
     try:
         newjam = json.loads(response)
-        return jsonify({"examplesong": newjam['output']})
+        return jsonify({"examplesong": newjam['output']}), 200
     except Exception as e:
         print(f"Failed to load json from response\n {e}")
         print(response)
-        return jsonify({"error": e})
+        return jsonify({"error": e}), 500
 
 if __name__ == '__main__':
     app.run(debug=True, port=8080)

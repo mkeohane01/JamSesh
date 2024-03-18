@@ -7,7 +7,7 @@ import json
 def build_fewshot_prompt(prompt):
     """
     Create a prompt for the OpenAI API that allows for creative musical recommendations using ABC notation though few shot.
-    Input:
+    Input: 
         user prompt
     Returns:
         prompt (str): Prompt for the OpenAI API
@@ -140,7 +140,7 @@ def query_gpt(prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_
     return response.choices[0].message.content.strip()
 
 
-def generate_jam_from_gpt(prompt, model="gpt-4-0125-preview", temperature=1, max_tokens=400):
+def generate_jam_from_gpt(prompt, model="gpt-4-0125-preview", temperature=1, max_tokens=500):
     """
     Generate Various Chord Progressions, Improvisation Scales, and example song in ABC notation
     using the OpenAI API based on few shot prompt.
@@ -196,7 +196,7 @@ def regenerate_sheetmusic(chords, scales, title, style, example_song, prompt=Non
             
         Make a new 8-24 bar melody to go along with those chords: {chords} and and scales {scales}. Be creative, choose exciting rythmns and musical phrases.
         """
-    response = query_gpt(sheetmusic_prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=500)
+    response = query_gpt(sheetmusic_prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=600)
     return response
 
 

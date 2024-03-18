@@ -32,21 +32,26 @@ const HomePage = () => {
 
   const handleSendMessage = async (message: string) => {
     setIsLoading(true);
-    const response = await fetch('http://127.0.0.1:8080/generatejam', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ input: message }),
-    });
-
-    if (!response.ok) {
-      console.error('Error fetching music details');
-      return;
+    try {
+      const response = await fetch('http://127.0.0.1:8080/generatejam', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ input: message }),
+      });
+  
+      const data = await response.json(); // Parse the JSON data first
+      setIsLoading(false);
+  
+      if (!response.ok) {
+        throw new Error(data.error || 'Error fetching music details'); // Use the error message from the response if available
+      }
+  
+      setMusicDetails(data); // Update the state with the new music details
+    } catch (error: any) {
+      setIsLoading(false);
+      console.error('Fetch error:', error.message);
+      alert("Please Try Again! error: " + error.message); // Alert the error message or set it in state to display in the UI
     }
-
-    const result = await response.json();
-    setIsLoading(false);
-    setMusicDetails(result); // Update the state with the new music details
-    console.log(musicDetails)
   };
 
   const handleNewSheetMusic = (newExample: string) => {
