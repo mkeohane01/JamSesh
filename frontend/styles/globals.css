@@ -99,6 +99,34 @@ h2 {
   font-weight: bold;
 }
 
+/* Prompt input styling */
+.regenerate-input {
+  padding: 0.5rem;
+  border: 2px solid #ffbd59; /* Gold border to match other input elements */
+  background-color: transparent; /* Keep the background consistent with the theme */
+  color: #fff; /* Text color to stand out against the dark background */
+  font-family: 'Playfair Display', serif; /* Matching the overall font style */
+  font-size: 1rem; /* Consistent font sizing */
+  border-radius: 4px; /* Rounded corners to match the buttons and inputs */
+  width: auto; /* Adjust width as needed, or use specific values */
+  min-width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth, similar to other elements */
+  transition: border-color 0.3s ease; /* Smooth transition for focus/highlight */
+}
+
+.regenerate-input:focus {
+  border-color: #eac54f; /* Lighter gold when focused to draw attention */
+  outline: none; /* Remove default focus outline to maintain custom styling */
+}
+
+.regenerate-container {
+  display: flex; /* Use flexbox to lay out children (input and button) in a row */
+  justify-content: center; /* Center the children horizontally */
+  text-align: center;
+  max-width: 700px; /* Set the max width for sheet music container */
+  margin: 1rem auto; /* Center the sheet music */
+}
+
 .lottie-container {
   width: 200px;
   height: 200px;

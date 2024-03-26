@@ -12,7 +12,7 @@ def generate_gpt():
     Generate response using few shot prompt engineering with gpt 4
     '''
     data = request.get_json()
-    print(data)
+    # print(data)
     prompt = data.get('input')
     response = generate_jam_from_gpt(prompt)
     try:
@@ -30,9 +30,11 @@ def regenerate_music():
     Generate a new sheet music in ABC notation using few shot prompt engineering with gpt 4
     '''
     data = request.get_json()
-    response = regenerate_sheetmusic(data['chords'], data['scales'], data['title'], data['style'], data['example'])
+    # print(data)
+    response = regenerate_sheetmusic(data['chords'], data['scales'], data['title'], data['style'], data['example'], data['regenprompt'])
     try:
         newjam = json.loads(response)
+        print(newjam['output'])
         return jsonify({"examplesong": newjam['output']}), 200
     except Exception as e:
         print(f"Failed to load json from response\n {e}")

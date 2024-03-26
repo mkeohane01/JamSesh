@@ -156,7 +156,7 @@ def generate_jam_from_gpt(prompt, model="gpt-4-0125-preview", temperature=1, max
     response = query_gpt(few_shot_prompt, model, json=True, temperature=temperature, max_tokens=max_tokens)
     return response
 
-def regenerate_sheetmusic(chords, scales, title, style, example_song, prompt=None):
+def regenerate_sheetmusic(chords, scales, title, style, example_song, prompt):
     '''
     Using the chords and recommended scale, regenerate the sheet music for the Jam Session
 
@@ -173,28 +173,18 @@ def regenerate_sheetmusic(chords, scales, title, style, example_song, prompt=Non
     sheetmusic_prompt = f"""
         Generate sheet music for a Jam Session using ABC Notation in the style of {title} 
         using the following chord pogression: {chords} and the recoomended improvisation scale: {scales}.
-        The response should be a JSON and in the no-X ABC format notation exactly like these examples. 
-        {{ output: `{example_song}` }}
-        or
+        The response should be a JSON and in the no-X ABC format notation like this example. 
         {{ output: 
-            `
             M:4/4 
             L:1/8 
             K:A
-            %Harmony
-            V:1
             |: "A7"A4 e4 | "D7"d4 f4 | "A7"A4 c4 | "A7"A4 e4 |
             "D7"D4 f4 | "D7"D4 f4 | "A7"A4 c4 | "A7"A4 e4 |
             "E7"E4 g4 | "D7"d4 f4 | "A7"A4 c4 | "E7"E4 g4 :|
-            %Melody
-            V:2
-            |: "A7"A2 B2 C2 E2 | "D7"F2 d2 F2 A2 | "A7"A2 c2 E2 A2 | "A7"A4 B2 c2 |
-            "D7"D2 F2 A2 d2 | "D7"D2 F2 A2 d2 | "A7"A2 E2 c2 A2 | "A7"A4 B2 c2 |
-            "E7"e2 G2 B2 e2 | "D7"F2 A2 d2 F2 | "A7"A2 B2 c2 A2 | "E7"E4 G2 B2 :|
-            ` 
         }}
-            
-        Make a new 8-24 bar melody to go along with those chords: {chords} and and scales {scales}. Be creative, choose exciting rythmns and musical phrases.
+        The current song generated is { example_song } .
+        Make a new 8-24 bar melody to go along with those chords: {chords} and and scales {scales}. Be creative, choose exciting rythmns and musical phrases,
+        and make sure to update it according to this user prompt {prompt}.
         """
     response = query_gpt(sheetmusic_prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=600)
     return response

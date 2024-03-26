@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import ChatInput from './components/ChatInput'; // Adjust the import path as needed
 import ABCMusic from './components/ABCMusic';
-import RegenerateButton from './components/RegenerateButton';
+import RegenerationContainer from './components/RegenerationContainer';
 import LottieAnimation from './components/LottieMusicAnimation';
 import animationData from '../public/lottiemusicanimation.json';
 
 const HomePage = () => {
-  const [messages, setMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [musicDetails, setMusicDetails] = useState({
     chords: 'A7 | D7 | E7',
@@ -82,7 +81,7 @@ const HomePage = () => {
       {musicDetails.example && (
         <div>
           <ABCMusic notation={musicDetails.example} />
-          <RegenerateButton musicDetails={musicDetails} onNewMusic={handleNewSheetMusic} setLoading={setIsLoading} />
+          <RegenerationContainer musicDetails={musicDetails} onNewMusic={handleNewSheetMusic} setLoading={setIsLoading} />
         </div>
       )}
       </div>
