@@ -1,33 +1,16 @@
 import { useState } from 'react';
-import ChatInput from './components/ChatInput'; // Adjust the import path as needed
+import ChatInput from './components/ChatInput';
+import Head from 'next/head';
 import ABCMusic from './components/ABCMusic';
 import RegenerationContainer from './components/RegenerationContainer';
 import LottieAnimation from './components/LottieMusicAnimation';
 import animationData from '../public/lottiemusicanimation.json';
+import ChordDisplay from './components/ChordDisplay';
 
 const HomePage = () => {
   const [isLoading, setIsLoading] = useState(false);
-  const [musicDetails, setMusicDetails] = useState({
-    chords: 'A7 | D7 | E7',
-    scales: 'A Major Pentatonic (A B C# E F#)',
-    title: '12-Bar Blues Jam Session ',
-    style: 'Add a blues swing and rythmic liberty.',
-    example: ` 
-    M:4/4 
-    L:1/8 K:A
-    % Harmony - Classic 12-Bar Blues in A
-    V:1
-    |: "A7"A4 e4 | "D7"d4 f4 | "A7"A4 c4 | "A7"A4 e4 |
-    "D7"D4 f4 | "D7"D4 f4 | "A7"A4 c4 | "A7"A4 e4 |
-    "E7"E4 g4 | "D7"d4 f4 | "A7"A4 c4 | "E7"E4 g4 :|
-  
-    % Melody using A Major Pentatonic (A B C# E F#)
-    V:2
-    |: "A7"A2 B2 C2 E2 | "D7"F2 d2 F2 A2 | "A7"A2 c2 E2 A2 | "A7"A4 B2 c2 |
-    "D7"D2 F2 A2 d2 | "D7"D2 F2 A2 d2 | "A7"A2 E2 c2 A2 | "A7"A4 B2 c2 |
-    "E7"e2 G2 B2 e2 | "D7"F2 A2 d2 F2 | "A7"A2 B2 c2 A2 | "E7"E4 G2 B2 :|
-  `,
-  });
+  const [musicDetails, setMusicDetails] = useState(null);
+  const [showMelodyExample, setShowMelodyExample] = useState(true);
 
   const handleSendMessage = async (message: string) => {
     setIsLoading(true);
@@ -57,8 +40,17 @@ const HomePage = () => {
     setMusicDetails(prevDetails => ({ ...prevDetails, example: newExample }));
   };
 
+  const toggleMelodyExampleVisibility = () => {
+    setShowMelodyExample(!showMelodyExample);
+  };
+
   return (
     <div>
+      <Head>
+        <title>JamSesh.ai</title>
+        <meta name="description" content="JamSesh.ai - AI-powered music generation" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <header>
         <h1>JamSesh.ai</h1>
       </header>
@@ -70,20 +62,30 @@ const HomePage = () => {
         </div>
       )}
       <div>
-      {musicDetails.chords && (
+      {musicDetails?.chords && (
         <div className='music-details'>
           <h2>{musicDetails.title}</h2>
           <p><strong>Style:</strong> {musicDetails.style}</p>
-          <p><strong>Chords:</strong> {musicDetails.chords}</p>
+          <p><strong>Chords:</strong> {musicDetails.key}
+          <ChordDisplay chordString={musicDetails.chords} />
+          </p>
           <p><strong>Scales:</strong> {musicDetails.scales}</p>
         </div>
       )}
-      {musicDetails.example && (
-        <div>
-          <ABCMusic notation={musicDetails.example} />
-          <RegenerationContainer musicDetails={musicDetails} onNewMusic={handleNewSheetMusic} setLoading={setIsLoading} />
-        </div>
-      )}
+      {musicDetails?.example && (
+          <div id="exampleMelodySection" className="example-melody-section">
+            <div className="toggle-container" onClick={toggleMelodyExampleVisibility}>
+              <button className={`toggle-button ${showMelodyExample ? 'open' : ''}`}></button>
+              <span style={{marginLeft: '8px'}}>Example Melody</span>
+            </div>
+            {showMelodyExample && (
+              <div>
+                <ABCMusic notation={musicDetails.example} />
+                <RegenerationContainer musicDetails={musicDetails} onNewMusic={handleNewSheetMusic} setLoading={setIsLoading} />
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
     </div>
