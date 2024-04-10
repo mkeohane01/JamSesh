@@ -101,7 +101,8 @@ def build_fewshot_prompt(prompt):
         }},
     ]
 
-    Follow the following format for the output for query {prompt} exactly just like the examples above:
+    Follow the following format for the output for query {prompt} exactly just like the examples above: 
+    Strictly output in this JSON format for this {prompt}
 
     "input": "{prompt}",
     "output": {{
@@ -189,6 +190,19 @@ def regenerate_sheetmusic(chords, scales, title, style, example_song, prompt):
     response = query_gpt(sheetmusic_prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=600)
     return response
 
+def get_chord_abc(chord):
+    '''
+    Return ABC notation for the specified chord
+
+    Args:
+        chord (str): Chord to return in ABC notation
+    Returns:
+        ABC notation for the specified chord
+    '''
+    prompt = f"Return ABC notation for the entire chord {chord}. Examples- input: 'C7' returns: {{abcchord: '\"C7\"  CEG _B '}} or input:'G' returns: {{ abcchord: '\"G\"  GBD' }}  or input:'Dm' returns: {{ abcchord: '\"Dm\"  DF _B' }} . \
+    Now in same style as the example, return the ABC notation for the chord {chord} as a JSON."
+    response = query_gpt(prompt, model="gpt-3.5-turbo", json=True, temperature=1, max_tokens=200)
+    return response
 
 if __name__ == "__main__":
     load_dotenv()

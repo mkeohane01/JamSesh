@@ -1,29 +1,41 @@
 import React, { useState, useRef } from 'react';
+import ABCMusic from './ABCMusic';
 
 interface ChordDisplayProps {
   chordString: string;
 }
 
 const ChordDisplay: React.FC<ChordDisplayProps> = ({ chordString }) => {
-  const [selectedChord, setSelectedChord] = useState<{ chord: string; x: number; y: number } | null>(null);
+  const [selectedChord, setSelectedChord] = useState<{ chord: string; x: number; y: number; abcNotation?: string} | null>(null);
   const buttonRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
-  const handleChordClick = (chord: string, index: number) => {
+  const handleChordClick = async (chord: string, index: number) => {
     const button = buttonRefs.current[index];
     if (button) {
-      const rect = button.getBoundingClientRect();
-      // Check if the clicked chord is already selected. If so, close the popup.
       if (selectedChord && chord === selectedChord.chord) {
         setSelectedChord(null);
       } else {
-        setSelectedChord({
-          chord,
-          x: rect.left + window.scrollX + rect.width / 2,
-          y: rect.top + window.scrollY - 60, // Adjust if necessary
-        });
+        const rect = button.getBoundingClientRect();
+        const x = rect.left + window.scrollX + rect.width / 2;
+        const y = rect.top + window.scrollY - 40; // Adjust if necessary
+  
+        try {
+          const response = await fetch(`http://127.0.0.1:8080/getchord?chord=${encodeURIComponent(chord)}`);
+          const data = await response.json();
+          console.log(data);
+          if (response.ok && data.chord) {
+            setSelectedChord({ chord, x, y, abcNotation: data.chord });
+          } else {
+            throw new Error(data.error || 'Failed to fetch chord notation');
+          }
+        } catch (error) {
+          console.error('Fetch error:', error);
+          alert("Unable to show chord details");
+        }
       }
     }
   };
+  
 
   const handleClose = () => {
     setSelectedChord(null);
@@ -51,8 +63,7 @@ const ChordDisplay: React.FC<ChordDisplayProps> = ({ chordString }) => {
           style={{ top: `${selectedChord.y}px`, left: `${selectedChord.x}px` }}
         >
           <button className="close-button" onClick={handleClose}>✖</button>
-          <h3>{selectedChord.chord}</h3>
-          <p>Dummy sheet music for {selectedChord.chord}</p>
+          {selectedChord.abcNotation && <ABCMusic notation={selectedChord.abcNotation} className="chord-abc" showAudio={false} />}
         </div>
       )}
     </div>

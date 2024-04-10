@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from utils import generate_jam_from_gpt, regenerate_sheetmusic
+from utils import generate_jam_from_gpt, regenerate_sheetmusic, get_chord_abc
 import json
 
 app = Flask(__name__)
@@ -40,6 +40,27 @@ def regenerate_music():
         print(f"Failed to load json from response\n {e}")
         print(response)
         return jsonify({"error": e}), 500
+
+@app.route('/getchord', methods=['GET'])
+def get_chord():
+    '''
+    Return ABC notation for the specified chord
+    '''
+    chord = request.args.get('chord')
+    abcchord = get_chord_abc(chord)
+    print(abcchord)
+    try:
+        abcchord_dict = json.loads(abcchord)
+    except Exception as e:
+        print(f"Failed to load json from response\n {e}")
+        print(abcchord)
+        return jsonify({"error": e}), 500
+    finally:
+        # Now you can check and access 'abcchord' as expected
+        if abcchord_dict and 'abcchord' in abcchord_dict:
+            return jsonify({"chord": abcchord_dict['abcchord']}), 200
+        else:
+            return jsonify({"error": "Chord not found"}), 404
 
 if __name__ == '__main__':
     app.run(debug=True, port=8080)
