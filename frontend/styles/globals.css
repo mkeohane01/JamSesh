@@ -159,10 +159,11 @@ h2 {
   margin: 1rem auto; /* Add some margin around the music details */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Shadow for depth */
   max-width: 1000px; /* Max width to match the sheet music container */
+  font-size: 1.1rem; /* Larger font size for better readability */
 }
 
 .music-details p {
-  margin: 0.5rem 0; /* Add a slight margin to each paragraph for spacing */
+  margin: 0.75rem 0; /* Add a slight margin to each paragraph for spacing */
 }
 
 .abcjs-svg-container {
@@ -211,6 +212,7 @@ h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   max-width: 1000px;
   z-index: -1;
+  font-size: 1.1rem;
 }
 
 .toggle-container {
@@ -247,7 +249,7 @@ h2 {
 
 .chord-abc {
   text-align:center;
-  min-width: 250px;
+  min-width: 200px;
   padding: 5px;
 }
 
@@ -266,4 +268,32 @@ h2 {
 /* Adjust hover effect for the close button */
 .close-button:hover {
   color: #ffbd59; /* Gold, matching other hover effects */
+}
+
+
+/* Add this to your existing CSS file */
+
+.scale-display-container {
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+
+.scale-notes-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Add some space between notes */
+  flex-wrap: wrap; /* Wrap notes to the next line on small screens */
+}
+
+.scale-notes-list li {
+  padding: 5px 10px;
+  background-color: #0a192f; /* A gold background for each note */
+  border-radius: 4px; /* Rounded corners for note items */
+  color: #ffffff; /* White text for contrast */
 }

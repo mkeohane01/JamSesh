@@ -199,7 +199,7 @@ def get_chord_abc(chord):
     Returns:
         ABC notation for the specified chord
     '''
-    prompt = f"Return ABC notation for the entire chord {chord}. Examples- input: 'C7' returns: {{abcchord: '\"C7\"  CEG _B '}} or input:'G' returns: {{ abcchord: '\"G\"  GBD' }}  or input:'Dm' returns: {{ abcchord: '\"Dm\"  DF _B' }} . \
+    prompt = f"Return ABC notation (sharp noted by ^ and flat by _) for the entire chord {chord}. Examples- input: 'C7' returns: {{abcchord: '\"C7\"  C E G _B '}} or input:'G' returns: {{ abcchord: '\"G\"  G B D' }}  or input:'Dm' returns: {{ abcchord: '\"Dm\"  D F _B' }} or input:'D5' returns: {{ abcchord: '\"D5\"  D ^F B' }} . \
     Now in same style as the example, return the ABC notation for the chord {chord} as a JSON."
     response = query_gpt(prompt, model="gpt-3.5-turbo", json=True, temperature=1, max_tokens=200)
     return response

@@ -6,6 +6,7 @@ import RegenerationContainer from './components/RegenerationContainer';
 import LottieAnimation from './components/LottieMusicAnimation';
 import animationData from '../public/lottiemusicanimation.json';
 import ChordDisplay from './components/ChordDisplay';
+import ScaleDisplay from './components/ScaleDisplay';
 
 const HomePage = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -66,17 +67,19 @@ const HomePage = () => {
         <div className='music-details'>
           <h2>{musicDetails.title}</h2>
           <p><strong>Style:</strong> {musicDetails.style}</p>
-          <p><strong>Chords:</strong> {musicDetails.key}
+          <p><strong>Suggested Chord Progression:</strong>
           <ChordDisplay chordString={musicDetails.chords} />
           </p>
-          <p><strong>Scales:</strong> {musicDetails.scales}</p>
+          <p><strong>Improvisation Scale:</strong>
+          <ScaleDisplay scaleString={musicDetails.scales} />
+          </p>
         </div>
       )}
       {musicDetails?.example && (
           <div id="exampleMelodySection" className="example-melody-section">
             <div className="toggle-container" onClick={toggleMelodyExampleVisibility}>
               <button className={`toggle-button ${showMelodyExample ? 'open' : ''}`}></button>
-              <span style={{marginLeft: '8px'}}>Example Melody</span>
+              <span style={{marginLeft: '8px'}}>Example Jam</span>
             </div>
             {showMelodyExample && (
               <div>
