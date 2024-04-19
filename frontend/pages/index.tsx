@@ -11,7 +11,9 @@ import ScaleDisplay from './components/ScaleDisplay';
 const HomePage = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [musicDetails, setMusicDetails] = useState(null);
+  const [harmonyDetails, setHarmonyDetails] = useState(null);
   const [showMelodyExample, setShowMelodyExample] = useState(true);
+  const [showHarmonyExample, setShowHarmonyExample] = useState(false);
 
   const handleSendMessage = async (message: string) => {
     setIsLoading(true);
@@ -30,6 +32,7 @@ const HomePage = () => {
       }
   
       setMusicDetails(data); // Update the state with the new music details
+      setHarmonyDetails(null); // Reset the harmony details
     } catch (error: any) {
       setIsLoading(false);
       console.error('Fetch error:', error.message);
@@ -43,6 +46,35 @@ const HomePage = () => {
 
   const toggleMelodyExampleVisibility = () => {
     setShowMelodyExample(!showMelodyExample);
+  };
+
+  const toggleHarmonyExampleVisibility = () => {
+    setShowHarmonyExample(!showHarmonyExample);
+  };
+
+  const generateHarmony = async () => {
+    setIsLoading(true);
+    try {
+      const response = await fetch('http://127.0.0.1:8080/genharmony', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(musicDetails),
+      });
+  
+      const data = await response.json();
+      setIsLoading(false);
+  
+      if (!response.ok) {
+        throw new Error(data.error || 'Error regenerating music');
+      }
+  
+      setHarmonyDetails(data.harmony);
+      console.log('Generated harmony:', harmonyDetails);
+    } catch (error) {
+      setIsLoading(false);
+      console.error('Fetch error:', error.message);
+      alert("Please Try Again! error: " + error.message);
+    }
   };
 
   return (
@@ -76,10 +108,10 @@ const HomePage = () => {
         </div>
       )}
       {musicDetails?.example && (
-          <div id="exampleMelodySection" className="example-melody-section">
+          <div id="exampleMelodySection" className="section example-melody-section">
             <div className="toggle-container" onClick={toggleMelodyExampleVisibility}>
               <button className={`toggle-button ${showMelodyExample ? 'open' : ''}`}></button>
-              <span style={{marginLeft: '8px'}}>Example Jam</span>
+              <span style={{marginLeft: '8px'}}>Example Melody</span>
             </div>
             {showMelodyExample && (
               <div>
@@ -89,6 +121,24 @@ const HomePage = () => {
             )}
           </div>
         )}
+      {musicDetails?.example && (
+        <div className="section harmony-section">
+          <div className="toggle-container" onClick={toggleHarmonyExampleVisibility}>
+            <button className={`toggle-button ${showHarmonyExample ? 'open' : ''}`}></button>
+            <span style={{ marginLeft: '8px' }}>Example Harmony</span>
+          </div>
+          {showHarmonyExample && harmonyDetails && (
+            <div>
+              <ABCMusic notation={harmonyDetails} />
+            </div>
+          )}
+          {showHarmonyExample && (
+            <div>
+              <button onClick={generateHarmony} className="generate-harmony-button">Generate Harmony</button>
+            </div>
+          )}
+        </div>      
+      )}
       </div>
 
     </div>
