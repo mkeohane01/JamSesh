@@ -226,7 +226,7 @@ def generate_harmony_from_jam(chords, scales, title, style, example_song, prompt
     sheetmusic_prompt = f"""
         Generate sheet music for a Jam Session using ABC Notation in the style of {title}:{style} 
         using the following chord pogression: {chords} and the recoomended improvisation scale: {scales}.
-        The response should be a JSON and in the no-X ABC format notation like this example. 
+        The response should be a JSON and in the no-X ABC format notation like these 2 examples. 
         {{ output: 
             M:4/4 
             L:1/8 
@@ -235,9 +235,21 @@ def generate_harmony_from_jam(chords, scales, title, style, example_song, prompt
             clef=bass
             |: "A"[ce][ce][ce][ce] [ce][ce][ce][ce] | "D"[Ad][Ad][Ad][Ad] [Ad][Ad][Ad][Ad] | "E"[Be][Be][Be][Be] [Be][Be][Be][Be] | "A"[ce][ce][ce][ce] [ce][ce][ce][ce] |
             "A"[ce][ce][ce][ce] [ce][ce][ce][ce] | "D"[Ad][Ad][Ad][Ad] [Ad][Ad][Ad][Ad] | "E"[Be][Be][Be][Be] [Be][Be][Be][Be] | "A"[ce][ce][ce][ce] [ce][ce][ce][ce] :|
+        }},
+        {{ output:
+            M:4/4
+            L:1/8
+            Q:110
+            K:Dmin
+            V:1 clef=treble
+            |: "Dm9"D2 F2 A2 C2 | "G13"G,2 B,2 D2 F2 | "Cmaj7"C2 E2 G2 B2 | "Am7"A2 CE A2 c2 :|
+            |: "Dm9"d4 c2 A2 | "G13"G,3 A B2 D2 | "Cmaj7"C2 E2 G4 | "Am7"A2 c2 e2 a2 :| .
+            V:2 clef=bass
+            |: "Dm9"D,4 F,4 | "G13"G,4 B,2 F2 | "Cmaj7"C,4 E,4 | "Am7"A,4 C4 :|
+            |: "Dm9"D,2 F,A, D2 F2 | "G13"G,,2 G,2 B,2 D2 | "Cmaj7"C,2 E,G, C2 E2 | "Am7"A,2 C2 E2 A2 :| 
         }}
         The current song generated is { example_song } .
-        Make a corresponding harmonyusing these chords: {chords} and to support this scale {scales}. 
+        Make a corresponding harmony using these chords: {chords} and to support this scale {scales}. 
         Be creative, and make sure to have the hamony support the current song and be outputted in the correct notation.
         """
     response = query_gpt(sheetmusic_prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=600)
