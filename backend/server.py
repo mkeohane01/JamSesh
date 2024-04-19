@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from utils import generate_jam_from_gpt, regenerate_sheetmusic, get_chord_abc
+from gpt_utils import generate_jam_from_gpt, regenerate_sheetmusic, generate_harmony_from_jam, get_chord_abc 
 import json
 
 app = Flask(__name__)
@@ -36,6 +36,23 @@ def regenerate_music():
         newjam = json.loads(response)
         print(newjam['output'])
         return jsonify({"examplesong": newjam['output']}), 200
+    except Exception as e:
+        print(f"Failed to load json from response\n {e}")
+        print(response)
+        return jsonify({"error": e}), 500
+    
+@app.route('/genharmony', methods=['POST'])
+def generate_harmony():
+    '''
+    Generate a new harmony in ABC notation using few shot prompt engineering with gpt 4
+    '''
+    data = request.get_json()
+    # print(data)
+    response = generate_harmony_from_jam(data['chords'], data['scales'], data['title'], data['style'], data['example'])
+    try:
+        harmony = json.loads(response)
+        print(harmony['output'])
+        return jsonify({"harmony": harmony['output']}), 200
     except Exception as e:
         print(f"Failed to load json from response\n {e}")
         print(response)
