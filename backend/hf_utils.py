@@ -1,7 +1,8 @@
 import requests
+import os
 
 API_URL = "https://x3oc0flj7a6sgv1j.us-east-1.aws.endpoints.huggingface.cloud"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": f"Bearer {os.environ['HF_API_KEY']}"}
 
 def query(input_text):
     payload = {"inputs": input_text}
