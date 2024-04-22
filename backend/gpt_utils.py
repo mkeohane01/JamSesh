@@ -56,7 +56,7 @@ def build_fewshot_prompt(prompt):
             "input": "Soul jazzy blues feel",
             "output": {{
                 "chords": "Dm7 | Gm7 | Dm7 | Dm7 | Gm7 | Gm7 | Dm7 | Dm7 | Am7 | Gm7 | Dm7 | Am7",
-                "scales": "Dm Dorian (D E F G A Bb C)",
+                "scales": "Dm Pentatonic (D F G A C)",
                 "title": "Soultown Blues in D",
                 "style": "Express a deep, soulful feel with a touch of blues. Aim for a smooth, emotional rendition, making use of the Dorian mode for a slightly melancholic but rich sound.",
                 "example": `
@@ -122,7 +122,7 @@ def build_fewshot_prompt(prompt):
     }}
     """
 
-def query_gpt(prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=400):
+def query_gpt(prompt, model="gpt-4-turbo-preview", json=True, temperature=1, max_tokens=400):
     """
     Call the OpenAI API to generate a response based on the prompt.
 
@@ -149,7 +149,7 @@ def query_gpt(prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_
     return response.choices[0].message.content.strip()
 
 
-def generate_jam_from_gpt(prompt, model="gpt-4-0125-preview", temperature=1, max_tokens=500):
+def generate_jam_from_gpt(prompt, model="gpt-4-turbo-preview", temperature=1, max_tokens=500):
     """
     Generate Various Chord Progressions, Improvisation Scales, and example song in ABC notation
     using the OpenAI API based on few shot prompt.
@@ -206,7 +206,7 @@ def regenerate_sheetmusic(chords, scales, title, style, example_song, prompt):
         Make a new melody to go along with those chords: {chords} and using the scale {scales}. Be creative, think about the music theory, choose exciting rythmns and musical phrases,
         and make sure to update the current song according to this user prompt {prompt}. Respond in this exact format, JSON ABC notation.
         """
-    response = query_gpt(sheetmusic_prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=600)
+    response = query_gpt(sheetmusic_prompt, model="gpt-4-turbo-preview", json=True, temperature=1, max_tokens=600)
     return response
 
 def generate_harmony_from_jam(chords, scales, title, style, example_song, prompt=''):
@@ -227,16 +227,35 @@ def generate_harmony_from_jam(chords, scales, title, style, example_song, prompt
         Generate sheet music for a Jam Session using ABC Notation in the style of {title}:{style} 
         using the following chord pogression: {chords} and the recoomended improvisation scale: {scales}.
         The response should be a JSON and in the no-X ABC format notation like these 2 examples. 
-        {{ output: 
-            M:4/4 
-            L:1/8 
-            Q:120
-            K:A
-            clef=bass
-            |: "A"[ce][ce][ce][ce] [ce][ce][ce][ce] | "D"[Ad][Ad][Ad][Ad] [Ad][Ad][Ad][Ad] | "E"[Be][Be][Be][Be] [Be][Be][Be][Be] | "A"[ce][ce][ce][ce] [ce][ce][ce][ce] |
-            "A"[ce][ce][ce][ce] [ce][ce][ce][ce] | "D"[Ad][Ad][Ad][Ad] [Ad][Ad][Ad][Ad] | "E"[Be][Be][Be][Be] [Be][Be][Be][Be] | "A"[ce][ce][ce][ce] [ce][ce][ce][ce] :|
+        {{ output:`
+            M:4/4
+            L:1/8
+            Q:90
+            K:Cmin
+            V:1 clef=treble
+            |: "Cm9"C2 DE F2 G2 | "F9"F2 GA B2 c2 | "Bb13"d2 ef g2 f2 | "Bb7"B2 cB A2 F2 |
+            "Cm9"c2 cB A2 G2 | "F9"F2 GA B2 c2 | "Gm7"G2 AB cd e2 | "C9"c4 z4 :|
+            V:2 clef=bass
+            |: "Cm9"C,2 C,2 E,G, C,2 | "F9"F,2 A,C F,A, C2 | "Bb13"B,,2 B,,2 D,F, B,,2 | "Bb7"B,,2 A,F, B,,2 F,2 |
+            "Cm9"C,2 C,2 E,G, C,2 | "F9"F,2 A,C F,A, C2 | "Gm7"G,2 B,,D, G,B, D2 | "C9"C,2 E,G, C2 E,2 :|
+            `
         }},
-        {{ output:
+        {{ output:`
+            M:4/4
+            L:1/8
+            Q:120
+            K:Amin
+            V:1 clef=treble
+            |: "A"A2cE A2cA | "D"D4 d2F2 | "A"A2E2 C4 | "A"A2cA E2A2 |
+            "D"D2F2 A2d2 | "D"D2F2 D4 | "A"A2cE A2E2 | "A"A2A2 G4 |
+            "E"E2G2 B2e2 | "D"D2F2 A2d2 | "A"A2cE A2E2 | "E"E4 G4 :|
+            V:2 clef=bass
+            |: "A"[A,C,E,]4 [A,C,E,]4 | "D"[A,D,F,]4 [A,D,F,]4 | "A"[A,C,E,]4 [A,C,E,]4 | "A"[A,C,E,]4 [A,C,E,]4 |
+            "D"[A,D,F,]4 [A,D,F,]4 | "D"[A,D,F,]4 [A,D,F,]4 | "A"[A,C,E,]4 [A,C,E,]4 | "A"[A,C,E,]4 [A,C,E,]4 |
+            "E"[E,G,B,]4 [E,G,B,]4 | "D"[A,D,F,]4 [A,D,F,]4 | "A"[A,C,E,]4 [A,C,E,]4 | "E"[E,G,B,]4 [E,G,B,]4 :|
+            `
+        }},
+        {{ output:`
             M:4/4
             L:1/8
             Q:110
@@ -247,12 +266,13 @@ def generate_harmony_from_jam(chords, scales, title, style, example_song, prompt
             V:2 clef=bass
             |: "Dm9"D,4 F,4 | "G13"G,4 B,2 F2 | "Cmaj7"C,4 E,4 | "Am7"A,4 C4 :|
             |: "Dm9"D,2 F,A, D2 F2 | "G13"G,,2 G,2 B,2 D2 | "Cmaj7"C,2 E,G, C2 E2 | "Am7"A,2 C2 E2 A2 :| 
+            `
         }}
         The current song generated is { example_song } .
-        Make a corresponding harmony using these chords: {chords} and to support this scale {scales}. 
-        Be creative, and make sure to have the hamony support the current song and be outputted in the correct notation.
+        Make a corresponding harmony in the bass clef (harmony can be rockin' base line, chord patterns, etc.) using these chords: {chords} and to support this scale {scales}. 
+        Think about it musically and make sure to have the hamony support the current song, on theme and be outputted in the correct notation. THE output: IS A STRING USING ABC NOTATION (Trouble / Bass) LIKE THE EXAMPLES.
         """
-    response = query_gpt(sheetmusic_prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=600)
+    response = query_gpt(sheetmusic_prompt, model="gpt-4-turbo-preview", json=True, temperature=1, max_tokens=600)
     return response
 
 def get_chord_abc(chord):
@@ -276,7 +296,7 @@ def get_chord_abc(chord):
     input: 'Dm7 A7' returns: {{ abcchord: '\"Dm7 A7\"  [D F A C] [A ^C E G]' }}
     input: 'Gm7' returns: {{ abcchord: '\"Gm7\"  [G _B D F]' }}
     Now in same style as the examples, return the strict ABC notation for the chord {chord} as a JSON."""
-    response = query_gpt(prompt, model="gpt-4-0125-preview", json=True, temperature=1, max_tokens=200)
+    response = query_gpt(prompt, model="gpt-3.5-turbo", json=True, temperature=1, max_tokens=200)
     return response
 
 if __name__ == "__main__":
