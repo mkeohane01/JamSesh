@@ -1,4 +1,4 @@
-const ScaleDisplay = ({ scaleString }) => {
+const ScaleDisplay = ({ scaleString }: { scaleString: string }) => {
     // Extracting the scale name and notes from the scaleString
     const [scaleName, scaleNotesString] = scaleString.split(" (");
     const scaleNotes = scaleNotesString.slice(0, -1).split(" ");

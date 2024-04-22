@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import abcjs from 'abcjs';
-import '../../node_modules/abcjs/abcjs-audio.css';
+import '../node_modules/abcjs/abcjs-audio.css';
 
 interface ABCMusicProps {
   notation: string;
-  className?: string; // Optional prop to add a class name to the container
-  showAudio?: boolean; // Optional prop to control the display of audio controls
+  className?: string;
+  showAudio?: boolean;
 }
 
 const ABCMusic: React.FC<ABCMusicProps> = ({ notation, className, showAudio = true }) => {
@@ -15,13 +15,26 @@ const ABCMusic: React.FC<ABCMusicProps> = ({ notation, className, showAudio = tr
   const [voicesOff, setVoicesOff] = useState(false);
 
   useEffect(() => {
-    if (!notation) return;
+    if (!notation || !paperRef.current) {
+      console.error("No notation provided or the DOM ref is not available.");
+      return;
+    }
 
     const visualOptions = {
-      responsive: 'resize',
-      staffwidth: 200,
+      staffwidth: 500,
+      expandToWidest: true,
+      jazzchords: true,
+      scale: 1.5
     };
-    const visualObj = abcjs.renderAbc(paperRef.current, notation, visualOptions);
+
+    // Safely attempt to render ABC notation
+    let visualObj;
+    try {
+      visualObj = abcjs.renderAbc(paperRef.current, notation, visualOptions);
+    } catch (error) {
+      console.error("Error rendering ABC notation:", error);
+      return;
+    }
 
     if (showAudio) {
       const activateAudio = async () => {
@@ -31,13 +44,15 @@ const ABCMusic: React.FC<ABCMusicProps> = ({ notation, className, showAudio = tr
         }
 
         const synthControl = new abcjs.synth.SynthController();
-        synthControl.load(audioRef.current, null, {
-          displayLoop: true,
-          displayRestart: true,
-          displayPlay: true,
-          displayProgress: true,
-          displayWarp: true
-        });
+        if (audioRef.current) {
+          synthControl.load(audioRef.current, null, {
+            displayLoop: true,
+            displayRestart: true,
+            displayPlay: true,
+            displayProgress: true,
+            displayWarp: true
+          });
+        }
 
         try {
           const createSynth = new abcjs.synth.CreateSynth();

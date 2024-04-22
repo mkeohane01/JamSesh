@@ -1,24 +1,33 @@
 import { useState } from 'react';
-import ChatInput from './components/ChatInput';
+import ChatInput from '../components/ChatInput';
 import Head from 'next/head';
-import ABCMusic from './components/ABCMusic';
-import RegenerationContainer from './components/RegenerationContainer';
-import LottieAnimation from './components/LottieMusicAnimation';
+import ABCMusic from '../components/ABCMusic';
+import RegenerationContainer from '../components/RegenerationContainer';
+import LottieAnimation from '../components/LottieMusicAnimation';
 import animationData from '../public/lottiemusicanimation.json';
-import ChordDisplay from './components/ChordDisplay';
-import ScaleDisplay from './components/ScaleDisplay';
+import ChordDisplay from '../components/ChordDisplay';
+import ScaleDisplay from '../components/ScaleDisplay';
+
+interface MusicDetails {
+  title: string;
+  style: string;
+  chords: string;
+  scales: string;
+  example: string;
+}
 
 const HomePage = () => {
   const [isLoading, setIsLoading] = useState(false);
-  const [musicDetails, setMusicDetails] = useState(null);
+  const [musicDetails, setMusicDetails] = useState<MusicDetails | null>(null);
   const [harmonyDetails, setHarmonyDetails] = useState(null);
   const [showMelodyExample, setShowMelodyExample] = useState(true);
   const [showHarmonyExample, setShowHarmonyExample] = useState(false);
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
   const handleSendMessage = async (message: string) => {
     setIsLoading(true);
     try {
-      const response = await fetch('http://127.0.0.1:8080/generatejam', {
+      const response = await fetch(backendUrl + '/generatejam', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ input: message }),
@@ -41,8 +50,12 @@ const HomePage = () => {
   };
 
   const handleNewSheetMusic = (newExample: string) => {
-    setMusicDetails(prevDetails => ({ ...prevDetails, example: newExample }));
+    setMusicDetails(prevDetails => ({
+      ...prevDetails, // Spread the previous details to maintain existing data
+      example: newExample // Update the example with the new value
+    }) as MusicDetails);
   };
+  
 
   const toggleMelodyExampleVisibility = () => {
     setShowMelodyExample(!showMelodyExample);
@@ -55,7 +68,7 @@ const HomePage = () => {
   const generateHarmony = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch('http://127.0.0.1:8080/genharmony', {
+      const response = await fetch(backendUrl+'/genharmony', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(musicDetails),
@@ -69,8 +82,8 @@ const HomePage = () => {
       }
   
       setHarmonyDetails(data.harmony);
-      console.log('Generated harmony:', harmonyDetails);
-    } catch (error) {
+      // console.log('Generated harmony:', harmonyDetails);
+    } catch (error : any) {
       setIsLoading(false);
       console.error('Fetch error:', error.message);
       alert("Please Try Again! error: " + error.message);
@@ -80,12 +93,13 @@ const HomePage = () => {
   return (
     <div>
       <Head>
-        <title>JamSesh.ai</title>
+        <title>JamSesh</title>
         <meta name="description" content="JamSesh.ai - AI-powered music generation" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        <h1>JamSesh.ai</h1>
+        <h1>JamSesh</h1>
+        <p><strong>Generate creative chords, scales, and music to facilitate improvisation in any key or style.</strong></p>
       </header>
     
       <ChatInput onSendMessage={handleSendMessage} />
@@ -99,12 +113,12 @@ const HomePage = () => {
         <div className='music-details'>
           <h2>{musicDetails.title}</h2>
           <p><strong>Style:</strong> {musicDetails.style}</p>
-          <p><strong>Suggested Chord Progression:</strong>
+          <p><strong>Suggested Chord Progression:</strong> </p>
           <ChordDisplay chordString={musicDetails.chords} />
-          </p>
-          <p><strong>Improvisation Scale:</strong>
+          
+          <p><strong>Improvisation Scale:</strong></p>
           <ScaleDisplay scaleString={musicDetails.scales} />
-          </p>
+          
         </div>
       )}
       {musicDetails?.example && (

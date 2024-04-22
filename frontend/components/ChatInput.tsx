@@ -20,7 +20,7 @@ const ChatInput = ({ onSendMessage }: ChatInputProps) => {
         value={message}
         className ="chat-input"
         onChange={(e) => setMessage(e.target.value)}
-        placeholder="Input any genre, key, instrumentation, etc for musical suggestions..."
+        placeholder="Input any genre, key, tone, etc for musical suggestions..."
       />
       <button className="send-button" type="submit">Send</button>
     </form>

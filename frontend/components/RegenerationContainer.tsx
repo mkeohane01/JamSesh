@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 
-const RegenerationContainer = ({ musicDetails, onNewMusic, setLoading }) => {
+const RegenerationContainer = ({ musicDetails, onNewMusic, setLoading }: { musicDetails: any, onNewMusic: any, setLoading: any }) => {
   const [regenprompt, setRegenprompt] = useState('');
+  const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
 
   const handleRegenerate = async () => {
     setLoading(true);
     try {
       const updatedMusicDetails = { ...musicDetails, regenprompt }; // Combine musicDetails with the prompt
-      const response = await fetch('http://127.0.0.1:8080/regeneratemusic', {
+      const response = await fetch(backendUrl+'/regeneratemusic', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(updatedMusicDetails),
@@ -21,7 +22,7 @@ const RegenerationContainer = ({ musicDetails, onNewMusic, setLoading }) => {
       }
   
       onNewMusic(data.examplesong);
-    } catch (error) {
+    } catch (error : any) {
       setLoading(false);
       console.error('Fetch error:', error.message);
       alert("Please Try Again! error: " + error.message);

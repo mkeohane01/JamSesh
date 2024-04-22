@@ -11,6 +11,8 @@ const ChordDisplay: React.FC<ChordDisplayProps> = ({ chordString }) => {
 
   const handleChordClick = async (chord: string, index: number) => {
     const button = buttonRefs.current[index];
+    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
     if (button) {
       if (selectedChord && chord === selectedChord.chord) {
         setSelectedChord(null);
@@ -20,9 +22,9 @@ const ChordDisplay: React.FC<ChordDisplayProps> = ({ chordString }) => {
         const y = rect.top + window.scrollY - 40; // Adjust if necessary
   
         try {
-          const response = await fetch(`http://127.0.0.1:8080/getchord?chord=${encodeURIComponent(chord)}`);
+          const response = await fetch(backendUrl+`/getchord?chord=${encodeURIComponent(chord)}`);
           const data = await response.json();
-          console.log(data);
+          // console.log(data);
           if (response.ok && data.chord) {
             setSelectedChord({ chord, x, y, abcNotation: data.chord });
           } else {
