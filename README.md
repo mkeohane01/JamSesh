@@ -57,7 +57,7 @@ While the results were coherent musically and baed on the text prompt, they were
 
 App is currently hosted in Azure Containers [here](https://jamsesh-frontend.whitedune-f3f31647.eastus.azurecontainerapps.io/)
 
-![jsmesh_Ss](assets\frontend_ss.png "JamSesh Frontend")
+![jsmesh_Ss](assets/frontend_ss.png "JamSesh Frontend")
 
 To run JamSesh locally:
 1. Configure and install Docker
