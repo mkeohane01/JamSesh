@@ -4,7 +4,7 @@ from gpt_utils import generate_jam_from_gpt, regenerate_sheetmusic, generate_har
 import json
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://jamsesh-frontend.whitedune-f3f31647.eastus.azurecontainerapps.io", "methods": ["GET", "POST"]}})
 
 @app.route('/generatejam', methods=['POST'])
 def generate_gpt():
