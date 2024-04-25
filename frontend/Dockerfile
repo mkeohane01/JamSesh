@@ -11,6 +11,7 @@ RUN npm install
 # Copy the rest of your app's source code from your host to your image filesystem.
 COPY . .
 
+# ENV NEXT_PUBLIC_BACKEND_URL "https://jamsesh-backend.whitedune-f3f31647.eastus.azurecontainerapps.io"
 # Build the Next.js app. Remember to set production environment variables here if necessary.
 RUN npm run build
 
