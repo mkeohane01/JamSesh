@@ -1,0 +1,1 @@
+'litgpt[all] @ git+https://github.com/Lightning-AI/litgpt'
