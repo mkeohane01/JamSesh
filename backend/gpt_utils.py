@@ -138,7 +138,8 @@ def query_gpt(prompt, model="gpt-4-turbo-preview", json=True, temperature=1, max
     response_type = "json_object" if json else "text"
     # OpenAI Completion API
     response = client.chat.completions.create(model=model,
-                                            messages=[{"role": "user", "content": prompt}],
+                                            messages=[{"role": "user", "content": prompt},
+                                                      {"role": "system", "content": "Act as an expert musician specifically good at improvisation with accompanying chord progressions. You have to generate Jam Session recommendations in properly formatted JSON. This inlcudes recommended chords, recommended scales, and example song in ABC notation"}],
                                             response_format={ "type": f"{response_type}" },
                                             temperature=temperature,
                                             max_tokens=max_tokens,
