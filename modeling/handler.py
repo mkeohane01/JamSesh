@@ -35,8 +35,18 @@ class EndpointHandler:
     def __call__(self, data: Dict[dict, Any]) -> Dict[str, Any]:
         prompt = data.pop("inputs", data)
 
-        instruction = "Create a list of chords,a corresponding scale to improve with, title, and style along with an example in ABC notation based on this input in JSON format."
-
+        instruction = """Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n
+                        Given the input, create an output exactly in this format: \n 
+                            "output": {{
+                                "chords": "## Suggested chord progression",
+                                "scales": "## Suggested scale for improvising",
+                                "title": "## Title of Jam",
+                                "style": "## Style to play like",
+                                "example": `
+                                    ## ABC notation for an example section using these chords and notes
+                                `
+                            }}
+                        """
         full_prompt = f"""<s>
         ### Instruction:
         {instruction}
