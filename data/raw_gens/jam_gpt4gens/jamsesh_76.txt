@@ -1,0 +1,11 @@
+{
+    "input": "Rockabilly jam with fast, jazzy piano runs",
+    "output": {
+        "chords": "E | A | E | B7 | E | A | E | B7",
+        "scales": "E Major Pentatonic (E F# G# B C#)",
+        "title": "Rockabilly Rumble in E",
+        "style": "Play with a lively upbeat tempo and incorporate fast, jazzy piano runs alongside rockabilly guitar riffs.",
+        "example": 
+        "M:4/4\nL:1/8\nQ:200\nK:E\n" 
+        		
+       			, "|:\"E\"E2 G^G B=B z2 E2|"

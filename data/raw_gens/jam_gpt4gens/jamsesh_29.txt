@@ -1,0 +1,1 @@
+{"input": "Jazz fusion keyboard swirls", "output": {"chords": "Cm9 | F13 | Bbmaj7 | Gm7 C7", "scales": "C Dorian (C D Eb F G A Bb), F Mixolydian (F G A Bb C D Eb)", "title": "Fusion Whirl in C", "style": "Dynamic and expressive with complex chords and melodies. Focus on modal interchange and colorful chord extensions.", "example": ""}}

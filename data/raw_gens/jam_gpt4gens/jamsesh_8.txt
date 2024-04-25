@@ -1,0 +1,1 @@
+{"input": "Progressive rock journey in E", "output": {"chords": "Em | C | D | G | Am | Em | B7 | Em", "scales": "E Natural Minor (E F# G A B C D)", "title": "Progressive Rock Odyssey in E", "style": "Complex rhythms with shifts in time signatures and dynamics. Emphasize textural changes and expressive solo breaks.", "example": ""}}

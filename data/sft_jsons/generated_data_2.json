@@ -1,0 +1,1102 @@
+[
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Jazz trumpet funk",
+        "output": {
+            "chords": "Bb7 | Eb7 | Bb7 | Bb7 | Eb7 | Eb7 | Bb7 | Bb7 | F7 | Eb7 | Bb7 | F7",
+            "scales": "Bb Mixolydian (Bb C D Eb F G Ab)",
+            "title": "Brassy Grooves in Bb",
+            "style": "A vibrant blend of jazz sophistication and funky rhythms, perfect for showcasing trumpet solos. Emphasize syncopation and groove.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:Bb\n|: \"Bb7\" B2 D2 F2 A2 | \"Eb7\" E2 G2 B2 d2 | \"Bb7\" B2 Db F2 Ab | \"Bb7\" B4 z4 |\n\"Eb7\" E2 G2 B2 e2 | \"Eb7\" E2 G2 B2 d2 | \"Bb7\" B2 D2 F2 A2 | \"Bb7\" B4 z4 |\n\"F7\" F2 A2 C2 E2 | \"Eb7\" Eb2 G2 Bb2 G2 | \"Bb7\" B2 F2 D2 B2 | \"F7\" F2 A2 C2 F2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Jamming jazz guitar in Am",
+        "output": {
+            "chords": "Am7 | Dm7 | E7 | Am7 | Dm7 | E7 | Am7 | Am7",
+            "scales": "A Dorian (A B C D E F# G)",
+            "title": "Jazz Guitar Serenade in Am",
+            "style": "Smooth and mellow with complex chord extensions, focus on melodic improvisation and interaction. Play dynamically with a soft touch.",
+            "example": "\nM:4/4\nL:1/8\nQ:85\nK:Am\n|: \"Am7\"A2 c2 e2 a2 | \"Dm7\"d2 f2 a2 d2 | \"E7\"E2 G2 B2 e2 | \"Am7\"A,2 E2 A2 c2 |\n \"Dm7\"D2 F2 A2 d2 | \"E7\"G,2 B,2 E2 G2 | \"Am7\"A,2 E2 A2 C2 | \"Am7\"A,4 E4 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funk fusion in Bb",
+        "output": {
+            "chords": "Bb7 | Eb7 | F7 | Bb7 | Bb7 | Eb7 | F7 | Bb7",
+            "scales": "Bb Mixolydian (Bb C D Eb F G Ab)",
+            "title": "Funk Fusion Groove in Bb",
+            "style": "A fusion of classic funk with a touch of jazz, featuring syncopated rhythms and sophisticated chord variations. Focus on groove and dynamic interplay between instruments.",
+            "example": "\nM:4/4\nL:1/8\nQ:110\nK:Bb\n|: \"Bb7\"Bb2 D F BbA G | \"Eb7\"Eb4 G2 B2 | \"F7\"F2 A2 c2 F2 | \"Bb7\"Bb2 D2 F2 d2 |\n\"Bb7\"Bb2 D^F=B B AG | \"Eb7\"E2 G B e3 g | \"F7\"F A c A F E F | \"Bb7\"Bb2 D2 B2 A2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Classic rock organ jam",
+        "output": {
+            "chords": "C | G | Am | F | C | G | F | G",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Classic Rock Organ Jam in C",
+            "style": "Emphasize the rhythmic drive with staccato and full chords. Use classic rock organ sounds like Hammond or Vox for a vintage feel.",
+            "example": "M:4/4\nL:1/8\nQ:130\nK:C\n|: \"C\"CCCC CCCC | \"G\"GGGG GGGG | \"Am\"AAAA AAAA | \"F\"FFFF FFFF |\n\"C\"CCCC CCCC | \"G\"GGGG GGGG | \"F\"FFFF FFFF | \"G\"GGGG GGGG :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Groovy jazz-funk bassline",
+        "output": {
+            "chords": "Em7 | Am7 | D7 | Gmaj7 | Cmaj7 | F#m7 b5 | B7 | Em7",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Funkadelic Jazz Groove",
+            "style": "Emphasize the groove with a syncopated bassline, smoothly connecting the chords while implementing slap and pop techniques for a dynamic feel.",
+            "example": "\n                M:4/4\n                L:1/16\n                Q:115\n                K:Em\n                |: \"Em7\"[E,2E,2] [G,2B,2] E2 F2 G2 A2 | \"Am7\"[A,2C2] [E2A2] c2 B2 A2 G2 | \"D7\"[D2F2] [A,2D2] F2 E2 D2 C2 | \"Gmaj7\"[G,2B,2] [D2G2] B2 A2 G2 F2 |\n                \"Cmaj7\"[C2E2] [G,2C2] E2 D2 C2 B,2 | \"F#m7 b5\"[F,2A,2] C2 [E2A2] F2 E2 D2 | \"B7\"[B,2D2] [F2B2] A2 G2 F2 E2 | \"Em7\"[E,2G,2] [B,2E2] G2 F2 E2 D2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Southern blues rock in A",
+        "output": {
+            "chords": "A7 | D7 | A7 | A7 | D7 | D7 | A7 | A7 | E7 | D7 | A7 | E7",
+            "scales": "A Pentatonic Minor (A C D E G)",
+            "title": "Southern Rock Blues in A",
+            "style": "Combine elements of rock and blues, emphasizing strong beats and a gritty guitar sound. Slide techniques and hammer-ons adapt well to this style.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:A\n|: \"A7\"A2 E2 A2 C2 | \"D7\"D2 F2 A2 D2 | \"A7\"A2 C2 E2 A2 |\"A7\" A2 E2 C2 A2 |\n\"D7\"D2 F2 A2 D2 | \"D7\"D2 F2 A2 D2 | \"A7\"A2 C2 E2 C2 | \"A7\"A2 E2 A2 C2 |\n\"E7\"E2 G2 B2 E2 | \"D7\"D2 F2 A2 D2 | \"A7\"A2 E2 C2 A2 | \"E7\"E2 B2 G2 E2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Laid-back bebop in C",
+        "output": {
+            "chords": "Cmaj7 | Dm7 | G7 | Cmaj7 | Fm7 | Bb7 | Em7 | A7 | Dm7 | G7 | Cmaj7 | A7",
+            "scales": "C Bebop Dominant (C D E F G G# A Bb)",
+            "title": "Smooth Bebop Lounge in C",
+            "style": "Relaxed, smooth bebop with an emphasis on lyrical solos and laid-back rhythms. Execute complex, intricate melodic lines.",
+            "example": "\n                M:4/4\n                L:1/8\n                K:C\n                Q:140\n                |: \"Cmaj7\"C2 E2 G2 B2 | \"Dm7\"D2 F2 A2 c2 | \"G7\"G2 B2 d2 f2 | \"Cmaj7\"C2 E2 G2 C2 |\n                    \"Fm7\"F2 Ab2 c2 e2 | \"Bb7\"Bb2 D2 F2 Ab2 | \"Em7\"E2 G2 B2 d2 | \"A7\"A2 C#2 E2 G2 |\n                    \"Dm7\"D2 F2 A2 c2 | \"G7\"G2 B2 d2 f2 | \"Cmaj7\"C2 E2 G2 C2 | \"A7\"A2 C#2 E2 G2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Experimental rock textures",
+        "output": {
+            "chords": "Em | Am | B7 | Em | G | Am | Em | Em",
+            "scales": "E Harmonic Minor (E F# G A B C D#)",
+            "title": "Experimental Rock Landscape in E Minor",
+            "style": "Blend unusual and unexpected sounds with distorted effects. Utilize dynamic shifts and textural layers to create an encompassing sonic environment.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:Em\n                |: \"Em\"E4 B2 G2 | \"Am\"A2 E2 C2 E2 | \"B7\"B2 F#2 D2 F#2 | \"Em\"E4 z4 |\n                \"G\"G2 B2 D2 G2 | \"Am\"A4 E4 | \"Em\"E2 G2 B2 E2 | \"Em\"E4 z4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Swing jazz piano in F",
+        "output": {
+            "chords": "Fmaj7 | Bb7 | Fmaj7 | Fmaj7 | Bb7 | Bb7 | Fmaj7 | Fmaj7 | C7 | Bb7 | Fmaj7 | C7",
+            "scales": "F Mixolydian (F G A Bb C D Eb)",
+            "title": "Swingin' Jazz in F",
+            "style": "Emphasize a light, swinging rhythm with a strong sense of forward momentum. Use syncopation and jazz phrasing for melody lines.",
+            "example": "\nM:4/4\nL:1/8\nQ:140\nK:F\n|: \"Fmaj7\"f2 a2 c3 f | \"Bb7\"Bb4 f2 d2 | \"Fmaj7\"f2 a2 c2 f2 | \"Fmaj7\"f6 e2 |\n\"Bb7\"Bb4 g2 fd | \"Bb7\"Bb4 a2 c2 | \"Fmaj7\"f3 g afed | \"Fmaj7\"f4 c4 |\n\"C7\"c2 e2 g2 e2 | \"Bb7\"Bb4 d4 | \"Fmaj7\"f2 a2 c3 A | \"C7\"c6 B2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "High-energy funk brass",
+        "output": {
+            "chords": "Bb7 | Eb7 | Bb7 | Bb7 | Eb7 | Eb7 | Bb7 | Bb7 | G7 | Eb7 | Bb7 | G7",
+            "scales": "Bb Mixolydian (Bb C D Eb F G Ab)",
+            "title": "Brass Power Funk in Bb",
+            "style": "A highly energetic, brass-driven funk style with powerful horn sections and a groovy rhythm. Ideal for punchy, staccato brass lines and funky rhythm guitar strums.",
+            "example": "\nM:4/4\nL:1/8\nQ:110\nK:Bb\n|: \"Bb7\"Bb2 dB Fd Bd | \"Eb7\"Ec Gc Bc ec | \"Bb7\"Bd Fd ab ag | \"Bb7\"bf df Bc dB |\n\"Eb7\"Ec Gc ec gc | \"Eb7\"Eb Gb eb gb | \"Bb7\"Bd bd Fd fd | \"Bb7\"Bb db Bb db |\n\"G7\"G2 B2 d4 | \"Eb7\"e2 g2 b4 | \"Bb7\"Bd fd Bd fd | \"G7\"G,2 B,2 D4 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Cool jazz sax solos",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7 | Fmaj7 | Bm7b5 | E7#9 | Am7 | D7",
+            "scales": "C Major Bebop (C D E F G A Bb B)",
+            "title": "Cool Breeze Jazz Solo in C",
+            "style": "Laid-back, smooth, and melodic with a focus on cool tone and subtle dynamic changes. Ideal for creating atmospheric and emotional solos.",
+            "example": "M:4/4\nL:1/8\nQ:100\nK:C\n|: \"Dm9\"D2 F2 A2 C2 | \"G13\"G2 B2 D2 F2 | \"Cmaj7\"C4 E2 G2 | \"Fmaj7\"F2 A2 C2 E2 |\n\"Bm7b5\" B2 D2 F2 A2 | \"E7#9\"E2 G# Bb D2 | \"Am7\"A2 C2 E2 G2 | \"D7\"D2 F#2 A2 C2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Hard bop jazz in Eb",
+        "output": {
+            "chords": "EbM7 | Am7b5 | D7 | Gm7 | Cm7 | F7 | Bb7 | EbM7",
+            "scales": "Eb Dorian (Eb F Gb Ab Bb C Db)",
+            "title": "Midnight Groove in Eb",
+            "style": "Infuse a rich, complex groove with syncopated rhythms and expressive horn lines. Emphasizes dynamic melody and rhythm changes, typical of hard bop jazz.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:140\n                K:Eb\n                |: \"EbM7\"E2 G2 B2 D2 | \"Am7b5\"A2 C2 E2 G2 | \"D7\"D2 F2^A2 C2 | \"Gm7\"G2 B2 d2 F2 |\n                    \"Cm7\"C2 Eb G2 Bb | \"F7\"F2 A2 c2 e2 | \"Bb7\"B2 D2 F2 Ab | \"EbM7\"E4 G4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funky slap bass groove",
+        "output": {
+            "chords": "Em7 | Am7 | D7 | G7 | Em7 | Am7 | D7 | G7",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Funky Slap Bass Groove in E",
+            "style": "Use a tight, rhythmic slap bass technique with a focus on the off-beats and syncopation for a groovy, funky feel.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:Emin\n                |: \"Em7\"EB^dE GAB^d | \"Am7\"A^cAe A^cde | \"D7\"DF^AD B^dF^A | \"G7\"GDB,G, B,DBG, |\n                \"Em7\"e^ded gAB^d | \"Am7\"a^cea ^cdfa | \"D7\"d^fAd ^cdFd | \"G7\"GBDG B,DBG, :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Retro funk disco inferno",
+        "output": {
+            "chords": "Dm7 | Gm7 | Dm7 | Gm7 | Am7 | Am7 | Dm7 | Gm7",
+            "scales": "Dm Pentatonic (D F G A C) or D Dorian (D E F G A B C)",
+            "title": "Retro Funk Disco Inferno in Dm",
+            "style": "A vibrant and groovy disco vibe with elements of funk using syncopated rhythms and flavorful bass lines.",
+            "example": "M:4/4\nL:1/8\nQ:115\nK:Dmin\n|: \"Dm7\"D2 F2 A4 F2 | \"Gm7\"G2 B2 D4 B2 | \"Dm7\"D2 F2 A4 d2 | \"Gm7\"G2 B2 d4 B2 |\n\"Am7\"A2 c2 E4 A2 | \"Am7\"A2 c2 E4 c2 | \"Dm7\"D2 F2 A4 D2 | \"Gm7\"G2 B2 d4 G2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Blues-infused rock guitar",
+        "output": {
+            "chords": "E7 | A7 | E7 | E7 | A7 | A7 | E7 | E7 | B7 | A7 | E7 | B7",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Rockin' Blues Guitar in E",
+            "style": "Blend powerful rock rhythms with traditional blues progressions for a dynamic and expressive sound suitable for guitar solos.",
+            "example": "M:4/4\nL:1/8\nQ:140\nK:E\n|: \"E7\"E2 G2 A2 B2 | \"A7\"A,2 C2 E2 G2 | \"E7\"E4 E2 G2 | \"E7\"E4 z4 |\n\"A7\"A2 c2 e2 a2 | \"A7\"a2 g2 e2 c2 | \"E7\"E2 E2 G2 A2 | \"E7\"E6 z2 |\n\"B7\"B,2 D2 F2 A2 | \"A7\"A,4 C2 E2 | \"E7\"E4 G2 B2 | \"B7\"B,4 D3 F :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Smooth jazz trumpet serenade",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Em7 | A7 | Dm7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Smooth Jazz Serenade in C",
+            "style": "Elegant and mellow with smooth transitions. Aim for soft, flowing melodies with a warm tone.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:C\n                |: \"Cmaj7\"C4 E2 G2 | \"Am7\"A2 c2 e4 | \"Dm7\"D2 F2 A2 c2 | \"G7\"G2 B2 d4 |\n                \"Em7\"E2 G2 B2 d2 | \"A7\"A,2 E2 A2 c2| \"Dm7\"D3 F A2 c2 | \"G7\"G2 B2 d3 e :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Groove-heavy funk drums",
+        "output": {
+            "chords": "Em7 | Am7 | Bm7 | Em7",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Funky Drummer Groove in E",
+            "style": "Characterized by a heavy, syncopated drum groove, this style emphasizes rhythm over melody. Keep the bass tight and funky, and use crisp, clean guitar riffs.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:Emin\n|: \"Em7\"E2 G2 A2 B2 | \"Am7\"A2 CE A2 C2 | \"Bm7\"B2 D2 F2 A2 | \"Em7\"E2 G2 B2 G2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Modal jazz exploration in Gm",
+        "output": {
+            "chords": "Gm7 | Am7b5 | Gm7 | Gm7 | Cm7 | Cm7 | Gm7 | Gm7",
+            "scales": "G Dorian (G A Bb C D E F)",
+            "title": "Modal Jazz Journey in Gm",
+            "style": "Relaxed and exploratory with an emphasis on modal interchange and subtle dynamics. Ideal for intricate soloing over fluid chord changes.",
+            "example": "\nM:4/4\nL:1/8\nQ:90\nK:Gmin\n|: \"Gm7\" G3 A B2 AG | \"Am7b5\" A3 G C2 BA | \"Gm7\" G3 F A2 FG | \"Gm7\" G4 z4 |\n\"Cm7\" C3 D E2 DC | \"Cm7\" C3 E G2 FE | \"Gm7\" G3 A B2 AG | \"Gm7\" G4 z4 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Soulful R&B keys",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Cmaj7 | Am7 | Em7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Soulful Nights in C",
+            "style": "Expressive, soulful and smooth. Focus on emotive chord play and use of dynamics.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:Cmaj\n                |: \"Cmaj7\"C2 E2 G2 B2 | \"Am7\"A2 c2 e2 g2 | \"Dm7\"D2 F2 A2 c2 | \"G7\"G2 B2 d2 f2 |\n                \"Cmaj7\"c4 e2 G2 | \"Am7\"A2 c2 e4 | \"Em7\"e2 g2 b2 d2 | \"G7\"G4 B2 d2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Latin jazz conga rhythms in A#",
+        "output": {
+            "chords": "A#m7 | D#7 | G#m7 | C#m7 | F#7 | Bm7 | E7 | A#m7",
+            "scales": "A# Dorian (A# B# C# D# E# F# G#)",
+            "title": "Conga Groove in A#m",
+            "style": "A rhythmic, smooth and percussion-heavy Latin jazz theme with strong conga and clave patterns.",
+            "example": "\nM:4/4\nL:1/8\nQ:125\nK:A#min\n|: \"A#m7\"A#B#^C#D#E#^F#G#A# | \"D#7\"D#^F#A#^C#D#^F#A#C# |\n\"G#m7\"G#A#B#^C#D#E#^F#G# | \"C#m7\"C#E#G#B#C#E#G#B# |\n\"F#7\"F#A#C#E#F#A#C#E# | \"Bm7\"BDF#ABDF#A | \"E7\"EG#B^D#EG#B^D# | \"A#m7\"A#B#^C#D#E#^F#G#A# :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Electric blues in D",
+        "output": {
+            "chords": "D7 | G7 | D7 | D7 | G7 | G7 | D7 | D7 | A7 | G7 | D7 | A7",
+            "scales": "D Mixolydian (D E F# G A B C)",
+            "title": "Electric Blues Jam in D",
+            "style": "Lay down a gritty, energized feel with amplified guitar tones and bending notes. Focus on the traditional 12-bar blues structure.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:100\n                K:D\n                |: \"D7\" D2 F2 A2 D2 | \"G7\" G2 B2 d4 | \"D7\" D2 F2 A2 D2 | \"D7\" D4 z4 |\n                    \"G7\"G2 B2 d2 G2 | \"G7\" G,2 B,2 D4| \"D7\"D2 A,2 D2 F2 | \"D7\"D6 z2 |\n                    \"A7\"A2 c2 e2 a2 | \"G7\"G2 B2 d3 e | \"D7\"D2 F2 A2 d2 | \"A7\"A,2 C2 E2 A2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Space rock improvisations",
+        "output": {
+            "chords": "Em | Am | D7 | G | C | F | B7",
+            "scales": "E Phrygian Dominant (E F G# A B C D)",
+            "title": "Galactic Journey in E",
+            "style": "A spacious, expansive sound with ambient textures and ethereal effects. Ideal for creating an atmospheric mood.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:80\n                K:Emin\n                |: \"Em\"E2 F2 G4 B2 | \"Am\"A3 B c2 A2 E2 | \"D7\"D2 F2 A2 D2 F2 | \"G\"G4 B2 d2 B2 |\n                \"C\"C2E2G2C2 | \"F\"F2A2C2F2 | \"B7\"B2D2F2A2B2 | \"Em\"E4 G4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Jazz fusion keyboard swirls",
+        "output": {
+            "chords": "Cm9 | F13 | Bbmaj7 | Gm7 C7",
+            "scales": "C Dorian (C D Eb F G A Bb), F Mixolydian (F G A Bb C D Eb)",
+            "title": "Fusion Whirl in C",
+            "style": "Dynamic and expressive with complex chords and melodies. Focus on modal interchange and colorful chord extensions.",
+            "example": ""
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Smooth jazz piano vibes",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Cmaj7 | Am7 | Dm7 | G7",
+            "scales": "C major scale (C D E F G A B) and C blues scale (C Eb F F# G Bb)",
+            "title": "Smooth Jazz Chill in C",
+            "style": "Laid-back and smooth with a sophisticated touch. Aim to blend melodious jazz runs with subtle rhythmic variations and harmonic textures.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:C\n                |: \"Cmaj7\"C2 E2 G2 B2 | \"Am7\"A3 B c2 E2 | \"Dm7\"D2 F2 A2 c2 | \"G7\"G2 B2 d2 F2 |\n                    \"Cmaj7\"C3 D E2 G2 | \"Am7\"A4 c2 e2 | \"Dm7\"d2 f2 a2 c2 | \"G7\"g3 a g2 f2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Psychedelic rock mind trip",
+        "output": {
+            "chords": "Em | G | D | A | C | G | D | Em",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Psychedelic Voyage in E Minor",
+            "style": "Lush, expansive sounds with extensive use of reverb and delay effects to create a hypnotic, trippy atmosphere. Focus on dynamic transitions and expressiveness.",
+            "example": "M:4/4\nL:1/8\nQ:85\nK:Em\n|: \"Em\"E4 G2 B2 | \"G\"G2 B2 d4 | \"D\"D2 F2 A2 d2 | \"A\"A2 c2 e2 a2 |\n\"C\"C2 E2 G2 c2 | \"G\"G2 B3 d cB | \"D\"D2 F2 A2 d2 | \"Em\"E4 G2 B2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Bop jazz stand-up bass in Bm",
+        "output": {
+            "chords": "Bm7 | E7 | Bm7 | Bm7 | Em7 | E7 | Bm7 | Bm7 | F#7 | E7 | Bm7 | F#7",
+            "scales": "B Dorian (B C# D E F# G# A)",
+            "title": "Bop Jazz Rumble in Bm",
+            "style": "Classic Bop jazz with a deep stand-up bass groove using walking bass lines and swing rhythms. Aim for intricate, quick transitions and nimble fingerwork.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:160\n                K:Bmin\n                |: \"Bm7\"B,2 B2 F2 A2 | \"E7\"E,2 G,2 B,2 D2 | \"Bm7\"B,2 D2 F2 A2 | \"Bm7\"B,2 F2 A2 D2 |\n                \"Em7\"E,2 E2 G2 B2 | \"E7\"E,2 G,2 B,2 E2 | \"Bm7\"B,3 A F2 D2 | \"Bm7\"B,2 D2 F2 A2 |\n                \"F#7\"F,2 A2 C2 E2 | \"E7\"E,2 G,2 B,2 D2 | \"Bm7\"B,2 D2 F2 A2 | \"F#7\"F,2 A2 C2 F2 :|\n            "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funky jazz guitar breakdown",
+        "output": {
+            "chords": "Em9 | A13 | Dm9 | G13",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Funky Jazz Breakdown in E",
+            "style": "A fusion of jazz harmony with a funky rhythm, focus on groove and colorful extended chords. Ideal for smooth jazz guitar licks.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:Emin\n|: \"Em9\"E2 G2 F2 A2 | \"A13\"A,2 C2 E2 G2 | \"Dm9\"D2 F2 A2 C2 | \"G13\"G,2 B,2 D2 F2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Rockabilly blues in E",
+        "output": {
+            "chords": "E | A | E | E | A | A | E | E | B7 | A | E | B7",
+            "scales": "E Major Pentatonic (E F# G# B C#)",
+            "title": "Rockabilly Rumble in E",
+            "style": "Energetic and upbeat with a swinging feel, typical of the rockabilly genre. Jumps with walking bass lines and twangy guitar for classic 50s vibes.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:160\n                K:E\n                |: \"E\"E2 E2 F2 E2 | \"A\"A2 A2 c2 e2 | \"E\"E4 -E2 F2 | \"E\"E2 E2 G2 E2 |\n                \"A\"A2 e2 a2 e2 | \"A\"A4 -A2 A2 | \"E\"E2 B2 E2 G2 | \"E\"E4 -E2 E2 |\n                \"B7\"B2 d'2 f2 d'2 | \"A\"A2 c2 e2 c2 | \"E\"E2 G2 B2 E2 | \"B7\"B2 F2 B2 d2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Soul jazz organ grooves",
+        "output": {
+            "chords": "Cm9 | Fm9 | Bb7 | Eb7 | Abmaj7 | G7 | Cm9 | Fm9 | D7 | G7 | Cm9 | G7",
+            "scales": "C Dorian (C D Eb F G A Bb)",
+            "title": "Soulful Essence Jazz Groove in Cm",
+            "style": "Lush, rhythmic soul jazz with evocative organ swells and intricate bass pedal work.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:Cmin\n                |: \"Cm9\"C,2 G,2 Bb,2 D2 | \"Fm9\"F,2 A,2 C2 G2 | \"Bb7\"B,2 D2 F2 A2 | \"Eb7\"E2 G2 Bb2 Db2 |\n                    \"Abmaj7\"Ab,2 C2 Eb2 G2 | \"G7\"G,2 B,2 D2 F2 | \"Cm9\"C2 E2 G2 Bb2 | \"Fm9\"F2 A2 C2 F2 |\n                    \"D7\"D2 F2 A2 C2 | \"G7\"G,2 B,2 D2 F2 | \"Cm9\"C2 E2 G2 C2 | \"G7\"G,4 B,2 D2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Mellow jazz flute ambiance",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Mellow Jazz Flute in C",
+            "style": "Soft and soothing with a flowing rhythm, allowing the flute's melodic line to sing gently over subtle harmonic textures.",
+            "example": "M:4/4\nL:1/8\nQ:60\nK:C\n|: \"Cmaj7\"C2 E2 G2 B,2 | \"Am7\"A4 c2 e2 | \"Dm7\"D2 F2 A2 c2 | \"G7\"G2 B2 d2 F2 :|\n|: \"Cmaj7\"e2 g2 c2 e2 | \"Am7\"a3 g f2 e2 | \"Dm7\"d2 f2 a2 c2 | \"G7\"b2 g4 z2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Heavy rock power trio",
+        "output": {
+            "chords": "E5 | A5 | E5 | B5 | E5 | A5 | E5 | B5",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Heavy Rock Power Jam in E",
+            "style": "Emphasize powerful, overdriven guitar riffs and solid bass with heavy drums. Opt for loud, punchy, and energetic execution, characteristic of power trios.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:140\n                K:Emin\n                |: \"E5\"E4 B4 | \"A5\"A4 E4 | \"E5\"E4 B4 | \"B5\"B4 B4 |\n                \"E5\" E4 E4 | \"A5\" A4 A4 | \"E5\" E4 E4 | \"B5\" B4 B4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funk-jazz hybrid in Cm",
+        "output": {
+            "chords": "Cm7 | Fm7 | Gm7 | Cm7 | Cm7 | Fm7 | Bb7 | Cm7",
+            "scales": "Cm Dorian (C D Eb F G A Bb)",
+            "title": "Funk-Jazz Fusion in Cm",
+            "style": "Combine smooth jazz lines with funky rhythms and grooves. Focus on syncopation and melodic color.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:Cmin\n                |: \"Cm7\"C2 EG Gcde | \"Fm7\"F2 Ac cBAG | \"Gm7\"G2 Bd dgfe | \"Cm7\"C2 EG GABc |\n                \"Cm7\"c2 ec GcEc | \"Fm7\"f2 af cAfc | \"Bb7\"B2 DF FAdf | \"Cm7\"C4 c2 ec :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Boogie-woogie piano in G",
+        "output": {
+            "chords": "G7 | C7 | G7 | G7 | C7 | C7 | G7 | G7 | D7 | C7 | G7 | D7",
+            "scales": "G Mixolydian (G A B C D E F)",
+            "title": "Boogie-woogie Piano Jam in G",
+            "style": "Lively, rhythmic with a strong boogie-woogie bass line. Focus on swung eighths and playful improvisation.",
+            "example": "M:4/4\nL:1/8\nQ:180\nK:G\n|: \"G7\"G2 B2 d2 G2 | \"C7\"e2 c2 A2 c2 | \"G7\"G2 B2 d2 d2 | \"G7\"G4 z4 |\n\"C7\"c2 e2 g2 c2 | \"C7\"e2 c2 A2 e2 | \"G7\"G2 B2 d2 G2 | \"G7\"g4 z4 |\n\"D7\"d2 f2 a2 d2 | \"C7\"c2 e2 a2 e2 | \"G7\"G2 B2 d2 G2 | \"D7\"d2 f2 a2 d2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Avant-garde jazz sax",
+        "output": {
+            "chords": "CmM7 | F#7 | Bbm | E7 | Amaj7 | D7#11 | Gm11 | C7b9",
+            "scales": "C Harmonic Minor (C D Eb F G Ab B)",
+            "title": "Abstract Expressions in C minor",
+            "style": "Explore unorthodox rhythms and unpredictable progressions, with room for extensive improvisation. Focus on atonal and dissonant sounds.",
+            "example": "M:5/4\nL:1/8\nQ:95\nK:Cmin\n|: \"CmM7\"C4 E4 G4 B4 | \"F#7\"F#4 A4 C#4 E#4 | \"Bbm\"Bb4 Db4 F4 Ab4 | \"E7\"E4 G#4 B4 D4 |\n \"Amaj7\"A4 C#4 E4 G4 | \"D7#11\"D4 F4 A4 C4 | \"Gm11\"G4 Bb4 D4 F4 | \"C7b9\"C4 E4 Gb4 Bb4 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Blues rock shuffle in G",
+        "output": {
+            "chords": "G7 | C7 | G7 | G7 | C7 | C7 | G7 | G7 | D7 | C7 | G7 | D7",
+            "scales": "G Mixolydian (G A B C D E F)",
+            "title": "Blues Rock Shuffle Jam in G",
+            "style": "Lively blues rock with a shuffle rhythm. Emphasize energetic and rhythmic strumming mixed with dynamic lead guitar lines.",
+            "example": "\nM:4/4\nL:1/8\nQ:140\nK:G\n|: \"G7\"G2 B2 d2 d2 | \"C7\"C2 E2 G2 c2 | \"G7\"G,B,DG B,DGB | \"G7\"G2 B2 d4 |\n\"C7\"c2 e2 g4 | \"C7\"C2 E2 G2 e2 | \"G7\"G,B,DG B,DG2 | \"G7\"G2 B2 d3 g |\n\"D7\"D2 F2 A2 d2 | \"C7\"C2 e2 g2 c2 | \"G7\"G,B,DG B,DG2 | \"D7\"D2 F2 A3 d :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Vintage funk vinyl vibes",
+        "output": {
+            "chords": "Em9 | A13 | D9 | G13",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Vintage Vinyl Funk in E",
+            "style": "Emulate a laid-back funk groove, reminiscent of 1970s funk records. Use clean, smooth rhythms and occasional dynamic syncopations.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:Emin\n|: \"Em9\"E2 F2 G2 A2 | \"A13\" A,2 C2 E2 G2 | \"D9\"D2 F2 A2 c2 | \"G13\"G,2 B2 D2 F2 :|\n|: \"Em9\"e4 f2 g2 | \"A13\" a2 ce a2 g2 | \"D9\" d4 f2 ed | \"G13\" g2 b2 d2 fb :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "New Orleans jazz in F#",
+        "output": {
+            "chords": "F#7 | B7 | F#7 | F#7 | B7 | B7 | F#7 | F#7 | C#7 | B7 | F#7 | C#7",
+            "scales": "F# Mixolydian (F# G# A# B C# D# E)",
+            "title": "New Orleans Swing in F#",
+            "style": "Lively and rhythmic with a strong brass influence and syncopated rhythms typical of New Orleans jazz. Emphasize swing timing.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:160\n                K:F#\n                |: \"F#7\"F2A2 C2A2 | \"B7\"B,2D2 F2D2 | \"F#7\"F2A2 C2E2 | \"F#7\"F4 z4 |\n                    \"B7\"B2D2 F2D2 | \"B7\" B,3D F2A2| \"F#7\"F2A2 C2E2 | \"F#7\"F2A2 C2 E2 |\n                    \"C#7\"C2 E2 G2 E2 | \"B7\"B,2 D2 F2A2 | \"F#7\"F2 A2 C2 F2 | \"C#7\"C,2 E2 G2 C2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Progressive jazz drumming",
+        "output": {
+            "chords": "Cm9 | F13 | Bb7#11 | Ebmaj9 | Gm11 | C13 | Fm9 | Bb13",
+            "scales": "C Dorian (C D Eb F G A Bb)",
+            "title": "Progressive Jazz Explorations",
+            "style": "Incorporate complex rhythms and polyrhythms, focusing on dynamic shifts and textural changes. Ideal for experimental and intricate drum patterns.",
+            "example": "\nM:4/4\nL:1/8\nQ:140\nK:Cmin\n|: \"Cm9\"c2 d2 e2 g2 | \"F13\"f2 a2 c2 d2 | \"Bb7#11\"b2 g2 f2 d2 | \"Ebmaj9\"e2 g2 a2 c2 |\n\"Gm11\"g2 b2 d2 f2 | \"C13\"c2 e2 g2 b2 | \"Fm9\"f2 ab cd ef | \"Bb13\"b2 df b2 g2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Delta blues slide guitar",
+        "output": {
+            "chords": "E7 | A7 | E7 | E7 | A7 | A7 | E7 | E7 | B7 | A7 | E7 | B7",
+            "scales": "E Blues (E G A Bb B D)",
+            "title": "Delta Slide Blues in E",
+            "style": "Emphasize soulful and expressive slide guitar techniques. Stay raw and gritty with slow, emotive bends and vibrato.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:60\n                K:E\n                |: \"E7\" E2 G2 A2 Bb2 | \"A7\" A2 C2 E2 e2 | \"E7\" E2 G2 (slide) B2 d2 | \"E7\" E4 z4 |\n                    \"A7\" A2 c2 (slide) c2 d2 | \"A7\" A4 z2 G2 | \"E7\" E3 G B,2 D2 | \"E7\" E6 z2 |\n                    \"B7\" B,2 D2 F4 | \"A7\" (slide) A,4 C4 | \"E7\" E4 (slide) B2 z2 | \"B7\" B,4 z2 D2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Cosmic funk synthesizer",
+        "output": {
+            "chords": "Fm7 | Bbm7 | Eb7 | Fm7 | Fm7 | Bbm7 | Ab7 | Fm7",
+            "scales": "F Dorian (F G Ab Bb C D Eb)",
+            "title": "Cosmic Synth-Funk in Fm",
+            "style": "Utilize a cosmic, spacey synthesizer tone with lots of reverb and echo to enhance a deep funk groove. Focus on smooth, flowing lines and staccato synthesizer hits.",
+            "example": "\nM:4/4\nL:1/8\nQ:110\nK:Fmin\n|: \"Fm7\"F2A2c2d2 | \"Bbm7\"Bb d f a b2 a g | \"Eb7\"E G Bb D E G b b | \"Fm7\"f a c e f g a b |\n\"Fm7\"f f a a c c e e | \"Bbm7\" Bb2 d2 f f a2 b2 | \"Ab7\"Ab c Eb G Eb G c e | \"Fm7\"F2 F2 A2 C'2 A2 B B :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Jazz-rock fusion in Ab",
+        "output": {
+            "chords": "Abm7 | Db7 | Gbmaj7 | Bbm7 | Eb7 | Abm7 | Db7 | Gb7",
+            "scales": "Ab Dorian (Ab Bb Cb Db Eb F G)",
+            "title": "Jazz-Rock Fusion Adventure in Ab",
+            "style": "Blend the smoothness of jazz with the electrifying energy of rock. Focus on fluid lines, complex rhythms, and dynamic interplay between instruments.",
+            "example": "M:4/4\nL:1/8\nQ:140\nK:Ab minor\n|: \"Abm7\"A2 B2 e2 f2 | \"Db7\"d4 f2 ga | \"Gbmaj7\"G2 A2 B2 cd | \"Bbm7\"B2 ^d2 ef ga |\n\"Eb7\"E2 G2 B2 e2 | \"Abm7\"A2 c2 e2 A2 | \"Db7\"D2 F2 A2 c2 | \"Gb7\"G4 B3 c :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Blues rock vocal howl",
+        "output": {
+            "chords": "E7 | A7 | E7 | E7 | A7 | A7 | E7 | E7 | B7 | A7 | E7 | B7",
+            "scales": "E Blues Scale (E G A Bb B D)",
+            "title": "Blues Rock Vocal Howl in E",
+            "style": "Combine powerful blues rock riffs with intense vocal lines. Focus on heavy, gritty guitar tones and growling vocal howls for expressive impact.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:E\n                |: \"E7\"E2 G2 A2 Bb2 | \"A7\"A2 c2 e2 c2 | \"E7\"E2 G2 B2 Bb2 | \"E7\"E4 z4 |\n                    \"A7\"A2 e2 a2 g2 | \"A7\" a2 a2 e2 c2 | \"E7\"E2 E2 G2 B2 | \"E7\"E4 z4 |\n                    \"B7\"B2 d2 f2 d2 | \"A7\"A2 c2 e2 g2 | \"E7\"E4 E2 G2 | \"B7\"B2 f2 B2 B,2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Groovy gospel jazz organ",
+        "output": {
+            "chords": "C9 | F9 | C9 | C9 | F9 | F9 | C9 | C9 | G9 | F9 | C9 | G9",
+            "scales": "C Mixolydian (C D E F G A Bb)",
+            "title": "Gospel Groove Jazz in C",
+            "style": "Warm and soulful, featuring intricate groovy rhythms tailored for organ sounds. Emphasis on lush harmonies and dynamic range.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:95\n                K:C\n                |: \"C9\"C2 E2 G2 B,2 | \"F9\"F2 A2 C2 E2 | \"C9\"C2 E2 G2 C2 | \"C9\"E2 G2 B2 c2 |\n                    \"F9\"F2 A2 c2 e2 | \"F9\"f2 a2 c2 e2| \"C9\"C2 E2 G2 C2 | \"C9\"c2 e2 g2 c2 |\n                    \"G9\"G2 B2 d2 f2 | \"F9\"F2 A2 C2 E2 | \"C9\"C2 E2 G2 c2 | \"G9\"G2 B2 D2 F2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Swing blues in C#",
+        "output": {
+            "chords": "C#7 | F#7 | C#7 | C#7 | F#7 | F#7 | C#7 | C#7 | G#7 | F#7 | C#7 | G#7",
+            "scales": "C# Mixolydian (C# D# E# F# G# A# B)",
+            "title": "Swingin' Blues in C#",
+            "style": "Play with a light swing feel, emphasizing the upbeat to give that jumpy, lively blues atmosphere. Ideal for using lots of chromatic passing notes and smooth swing phrasing.",
+            "example": "\nM:4/4\nL:1/8\nQ:140\nK:C#\n|: \"C#7\"C#E G#B C#E | \"F#7\"F#A C#F# A2 | \"C#7\"C#4 G#2 B2 | \"C#7\"C#E G#A B=C# |\n\"F#7\"F#A C#E F#G# | \"F#7\"A2 c#A F2 | \"C#7\"C#E G#C# E2 | \"C#7\"C#4 G#2 F# |\n\"G#7\"G#B D#G B2 | \"F#7\"F#2 A2 C#4 | \"C#7\"C#2 E2 G#4 | \"G#7\"G#2 B2 D#2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Smooth fusion guitar licks",
+        "output": {
+            "chords": "Am9 | D9 | Gmaj7 | Cmaj9 | F#m7b5 | B7 | Emaj7",
+            "scales": "A Dorian (A B C D E F# G)",
+            "title": "Smooth Fusion Delight in A",
+            "style": "Silky smooth textures with a jazzy feel; perfect for intricate guitar solos and warm chord tones.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:Amin\n                |: \"Am9\" A,2 E2 G2 A2 | \"D9\" D4 F2 A2 | \"Gmaj7\" G2 B2 D2 G2 | \"Cmaj9\" C2 E2 G2 B2 |\n                    \"F#m7b5\" F2 A2 C2 E2 | \"B7\"B,2 D2 F2 A2 | \"Emaj7\"E4 G4 B4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Psychedelic funk odyssey",
+        "output": {
+            "chords": "Em7 | A7 | Dm7 | G7 | Cmaj7 | F#m7b5 | B7 | Em7",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Psychedelic Funk Odyssey in E",
+            "style": "Blend psychedelic rock tones with funky rhythms, emphasizing colorful, mesmerizing patterns and heavy use of effects like phaser or wah pedal.",
+            "example": "\n        M:4/4\n        L:1/8\n        Q:110\n        K:Emin\n        |: \"Em7\"E2 G2 B2 e2 | \"A7\"A2 c2 e2 g2 | \"Dm7\"d2 f2 a3 f | \"G7\"g2 b2 d2 g2 |\n          \"Cmaj7\"c2 e2 g2 B2 | \"F#m7b5\"f2 a2 c2 e2 | \"B7\"B2 d2 f2 a2 | \"Em7\"E4 G4 :|\n        "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Rock jam with funky riffs in A",
+        "output": {
+            "chords": "A7 | D9 | A7 | A7 | D9 | D9 | A7 | A7 | E9 | D9 | A7 | E9",
+            "scales": "A Minor Pentatonic (A C D E G)",
+            "title": "Funky Rock Jam in A",
+            "style": "Blend aggressive rock tones with funky syncopated rhythms. Use staccato and accented strums for heightened effect.",
+            "example": "\nM:4/4\nL:1/8\nQ:110\nK:A\n|: \"A7\"a4 c4 | \"D9\"d2f2a2b2 | \"A7\"A2c2A2G2 | \"A7\"A4 z4 |\n\"D9\"d2d2f2a2 | \"D9\"a4 z2 g2 | \"A7\"A2c2E2C2 | \"A7\"C4 z4 |\n\"E9\"e2G2B2g2 | \"D9\"d4 f2 d2 | \"A7\"a2a2 c2 e2 | \"E9\"B2^G2 B2e2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Jazz-funk fusion with a smooth sax lead",
+        "output": {
+            "chords": "Cm9 | F13 | Bb7 | Eb9 | Gm7 | Cm9 | F13 | Bb7",
+            "scales": "C Dorian (C D Eb F G A Bb)",
+            "title": "Smooth Jazz-Funk Fusion in Cm",
+            "style": "Smooth and melodic, prioritize a groove-based rhythm with expressive saxophone lead filled with intricate melodies and soulful expressions.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:Cmin\n                |: \"Cm9\"c2G2 Bcde | \"F13\"f2A2 cAcf | \"Bb7\"B2d2 fgab | \"Eb9\"e2G2 BeGB |\n                \"Gm7\"g2B2 d2f2 | \"Cm9\"c2e2 g2c2 | \"F13\"f2a2 dfad | \"Bb7\"B2fd B2dB :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Latin jazz groove with fiery trumpet solos",
+        "output": {
+            "chords": "Am7 | D7 | Gm7 | C7 | Fmaj7 | Bb7 | Esus4 | E7",
+            "scales": "A Harmonic Minor (A B C D E F G#)",
+            "title": "Latin Fire Jazz in A minor",
+            "style": "Fast-paced Latin groove with complex rhythms and fiery trumpet solos. Focus on syncopation and energetic, vibrant expression in solos.",
+            "example": "M:4/4\nL:1/8\nQ:140\nK:Amin\n|: \"Am7\"A2B2 c2e2 | \"D7\"d2f2 a2f2 | \"Gm7\"g2a2 b2d'2 | \"C7\"c2e2 g2e2 |\n\"Fmaj7\"f2a2 c2a2 | \"Bb7\"B2d2 f2d2 | \"Esus4\"E2F2 G2A2 | \"E7\"e2g2 b2e2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Psychedelic rock experience with extended solos",
+        "output": {
+            "chords": "Em | G | D | A | Em | G | D | A",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Psychedelic Solos in E Minor",
+            "style": "Emphasize a dreamy, expansive sound with lots of reverb and echo effects. Ideal for extended improvised guitar solos with expressive bends and dynamic feedback.",
+            "example": "M:4/4\nL:1/8\nQ:85\nK:Emin\n|: \"Em\"E4 B2 G2 | \"G\"G2 B2 d4 | \"D\"D2 F2 A2 d2 | \"A\"A4 e4 | \"Em\"E4 G2 B2 | \"G\"G2 B2 d4 | \"D\"D2 F2 A2 d2 | \"A\"A6 E2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Smooth jazz ensemble with piano and violin",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Cmaj7 | Am7 | Dm7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Velvet Jazz Night",
+            "style": "Smooth and sophisticated with lush harmonies. Incorporate smooth swing rhythms ideal for a mellow mood, allowing both piano and violin to express melodically.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:Cmaj\n                |: \"Cmaj7\"C2 E2 G2 B2 | \"Am7\"A2 C2 E2 G2 | \"Dm7\"D2 F2 A2 C2 | \"G7\"G2 B2 D2 F2 | \n                \"Cmaj7\"C2 E2 G2 B2 | \"Am7\"A2 C2 E2 G2 | \"Dm7\"D2 F2 A2 C2 | \"G7\"G2 B2 D2 F2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Blues rock power trio with gritty vocals",
+        "output": {
+            "chords": "E7 | A7 | E7 | E7 | A7 | A7 | E7 | E7 | B7 | A7 | E7 | B7",
+            "scales": "E Blues (E G A Bb B D)",
+            "title": "Gritty Blues Rock Trio Jam in E",
+            "style": "Strong, driving rhythms with gritty guitar tones and a vigorous vocal style. Highlight the rock edge with power strumming and dynamic bends.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:140\n                K:E\n                |: \"E7\"E2 ^G2 A2 ^A2 | \"A7\"A,2 CE A2 C2 | \"E7\"E4 ^G3 A | \"E7\"E4 z4 |\n                    \"A7\"A4 CA CE | \"A7\" A,2 CE A4| \"E7\"E4 ^G2 B2 | \"E7\"E6 z2 |\n                    \"B7\"B,2 DF ^F2 A2 | \"A7\"A,4 E4 | \"E7\"E4 ^G2 B2 | \"B7\"B,4 z4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funky disco beat with vintage synth vibes",
+        "output": {
+            "chords": "Am7 | Dm7 | G7 | CMaj7 | Fmaj7 | Bm7b5 | E7 | Am7",
+            "scales": "A Dorian (A B C D E F# G)",
+            "title": "Retro Funk Disco in A",
+            "style": "Rhythmic, upbeat disco groove with emphasis on smooth, melodic synth layers. Incorporate staccato playing and octave runs.",
+            "example": "\nM:4/4\nL:1/8\nQ:120\nK:Amin\n|: \"Am7\"A2 c2 E2 A2 | \"Dm7\"D2 F2 A2 d2 | \"G7\"G2 B2 d2 G2 | \"CMaj7\"C2 E2 G2 c2 |\n\"Fmaj7\"F2 A2 c2 e2 | \"Bm7b5\"B2 D2 F2 A2 | \"E7\"E2 G2 B2 e2 | \"Am7\"A4 C4 E4 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Gypsy jazz with fast-paced acoustic guitar",
+        "output": {
+            "chords": "Am6 | Dm6 | E7 | Am6 | Am6 | Dm6 | E7 | Am6",
+            "scales": "A Harmonic Minor (A B C D E F G#)",
+            "title": "Fast Gypsy Jazz in Am",
+            "style": "Emulate the quick, rhythmic strumming and dynamic soloing typical of Gypsy jazz. Focus on minor swing feels with rapid chord changes.",
+            "example": "M:2/4 L:1/16 Q:220 K:Am |: \"Am6\" A2E2C2A2 F2E2D2C2 | \"Dm6\" D2F2A2d2 c2A2F2D2 | \"E7\" E2G#2B2e2 d2B2G2E2 | \"Am6\" A3B c2A2 F2E2D2C2 |  \"Am6\" A2c2A2E2 A2F2E2D2 | \"Dm6\" D2F2A2d2 c2d2e2f2 | \"E7\" G2B2e2G#2 B2d2c2B2 | \"Am6\" A8 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Soulful blues with harmonica and slide guitar",
+        "output": {
+            "chords": "Em7 | A7 | Em7 | Em7 | A7 | A7 | Em7 | Em7 | B7 | A7 | Em7 | B7",
+            "scales": "E Blues (E G A Bb B D)",
+            "title": "Harmonica Slide Blues in E",
+            "style": "Sultry slow blues emphasizing emotive expressions suitable for harmonica wails and slide guitar glides.",
+            "example": "M:4/4\nL:1/8\nQ:60\nK:Em\n|: \"Em7\"E4 G2 A2 | \"A7\"A,2 C2 E2 G2 | \"Em7\"E4 z4 | \"Em7\"E4 G2 B,2 |\n\"A7\"A2 c2 E2 A2 | \"A7\"A2 c2 E2 c2 | \"Em7\"E4 B,2 E2 | \"Em7\"E4 z4 |\n\"B7\"B,2 D2 F2 A2 | \"A7\"A,2 C2 E2 G2 | \"Em7\"E4 G2 B,2 | \"B7\"B,2 D2 F2 B,2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Progressive rock symphony with complex time signatures",
+        "output": {
+            "chords": "Am | C | D | F | Am | C | G | D | E | F | G | Am",
+            "scales": "A Harmonic Minor (A B C D E F G#)",
+            "title": "Time Signature Odyssey in A",
+            "style": "Complex rhythms and time changes. Emphasize dynamic shifts and intricate instrumental interplay.",
+            "example": "\nM:C\nL:1/8\nQ:140\nK:Am\n|: \"Am\" A4 C2 E2 | \"C\" C2 E2 G2 C2 | \"D\" D2 F2 A3 c | \"F\" F2 A2 c2 F2 |\n\"Am\" A,2 C2 E3 G | \"C\" C2 E2 G2 c2 | \"G\" G,2 B,2 D3 G | \"D\" D2 F2 A3 c |\n\"E\" E4 G2 B,2 | \"F\" F3 G A2 c2 | \"G\" G,2 B,2 D3 G | \"Am\" A2 C2 E2 A,2 :|\n|: \"Am\" A3 B c2 e2 | \"C\" c2 E2 G2 e2 | \"D\" d3 e f2 a2 | \"F\" f2 A2 c2 e2 |\n\"Am\" a3 c' b2 a2 | \"C\" c'2 c2 g2 e2 | \"G\" g2 b2 d'2 f'2 | \"D\" d2 f2 a2 f2 |\n\"E\" e4 ^g2 e2 | \"F\" f2 g2 a2 c'2 | \"G\" g3 a b2 g2 | \"Am\" a4 e2 c2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Fusion jazz complexity in Dm",
+        "output": {
+            "chords": "Dm9 | G13 | Cmaj7#11 | F13 | Bb9 | A7#5 | Dm9 | G13",
+            "scales": "D Melodic Minor (D E F G A B C#), G Mixolydian (G A B C D E F), C Lydian (C D E F# G A B)",
+            "title": "Fusion Jazz Odyssey in Dm",
+            "style": "Incorporate complex rhythms and sophisticated chord extensions for a rich, textured sound. Fluid and dynamic improvisation is essential.",
+            "example": "M:4/4\nL:1/8\nQ:140\nK:Dmin\n|: \"Dm9\"D2 F2 A2 c2 | \"G13\"G2 B2 D2 F2 | \"Cmaj7#11\"C2 E2 G2 B2 | \"F13\"F2 A2 C2 E2 |\n\"Bb9\"Bb2 D2 F2 Ab2 | \"A7#5\"A2 C#2 E2 G2 | \"Dm9\"D2 F2 A2 c2 | \"G13\"G2 B2 D2 F2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Jazz quartet with a bebop piano lead",
+        "output": {
+            "chords": "Dm7 | G7 | Cmaj7 | Cmaj7 | Am7 | D7 | Gmaj7 | Gmaj7",
+            "scales": "C Major Bebop (C D E F G A Bb B)",
+            "title": "Bebop Delight in C",
+            "style": "Innovative and fast-paced with complex chords. Emphasize quick, chromatic runs and spontaneous melodic invention from the piano.",
+            "example": "M:4/4\n",
+            "L:1/8\n": "Q:220\n",
+            "K:C\n": "Dm7",
+            "D2 F2 A2 d2 | D2 F2 A2 d2 | ": "G7",
+            "B2 D2 F2 A2 | G2 F2 E2 D2 | ": "Cmaj7",
+            "C2 E2 G2 B2 | C4 E3 G | ": "Cmaj7",
+            "C2 E2 G2 c2 | B,2 D2 G2 B2 | ": "Am7",
+            "A2 C2 E2 G2 | A2 C2 E2 G2 | ": "D7",
+            "D2 F2# A2 D2 | D2 F2# A2 C2 | ": "Gmaj7",
+            "G2 B2 D2 F#2 | G2 B2 D2 F#2 | ": "Gmaj7",
+            "G,2 B,2 D2 G2 | G,2 B,2 D2 G2 :|": " "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Reggae fusion jam with a laid-back beat",
+        "output": {
+            "chords": "Am | Dm | G | C | Am | Dm | Em | Am",
+            "scales": "A Natural Minor (A B C D E F G)",
+            "title": "Lazy Afternoon Reggae Fusion",
+            "style": "Relaxed reggae rhythms blended with elements from other genres for a rich, laid-back but engaging soundscape. Emphasize the offbeat.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:Am\n                |: \"Am\"A2 E2 A2 c2 | \"Dm\"D2 F2 A2 d2 | \"G\"G2 B2 d2 D2 | \"C\"C2 E2 G2 c2 |\n                \"Am\"A2 c2 e2 a2 | \"Dm\"d2 f2 a2 f2 | \"Em\"E2 G2 B2 e2 | \"Am\"A4 c2 e2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Acoustic folk with a jazz twist",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Em7 | A7 | Dm7 | G7",
+            "scales": "C Major scale (C D E F G A B)",
+            "title": "Jazzy Folk Melody in C",
+            "style": "Blend traditional folk fingerpicking with smooth jazz chords and syncopation. Emphasize melodic runs and light improvisations.",
+            "example": "\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Classic rock with a modern funky bassline",
+        "output": {
+            "chords": "E7 | A7 | B7 | E7 | E7 | A7 | B7 | E7",
+            "scales": "E Mixolydian (E F# G# A B C# D)",
+            "title": "Modern Funk-Rock Fusion in E",
+            "style": "Meld classic rock guitar rhythms with a prominent, groovy funky bassline. Focus on tight, pronounced bass grooves alongside typical rock guitar riffs.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:E\n                |: \"E7\"E2 F2 G2 B2 | \"A7\"A2 E2 C2 A2 | \"B7\"B2 F2 A2 F2 | \"E7\"E4 z4 |\n                   \"E7\"E2 C2 B2 G2 | \"A7\"A4 c2 e2 | \"B7\"B2 D2 F2 B2 | \"E7\"E8 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funk rock explosion with electric guitar solos",
+        "output": {
+            "chords": "Em7 | A7 | D7 | G7 | C7 | B7 | Em7 | Em7",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Electric Funk Rock Blast in E",
+            "style": "Dynamic and electrifying funk mixed with rock. Focus on intense electric guitar solos with effects like wah-wah and distortion.",
+            "example": "M:4/4\nL:1/8\nQ:130\nK:Emin\n|: \"Em7\"E2 G2 B2 e2 | \"A7\"cA FE DC B,A, | \"D7\"DF AD FA df | \"G7\"BG DG BG ed |\n\"C7\"cE cG Ec GE | \"B7\"BF DB fd BF | \"Em7\"E2 G2 BG eg | \"Em7\"e4 g4 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Deep blues jam with soulful vocal improvisations",
+        "output": {
+            "chords": "C7 | F7 | C7 | C7 | F7 | F7 | C7 | C7 | G7 | F7 | C7 | G7",
+            "scales": "C Blues Scale (C Eb F F# G Bb)",
+            "title": "Soulful Deep Blues in C",
+            "style": "Deep, emotion-rich blues with space for soulful vocal improvisations, strong emphasis on the blues feel.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:60\n                K:C\n                |: \"C7\"C2 E2 G2 Bb2 | \"F7\"A2 c2 F2 A2 | \"C7\"c2 E2 G2 Bb2 | \"C7\"C2 E2 G2 Bb2 |\n                    \"F7\"A2 c2 F2 A2 | \"F7\"A2 c2 F2 A2| \"C7\"C2 E2 G2 Bb2 | \"C7\"C2 E2 G2 Bb2 |\n                    \"G7\"G2 B2 D2 F2 | \"F7\"F2 A2 c2 F2 | \"C7\"C2 E2 G2 Bb2 | \"G7\"G2 B2 D2 F2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Heavy metal with jazz fusion elements",
+        "output": {
+            "chords": "Em7 | C#m7b5 | F#7 | Bm7 | E7#9 | A13 | Cmaj7#11 | B7#9",
+            "scales": "E Harmonic Minor (E F# G A B C D#), E Melodic Minor (E F# G A B C# D#)",
+            "title": "Metal-Jazz Fusion Odyssey in E",
+            "style": "Mixture of aggressive heavy metal rhythms with sophisticated jazz harmonies. Focus on intense groove with frequent use of syncopation and complex chord extensions.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:140\n                K:Emin\n                |: \"Em7\"E2 F^G A2 B2 | \"C#m7b5\"C^D E^F G A2 | \"F#7\"F2 A2 c2 e2 | \"Bm7\"B,2 D2 F2 A2 |\n                    \"E7#9\"E2 G^G A2 ^c2 | \"A13\"A,2 C2 ^E2 G2 | \"Cmaj7#11\"C2 E2 G2 B2 | \"B7#9\"[B,2^D2] [F2A2] z2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Smooth R&B with jazzy guitar chords",
+        "output": {
+            "chords": "Am7 | Dm7 | G7 | CMaj7 | Fmaj7 | Bm7b5 | E7 | Am7",
+            "scales": "A Harmonic Minor (A B C D E F G#)",
+            "title": "Silky Waves R&B in A",
+            "style": "Smooth and lush, with a focus on soft dynamics and rich chord voicings. Perfect for warm, mellow guitar solos.",
+            "example": "M:4/4\nL:1/8\nQ:90\nK:Am\n|: \"Am7\"A2 C2 E2 A2 | \"Dm7\"D2 F2 A2 d2 | \"G7\"G2 B2 D2 G2 | \"CMaj7\"C2 E2 G2 B2 |\n   \"Fmaj7\"F2 A2 C2 E2 | \"Bm7b5\" B2 D2 F2 A2 | \"E7\"E2 G#2 B2 D2 | \"Am7\"A4 E4 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "High-energy funk with brass section highlights",
+        "output": {
+            "chords": "Bb9 | Eb9 | Bb9 | Bb9 | Eb9 | Eb9 | Bb9 | Bb9 | F9 | Eb9 | Bb9 | F9",
+            "scales": "Bb Mixolydian (Bb C D Eb F G Ab)",
+            "title": "Brass Power Funk in Bb",
+            "style": "A vibrant, high-energy funk groove, punctuated with powerful brass section lines. Focus on syncopated rhythms and punchy horn stabs.",
+            "example": "\nM:4/4\nL:1/8\nQ:115\nK:Bb\n|: \"Bb9\"B2 D2 F2 Ab | \"Eb9\" Eb2 G2 Bb2 Db2 | \"Bb9\" B3 D F3 Ab | \"Bb9\" B6 z2 |\n\"Eb9\"Eb2 G2 Bb2 Db2 | \"Eb9\" Eb2 G2 Bb4 | \"Bb9\" B2 D2 F3 Ab | \"Bb9\" B6 z2 |\n\"F9\" F2 A2 C2 E2 | \"Eb9\" Eb2 G2 Bb2 Db2 | \"Bb9\" B2 D2 F2 Ab2 | \"F9\" F4 A4 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Experimental jazz-rock with electronic influences",
+        "output": {
+            "chords": "Cm9 | F13 | Bb7#11 | Ebmaj9 | D7#9 | G13 | Cm9 | Cm9",
+            "scales": "C Dorian (C D Eb F G A Bb), F Mixolydian (F G A Bb C D Eb), Bb Lydian Dominant (Bb C D E F G Ab)",
+            "title": "Futuristic Jazz Fusion",
+            "style": "Incorporate synthesizer sounds with traditional jazz-rock ensembles. Experiment with effects like delays and reverb for a spacious sound.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:Cmin\n                |: \"Cm9\"CDEGcBAG | \"F13\"FGABcdAe | \"Bb7#11\"BAGFAbGF | \"Ebmaj9\"EFGABcDB |\n                    \"D7#9\"DEFGABdf | \"G13\"GFEDCABc | \"Cm9\"cBAGFEDC | \"Cm9\"C4 z4 :|\n            "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Chillout acid jazz sax",
+        "output": {
+            "chords": "Em9 | Am9 | Dm9 | G13",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Chillout Acid Jazz Session in E",
+            "style": "Laid-back and smooth, with a relaxed groove. Focus on melodic phrasing and warm, expressive sax tones.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:Emin\n                |: \"Em9\"E2 F2 G2 A2 | \"Am9\"A2 A2 c2 e2 | \"Dm9\"D2 F2 A2 c2 | \"G13\"G2 B2 e2 f2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Groove-centric funk with popping bass lines",
+        "output": {
+            "chords": "E7 | Am7 | D7 | G7",
+            "scales": "E Mixolydian (E F# G# A B C# D)",
+            "title": "Funk Poppin' Bass Groove in E",
+            "style": "Focus on syncopated, groovy rhythms with dynamic popping bass lines, driven by tight, expressive slaps and pulls on the bass.",
+            "example": "\nM:4/4\nL:1/8\nQ:110\nK:E\n|: \"E7\" E2 F2 G2 A^A | \"Am7\" A2 e2 A2 c^c | \"D7\" d2 F2 D2 ^F2 | \"G7\" G2 B2 d2 ^d2 |\n\"E7\" A2 ^A2 B2 c^c | \"Am7\" A2 c2 e3 e | \"D7\" D F D =F D F | \"G7\" G2 B2 d4 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Sultry jazz ballad with smooth tenor saxophone",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Cmaj7 | Am7 | Dm7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Velvet Night Serenade",
+            "style": "Play with a slow, expressive tempo, focusing on the emotional depth and smooth transitions between notes. Ideal for soul-stirring solos on the tenor saxophone.",
+            "example": "\nM:4/4\nL:1/8\nQ:60\nK:Cmaj\n|: \"Cmaj7\"C2 E2 G2 B2 | \"Am7\" A2 C2 E2 G2 | \"Dm7\"D2 F2 A2 C2 | \"G7\"G2 B2 D2 F2 |\n \"Cmaj7\"C2 E2 G2 B2 | \"Am7\" A2 C2 E2 G2 | \"Dm7\"D2 F2 A2 C2 | \"G7\"G2 B2 D2 F2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Alternative rock with funky drum patterns",
+        "output": {
+            "chords": "Em | C | G | D | Em | C | G | D",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Alt-Rock Funk Beat Jam in E minor",
+            "style": "Blend alternative rock's guitar-driven sound with funky, syncopated drum rhythms. Focus on strong downbeats and groovy syncopation.",
+            "example": "M:4/4\nL:1/8\nQ:115\nK:Emin\n|: \"Em\"E4 G4 | \"C\"C2 E2 G2 E2 | \"G\"G2 B2 D2 G2 | \"D\"D3 E F2 E2 |\n\"Em\"E2 G2 F2 E2 | \"C\"C4 E4 | \"G\"G2 B2 A2 G2 | \"D\"D4 E4 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Fusion jazz with dynamic drum solos",
+        "output": {
+            "chords": "Cm9 | F13 | Bb9 | Eb13 | AbMaj7 | Db7 | Gm7b5 | C7alt",
+            "scales": "C Dorian (C D Eb F G A Bb), F Mixolydian (F G A Bb C D Eb), Bb Mixolydian (Bb C D Eb F G Ab), Eb Lydian (Eb F G A Bb C D), Ab Ionian (Ab Bb C Db Eb F G), Db Mixolydian (Db Eb F Gb Ab Bb C), G Locrian (G Ab Bb C Db Eb F), C Altered (C Db D# E F# G# A#)",
+            "title": "Jazz Fusion Odyssey",
+            "style": "Complex rhythms and intricate chord changes with room for dynamic drum solos. Incorporate varied dynamics and textures while maintaining rhythmic precision.",
+            "example": "\nM:4/4\nL:1/8\nQ:130\nK:Cmin\n|: \"Cm9\"C2 D2 EbF2 G2 | \"F13\"F2 A2 c2 B2 A2 | \"Bb9\"Bb2 c2 D2 Eb2 | \"Eb13\"Eb2 G2 Bb2 A2 |\n\"AbMaj7\"Ab2 Bb2 C2 Db2 | \"Db7\"Db2 F2 Ab2 G2 | \"Gm7b5\"G2 Ab2 Bb2 C2 | \"C7alt\"C2 Db2 E2 F#2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Mellow jazz vibes with soft keyboard melodies",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Em7 | Am7 | Dm7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Mellow Jazz Session in C",
+            "style": "Smooth and relaxing, with soft touches and gentle dynamics to enhance the overall mellow atmosphere.",
+            "example": "\nM:4/4\nL:1/8\nQ:90\nK:C\n|: \"Cmaj7\"C2E2G2B2 | \"Am7\" A2C2E2G2 | \"Dm7\"D2F2A2C2 | \"G7\"G2B2D2F2 |\n\"Em7\"E2G2B2D2 | \"Am7\"A2C2E2G2 | \"Dm7\"D2F2A2C2 | \"G7\"G2B2D2F2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Classic blues jam with a gritty edge",
+        "output": {
+            "chords": "E7 | A7 | E7 | E7 | A7 | A7 | E7 | E7 | B7 | A7 | E7 | B7",
+            "scales": "E Blues Scale (E G A Bb B D)",
+            "title": "Gritty Blues in E",
+            "style": "Play with a raw, edgy sound, incorporating slide guitar and bending notes for a gritty blues atmosphere.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:E\n|: \"E7\" E2 G2 A2 Bb2 | \"A7\" A2 C2 E2 G2 | \"E7\" E2 G2 Bb2 E2 | \"E7\" E4 z4 |\n\"A7\" A_B A2 C2 E2 | \"A7\" A2 Bb2 A2 G2 |\"E7\" E2 G2 Bb2 G2 | \"E7\" E2 E2 G2 B2 |\n\"B7\" B2 D2 F2 A2 | \"A7\" A2 C2 E2 A2 |\"E7\" E2 G2 B2 E2 | \"B7\" B2 D_F B2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Indie rock with a touch of jazz saxophone",
+        "output": {
+            "chords": "Em9 | Am7 | D7 | Gmaj7 | Em9 | Am7 | Bm7 | Em9",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Indie Jazz-Rock Flow in E",
+            "style": "Blend indie rock's raw, emotive energy with smooth jazz saxophone lines. Focus on mixed meter and dynamic changes for an engaging sound.",
+            "example": "\nM:4/4\nL:1/8\nQ:110\nK:Emin\n|: \"Em9\"E2 G2 F2 A2 | \"Am7\"A4 c2 e2 | \"D7\"D2 F2 A2 d2 | \"Gmaj7\"G2 B2 D2 G2 |\n\"Em9\"E2 G2 F2 E2 | \"Am7\"A2 c2 e2 A2 | \"Bm7\"B2 D2 F2 A2 | \"Em9\"E4 G2 F2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funk soul hybrid with powerful vocal hooks",
+        "output": {
+            "chords": "Cm9 | Fm9 | Gm9 | Cm9 | Cm9 | Fm9 | Gm9 | Cm9",
+            "scales": "Cm Pentatonic (C Eb F G Bb)",
+            "title": "Soulful Funk Grooves in Cm",
+            "style": "A blend of warm, lush soul chords with the rhythmic and percussive elements of funk. Focus on dynamic vocal melodies that highlight emotional depth alongside expressive riffs.",
+            "example": "M:4/4\nL:1/8\nQ:100\nK:Cmin\n|: \"Cm9\"c3e g2B2 cdcd | \"Fm9\"f2ab c2e2 fgfe | \"Gm9\"g2bd g2f2 dedc | \"Cm9\"c2G2 E2C2 C4 |\n\"Cm9\"c2c2 g4 ecce | \"Fm9\"f2f2 a4 cfaf | \"Gm9\"g2g2 d4 bgbg | \"Cm9\"c8 z4 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Orchestral rock with sweeping guitar arpeggios",
+        "output": {
+            "chords": "Em | C | D | G | Em | C | D | G",
+            "scales": "E Minor (E F# G A B C D)",
+            "title": "Orchestral Rock Journey in E Minor",
+            "style": "Orchestral rock with full, sweeping arpeggios on guitar. Blend rock dynamics with orchestral layers for a grand, cinematic feel.",
+            "example": "\n                M:4/4\n                L:1/16\n                Q:140\n                K:Emin\n                |: \"Em\" E2B2G2E2 e4 B4 | \"C\" c4 E2G2 C4 G4 | \"D\" d4 F2A2 D4 A2F2 | \"G\" G2B2D2G2 B4 d4 |\n                \"Em\" e2g2b2e2 g4 e4 | \"C\" c2e2g2c2 E4 C4 | \"D\" D2F2A2d2 f4 a4 | \"G\" G2B2d2g2 b4 g4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Progressive rock journey in E",
+        "output": {
+            "chords": "Em | C | D | G | Am | Em | B7 | Em",
+            "scales": "E Natural Minor (E F# G A B C D)",
+            "title": "Progressive Rock Odyssey in E",
+            "style": "Complex rhythms with shifts in time signatures and dynamics. Emphasize textural changes and expressive solo breaks.",
+            "example": ""
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Boogie-woogie piano jam with a lively brass section",
+        "output": {
+            "chords": "C6 | F6 | C6 | C6 | F6 | F6 | C6 | C6 | G7 | F6 | C6 | G7",
+            "scales": "C Major Pentatonic (C D E G A)",
+            "title": "Brassy Boogie-Woogie Bash",
+            "style": "Upbeat boogie-woogie style with a prominent piano role accompanied by a lively brass section. Focus on rhythm-driven melodies and energetic brass hits.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:180\n                K:C\n                |: \"C6\"c2 e2 g2 e2 | \"F6\"f2 a2 c2 a2 | \"C6\"C2 E2 G2 E2 | \"C6\"c4 z4 |\n                    \"F6\"F2 A2 c2 A2 | \"F6\" f4 z4 | \"C6\"c2 G2 E2 C2 | \"C6\"C4 z4 |\n                    \"G7\"G2 B2 d2 B2 | \"F6\"F2 A2 c2 A2 | \"C6\"C2 E2 G2 C2 | \"G7\"G4 D2 E2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Psychedelic soul with extended instrumental jams",
+        "output": {
+            "chords": "Em9 | A13 | Dmaj7 | Gmaj7 | Cmaj9 | F#7b13 | Bm7 | E7#9",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Psychedelic Soul Voyage in E",
+            "style": "Flowing with a smooth, soulful essence overlaid with a hint of psychedelic flare, particularly through the use of extended and altered chords. Implement expressive, atmospheric instrumental solos.",
+            "example": "M:4/4\nL:1/8\nQ:85\nK:Emin\n",
+            "|: \"Em9\"E2^F2G2A2 | \"A13\"A,C^EAGCE | \"Dmaj7\"D^FADFAc | \"Gmaj7\"GBdGBA@": "|: \"Cmaj9\"CeGceG | \"F#7b13\"^F,AB^DF_A | \"Bm7\"BdABfd | \"E7#9\"E^GBd^GF :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Heavy funk with guitar and horn interplay",
+        "output": {
+            "chords": "F9 | Bb9 | F9 | F9 | Bb9 | Bb9 | F9 | F9 | D7 | G7 | C7 | F9",
+            "scales": "F Mixolydian (F G A Bb C D Eb)",
+            "title": "Heavy Funk Fiesta",
+            "style": "Strong, punchy rhythm with a pronounced groove, emphasizing the interplay between the sharp stabs of the horns and the rhythmic impulses of the guitar.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:F\n                |: \"F9\" F2 A2 C2 E2 | \"Bb9\" B,2 D2 F2 A2 | \"F9\" F2 C2 E2 F2 | \"F9\" F4 z4 |\n                    \"Bb9\" B,3 z D4 | \"Bb9\" B,2 D2 F2 =F2| \"F9\" F4 A2 C2 | \"F9\" F6 z2 |                \n                    \"D7\" D2 F2 A,2 D2 | \"G7\" G,4 B,4 | \"C7\" C2 E2 G,2 C2 | \"F9\" F2 A2 C2 F2 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Lounge jazz with a vintage electric piano",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Cmaj7 | Am7 | Dm7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Vintage Lounge Jazz in C",
+            "style": "Smooth and mellow jazz with a laid-back feeling. Ideal for warm electric piano tones and subtle swing rhythms.",
+            "example": "M:4/4\nL:1/8\nQ:85\nK:C\n|: \"Cmaj7\"C2 E2 G2 B2 | \"Am7\"A4 E2 G2 | \"Dm7\"D2 F2 A2 C2 | \"G7\"B,2 D2 G2 F2 |\n\"Cmaj7\"C2 E2 G2 c2 | \"Am7\"A2 c2 e2 a2 | \"Dm7\"d2 f2 a2 d'2 | \"G7\"g2 f2 edcB :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Hard rock with bluesy guitar riffs",
+        "output": {
+            "chords": "E5 | A5 | E5 | B5 | E5 | A5 | E5 | B5",
+            "scales": "E Minor Pentatonic (E G A B D)",
+            "title": "Hard Rock Blues Riff in E",
+            "style": "Hard rock intensity combined with bluesy, expressive guitar riffs. Focus on heavy, distorted guitar tones.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:140\n                K:Emin\n                |: \"E5\"E4 z4 | \"A5\"A,2 C2 E4 | \"E5\" E4 z4 | \"B5\"B,2 D2 F4 | \n                \"E5\"E3 D E2 G2 | \"A5\"A,3 B, A,2 C2 | \"E5\"E3 F E2 G2 | \"B5\"B,2 D2 F4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Soft rock infused with jazzy elements",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Em7 | A7 | Dm7 | G7",
+            "scales": "C Major Scale (C D E F G A B)",
+            "title": "Jazzy Soft Rock Groove",
+            "style": "Smooth transitions with a soft rock base layered with jazzy seventh chords, providing a laid-back but sophisticated sound.",
+            "example": "\nM:4/4\nL:1/8\nQ:90\nK:C\n|: \"Cmaj7\"C2E2 G2B2 | \"Am7\"A4 c2e2 | \"Dm7\"D2F2 A2c2 | \"G7\"G2B2 D2F2 |\n\"Em7\"E2G2 B2d2 | \"A7\"A,2C2 E2G2 | \"Dm7\"D4 F2A2 | \"G7\"G4 B2d2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Urban jazz funk with smooth rhodes",
+        "output": {
+            "chords": "Cm9 | F13 | Bb7 | Ebmaj7 | Abmaj7 | G7 | Cm9 | F13",
+            "scales": "C Dorian (C D Eb F G A Bb)",
+            "title": "City Nights Jazz-Funk in C",
+            "style": "Smooth and sophisticated, with a steady groove; perfect for laid-back, silky Rhodes playing with occasional spice from the brass section.",
+            "example": "\nM:4/4\nL:1/8\nQ:90\nK:Cmin\n|: \"Cm9\"C2 D4 G2 | \"F13\"F4 A,C2 C2 | \"Bb7\"B,2 D2 F2 B2 | \"Ebmaj7\"E4 G2 B2 |\n\"Abmaj7\"A4 c4 | \"G7\"G2 E2 D2 C2 | \"Cm9\"C4 E2 G2 | \"F13\"F4 A2 C2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Retro funk with a modern rock twist",
+        "output": {
+            "chords": "Em7 | A7 | Dm7 | G7 | Em7 | A7 | Dm7 | G7",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Modern Retro Funk-Rock Jam in E",
+            "style": "Fusion of classic funk rhythms with crunchy rock tones. Use the Dorian mode to add a modern, edgy feel with rich, funky rhythms and rocking riffs.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:Emin\n|: \"Em7\"E2 F2 G2 A2 | \"A7\"A2 ^c2 E2 G2 | \"Dm7\"D2 F2 A2 c2 | \"G7\"G2 B2 d2 f2 |\n \"Em7\"e2 g2 b2 a2 | \"A7\"a2 ^c2 e2 g2 | \"Dm7\"d2 f2 a2 c'2 | \"G7\"g2 b2 d'2 f'2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funky blues with a stomping beat",
+        "output": {
+            "chords": "E7 | A7 | E7 | E7 | A7 | A7 | E7 | E7 | B7 | A7 | E7 | B7",
+            "scales": "E Blues Scale (E G A Bb B D)",
+            "title": "Stompin' Funky Blues in E",
+            "style": "A mix of funk grooves with traditional blues forms, focusing on a strong, stomping beat and rhythmic accents. Ideal for syncopated guitar riffs and gritty, bluesy solos.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:E\n|: \"E7\" E2 G2 A2 B,2 | \"A7\" A,2 C2 E2 G2 | \"E7\" E3 F G2 A2 | \"E7\" E2 G2 F4 |\n \"A7\" A,3 C E2 F2 | \"A7\" A2 G2 E3 G | \"E7\" E2 G2 A4 | \"E7\" E4 z4 |\n \"B7\" B,2 D2 F2 A2 | \"A7\" A,2 E2 C2 E2 | \"E7\" E2 G2 B,2 D2 | \"B7\" B,2 D2 F2 A2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Acid jazz with experimental electronic loops",
+        "output": {
+            "chords": "Em9 | Am7 | Dm9 | G13",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Acid Jazz Experiment in E",
+            "style": "Blend smooth jazz chords with innovative electronic loops. Aim for rich, atmospheric textures and intricate rhythm patterns.",
+            "example": "M:4/4\nL:1/8\nQ:110\nK:Emin\n|: \"Em9\"E2 G2 F2 A2 | \"Am7\" A4 c2 e2 | \"Dm9\" D2 F2 A2 c2 | \"G13\" G2 B2 D2 F2 :\n|: \"Em9\"e2 f2 g2 a2 | \"Am7\" a2 b2 c'2 e'2 | \"Dm9\" d2 e2 f2 a2 | \"G13\" g2 a2 b2 d'2 :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Jazzy soul guitar licks",
+        "output": {
+            "chords": "Cm9 | F13 | Bbm9 | Eb13",
+            "scales": "C Dorian (C D Eb F G A Bb)",
+            "title": "Soulful Jazz Groove in C",
+            "style": "Smooth and mellow jazz vibes, focusing on expressive phrasing and melodic embellishment",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:Cmin\n                |: \"Cm9\"CDE^FGABc | \"F13\"FAB=c dcBA | \"Bbm9\"B^ABc dcBc | \"Eb13\"E^FGA BAGF :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Jazz rock with a funky bass groove",
+        "output": {
+            "chords": "Em7 | Am7 | D7 | Gmaj7 | Cmaj7 | B7 | Em7 | Em7",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Jazz-Funk Fusion Groove in E",
+            "style": "Blend the complex harmonies of jazz with the rhythmic grooves of funk, focusing on a prominent and expressive bass line.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:110\n                K:Emin\n                |: \"Em7\"E2 F2 G2 A2 | \"Am7\"AB cB A2 G2 | \"D7\"DEFD G2 FE | \"Gmaj7\"GABG A2 G2 |\n                \"Cmaj7\"CDEC G2 E2 | \"B7\"BAGF E2 D2 | \"Em7\"E2 GE DE G2 | \"Em7\"E4 z4 :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Progressive jazz with ambient soundscapes",
+        "output": {
+            "chords": "Am9 | D9 | Gmaj7 | Cmaj13 | Fsus2 | Bm7b5 | E7#9 | Am9",
+            "scales": "A Dorian (A B C D E F# G) and A Harmonic Minor (A B C D E F G#)",
+            "title": "Ambient Jazzscapes in A",
+            "style": "Focus on layered textures with a slow to moderate tempo. Use sustain and reverb effects to enhance the ambience. Smooth transitions and lingering on chords.",
+            "example": "M:4/4\nL:1/8\nQ:90\nK:Amin\n|: \"Am9\"A,2 C E A, C E | \"D9\"D2 F# A C D F# | \"Gmaj7\"G,2 B D G B D | \"Cmaj13\"C2 E A B C E |\n\"Fsus2\"F2 G C F G C | \"Bm7b5\"B,2 D F A D F | \"E7#9\"E,2 G# B D G | \"Am9\"A,2 C E A C E :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Soul jazz with rich organ harmonies",
+        "output": {
+            "chords": "Cm9 | F13 | Bb7 | Ebmaj7 | Cm9 | F13 | Bb7 | Ebmaj7 | Abmaj7 | Gm7 | Cm9 | Abmaj7",
+            "scales": "C Dorian (C D Eb F G A Bb)",
+            "title": "Soulful Organ Vibes in C",
+            "style": "Warm and rich organ tones with a soulful expression, maintaining a lush and smooth flow essential in soul jazz.",
+            "example": "\nM:4/4\nL:1/8\nQ:90\nK:Cmin\n|: \"Cm9\"C,2 G,2 Bb4 | \"F13\"F2 A2 c2 d2 | \"Bb7\"Bb4 D2 F2 | \"Ebmaj7\"E2 G2 Bb4 |\n\"Cm9\"C,2 E2 G2 B,b, | \"F13\"F2 A2 c2 d2 | \"Bb7\"Bb2 F2 D2 | \"Ebmaj7\"Eb2 G2 Bb2 |\n\"Abmaj7\"A2 C2 Eb4 | \"Gm7\"G2 B2 d2 g2 | \"Cm9\"C4 G,2 C2| \"Abmaj7\"A2 C2 Eb4 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Chill jazz funk with a relaxing vibe",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Cmaj7 | Am7 | Dm7 | G7",
+            "scales": "C Major (C D E F G A B)",
+            "title": "Chill Jazz Funk Session in C",
+            "style": "Relaxing and smooth with a funky rhythm, ideal for light touch and laid-back grooves.",
+            "example": "M:4/4\nL:1/8\nQ:90\nK:C\n|: \"Cmaj7\"C2 E2 G2 B2 | \"Am7\"A2 C2 E2 G2 | \"Dm7\"D2 F2 A2 C2 | \"G7\"G2 B2 D2 F2 |\n\"Cmaj7\"C2 E2 G2 B2 | \"Am7\"A2 C2 E2 G2 | \"Dm7\"D2 F2 A2 C2 | \"G7\"G4 z4 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Dynamic rock with jazzy chord progressions",
+        "output": {
+            "chords": "Am9 | D13 | Gmaj7 | Cmaj7 | F#m7b5 | B7b9 | Emaj7 | E7#9",
+            "scales": "A Dorian (A B C D E F# G), E Harmonic Minor (E F# G A B C D#)",
+            "title": "Jazzy Rock Fusion in A",
+            "style": "Dynamic rock feel with scattered jazz chords; focus on groove and fluid transitions between chords.",
+            "example": "\nM:4/4\nL:1/8\nQ:130\nK:Amin\n|: \"Am9\"A,2 E2 A2 C2 | \"D13\"D2 F2 A2 C2 | \"Gmaj7\"G2 B2 D2 F2 | \"Cmaj7\"C2 E2 G2 B,2 |\n\"F#m7b5\"F2 A2 C2 E2 | \"B7b9\"B,2 D2 F2 A2 | \"Emaj7\"E2 G2 B2 D2 | \"E7#9\"E2 G#2 B2 D2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Electro-funk with live drumming",
+        "output": {
+            "chords": "Em7 | Am7 | Bm7 | Em7",
+            "scales": "E Dorian (E F# G A B C# D)",
+            "title": "Electro-Funk Drums in E",
+            "style": "Energetic electro-funk style with heavy use of electronic sounds, interspersed with live drum grooves for a dynamic rhythm section. Ideal for punchy, syncopated bass lines and lively drum breaks.",
+            "example": "\nM:4/4\nL:1/8\nQ:110\nK:Emin\n|: \"Em7\"E2 F2 G2 A2 | \"Am7\"A4 c2 e2 | \"Bm7\"B,2 D2 F2 A2 | \"Em7\"E4 G2 B2 |\n\"Em7\"e4 g2 b2 | \"Am7\"a2 e2 c4 | \"Bm7\"b2 f2 d4 | \"Em7\"e4 G2 B2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Groovy gospel jazz with uplifting choir",
+        "output": {
+            "chords": "C9 | F9 | C9 | C9 | F9 | F9 | C9 | C9 | Dm9 | G13 | C9 | G13",
+            "scales": "C Mixolydian (C D E F G A Bb)",
+            "title": "Uplifted Spirits Gospel Jazz in C",
+            "style": "A vibrant combination of jazz and gospel with a focus on spirited and joyful expressions, enhanced by uplifting choir backing.",
+            "example": "\nM:4/4\nL:1/8\nQ:110\nK:C\n|: \"C9\"C2E2G2B2 | \"F9\"F2A2C2D2 | \"C9\"C2E2G2C2 | \"C9\"C4 z4 |\n\"F9\"F2A2C2F2 | \"F9\"F4 z4 | \"C9\"C2E2G2B2 | \"C9\"C4 z4 |\n\"Dm9\"D2F2A2C2 | \"G13\"G2B2D2F2 | \"C9\"C2E2G2C2 | \"G13\"G2B2D2F2 :|\n"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Funky reggae with smooth rhythm guitars",
+        "output": {
+            "chords": "Dm7 | G7 | Cmaj7 | Fmaj7 | Dm7 | G7 | Cmaj7 | Fmaj7",
+            "scales": "D Dorian (D E F G A B C)",
+            "title": "Smooth Reggae Funk in Dm",
+            "style": "Laid-back reggae rhythm with a funky twist, featuring smooth and melodic rhythm guitar grooves.",
+            "example": "M:4/4\nL:1/8\nQ:90\nK:Dmin\n|: \"Dm7\"D2 F2 A2 d2 | \"G7\"G2 B2 D2 F2 | \"Cmaj7\"C2 E2 G2 B2 | \"Fmaj7\"F2 A2 C2 E2 | \"Dm7\"d2 f2 a3 g | \"G7\"g2 b2 d2 f2 | \"Cmaj7\"c2 e2 g2 c'2 | \"Fmaj7\"f2 a2 c'3 a :|"
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Swing jazz with a rock and roll edge",
+        "output": {
+            "chords": "Bb7 | Eb7 | Bb7 | Bb7 | Eb7 | Eb7 | Bb7 | Bb7 | F7 | Eb7 | Bb7 | F7",
+            "scales": "Bb Mixolydian (Bb C D Eb F G Ab)",
+            "title": "Swing & Roll Jam in Bb",
+            "style": "Mix a punchy rock and roll rhythm with swing's playful and bouncy feel. Emphasizes a strong backbeat and swung eighth notes.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:140\n                K:Bb\n                |: \"Bb7\"Bb dc Bb gf | \"Eb7\"eb gb eb Bc | \"Bb7\"Bd af Bb fg | \"Bb7\"fB dB fB dB |\n                    \"Eb7\"Eb Gb Eb Gb | \"Eb7\"Eb Gb fe dc | \"Bb7\"Bb Bb dc Bb | \"Bb7\"Bd cB B2 z2 |\n                    \"F7\"F2 Ac Fd FA | \"Eb7\"Eb Gb Eb Gb | \"Bb7\"Bb Bb Bb Bb | \"F7\"F2 Af dc BA :|\n                "
+        }
+    },
+    {
+        "instruction": "Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n\n                        Given the input, create an output exactly in this format: \n \n                            \"output\": {{\n                                \"chords\": \"## Suggested chord progression\",\n                                \"scales\": \"## Suggested scale for improvising\",\n                                \"title\": \"## Title of Jam\",\n                                \"style\": \"## Style to play like\",\n                                \"example\": `\n                                    ## ABC notation for an example section using these chords and notes\n                                `\n                            }}\n                        ",
+        "input": "Acoustic blues with a soft jazz background",
+        "output": {
+            "chords": "Cmaj7 | Am7 | Dm7 | G7 | Cmaj7 | Am7 | Dm7 | G7",
+            "scales": "C Major Pentatonic (C D E G A)",
+            "title": "Soft Jazz-Infused Acoustic Blues in C",
+            "style": "Blend gentle acoustic blues guitar stylings with soft jazz chords for a laid-back and smooth sound, suitable for intimate settings and subtle soloing.",
+            "example": "\n                M:4/4\n                L:1/8\n                Q:90\n                K:C\n                |: \"Cmaj7\"C2 E2 G2 C2 | \"Am7\"A2 C2 E2 A2 | \"Dm7\"D2 F2 A2 D2 | \"G7\"G2 B2 D2 G2 |\n                \"Cmaj7\"C2 E2 G2 C2 | \"Am7\"A2 C2 E2 A2 | \"Dm7\"D2 F2 A2 D2 | \"G7\"G2 B2 D2 G2 :|\n                "
+        }
+    }
+]

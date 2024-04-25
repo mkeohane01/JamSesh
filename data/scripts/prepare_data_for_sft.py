@@ -2,6 +2,12 @@ import os
 import json
 
 def consolidate_json_files(source_directory, output_file):
+    '''
+    Consolidate multiple JSON files into a single JSON file.
+    Args:
+        source_directory (str): The directory containing the JSON files.
+        output_file (str): The path to the output JSON file.
+    '''
     consolidated_data = []
     error_files = []
 
@@ -23,10 +29,27 @@ def consolidate_json_files(source_directory, output_file):
     return error_files
 
 def add_instruction_to_json(input_file, output_file=None):
+    '''
+    Add the JamSesh instruction to each item in a JSON file.
+    Args:
+        input_file (str): The path to the input JSON file.
+        output_file (str): The path to the output JSON file. If None, the input file will be modified in place.
+    '''
     if not output_file:
         output_file = input_file  # Modify the original file if no output file is specified
 
-    instruction_text = ("Create a list of chords,a corresponding scale to improve with, title, and style along with an example in ABC notation based on this input in JSON format.")
+    instruction_text = ("""Create a list of chords, a corresponding scale to improvise with, title, and style along with an example in ABC notation based on this input. Respond in JSON format.\n
+                        Given the input, create an output exactly in this format: \n 
+                            "output": {{
+                                "chords": "## Suggested chord progression",
+                                "scales": "## Suggested scale for improvising",
+                                "title": "## Title of Jam",
+                                "style": "## Style to play like",
+                                "example": `
+                                    ## ABC notation for an example section using these chords and notes
+                                `
+                            }}
+                        """)
 
     # Read the original JSON data
     try:
@@ -54,6 +77,13 @@ def add_instruction_to_json(input_file, output_file=None):
         print(f"Error writing to {output_file}: {e}")
 
 def modify_output_to_string(input_file, output_file):
+    '''
+    Modify the 'output' field in each entry of a JSON file to be a JSON string. 
+    Needs this format for SFT
+    Args:
+        input_file (str): The path to the input JSON file.
+        output_file (str): The path to the output JSON file.
+    '''
     # Load the JSON data from the input file
     try:
         with open(input_file, 'r', encoding='utf-8') as file:
@@ -76,16 +106,17 @@ def modify_output_to_string(input_file, output_file):
         print(f"Error writing to {output_file}: {e}")
 
 if __name__ == "__main__":
-    # source_directory = 'data/gpt4gen/'
-    # output_file = 'data/generated_data.json'
+    source_directory = 'data/jam_gpt4gens/'
+    output_json = 'data/generated_data_2.json'
 
-    # error_files = consolidate_json_files(source_directory, output_file)
-    # if error_files:
-    #     print("Some files were not processed successfully:", error_files)
-    # else:
-    #     print("All files have been consolidated successfully.")
+    error_files = consolidate_json_files(source_directory, output_json)
+    if error_files:
+        print("Some files were not processed successfully:", error_files)
+    else:
+        print("All files have been consolidated successfully.")
 
     # add instruction
-    input_file = 'data/sft_data.json'
-    output_file = 'data/sft_data_string.json'  
-    modify_output_to_string(input_file, output_file)
+    add_instruction_to_json(output_json)
+
+    sft_file = 'data/sft_data_jamsesh.json'  
+    modify_output_to_string(input_file=output_json, output_file=sft_file)
