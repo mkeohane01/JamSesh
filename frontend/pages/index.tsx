@@ -26,6 +26,7 @@ const HomePage = () => {
 
   const handleSendMessage = async (message: string) => {
     setIsLoading(true);
+    console.log('Backend URL:', process.env.NEXT_PUBLIC_BACKEND_URL);
     try {
       const response = await fetch(backendUrl + '/generatejam', {
         method: 'POST',

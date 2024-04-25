@@ -24,11 +24,12 @@ const ABCMusic: React.FC<ABCMusicProps> = ({ notation, className, showAudio = tr
       staffwidth: 500,
       expandToWidest: true,
       jazzchords: true,
-      scale: 1.5
+      scale: 1.2,
+      responsive: "resize" as "resize"
     };
 
     // Safely attempt to render ABC notation
-    let visualObj;
+    let visualObj : any = null;
     try {
       visualObj = abcjs.renderAbc(paperRef.current, notation, visualOptions);
     } catch (error) {
